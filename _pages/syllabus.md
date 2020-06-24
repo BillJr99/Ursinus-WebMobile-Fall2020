@@ -161,7 +161,7 @@ letter_grades:
 schedule:
 - week: "0"
   date: "0"
-  title: "Course Sneak Preview, HTML, What Is Computer Science? Computers Vs. Humans"
+  title: "Course Sneak Preview"
   link: "http://www.billmongan.com"
   readings:
   - rtitle: "OAuth 2.0 Simplified"
