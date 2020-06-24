@@ -1,0 +1,26 @@
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+theme: jekyll-theme-slate
+
+title: "CS471"
+description: "Special Topics: Web and Mobile Development"
+
+url                      : https://BillJr99.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/Ursinus-WebMobile" # the subpath of your site, e.g. "/blog"
+
+# Analytics
+analytics:
+  provider               :  "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "UA-24052857-1"
+    
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
