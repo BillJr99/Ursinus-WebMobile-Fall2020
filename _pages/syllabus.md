@@ -189,7 +189,7 @@ schedule:
   title: "Digital Certificates through Public Key Cryptosystems"  
 - week: "5"
   date: "2"
-  title: "The Peruvian Coin Toss"    
+  title: "The Peruvian Coin Flip"    
 - week: "6"
   date: "0"
   title: "SAML"
