@@ -1,22 +1,21 @@
 ---
 layout: syllabus
 permalink: /
-title: "CS173: Intro to Computer Science"
-excerpt: "CS173: Intro to Computer Science"
+title: "CS471: Special Topics: Web and Mobile Development"
+excerpt: "CS471: Special Topics: Web and Mobile Development"
 
 info:
-  course_number: CS173
+  course_number: CS471
   course_sections: 
-  - section: "B"
-  - section: "C"
-  course_title: "Intro to Computer Science"
-  course_prerequisites: "No prior programming experience is assumed! People from all backgrounds with all levels of experience are welcome. As long as you have a laptop that was manufactured within the past 10 years, you will be able to do all of the assignments and participate in class."
+  - section: "A"
+  course_title: "Web and Mobile Development"
+  course_prerequisites: "CS174 Object Oriented Programming"
   course_start_date: "2020/08/31"
   course_end_date: "2020/12/11"
-  course_description: "Introduction to the field of computer science. Topics include: methods for computational problem solving, algorithm development techniques, processes for development of new technologies, and programming projects of increasing complexity in a high-level language with emphasis on good programming style. The course also includes exposure to advanced topics in computer science such as graphics, human-computer interaction, and software engineering. Recommended for students in mathematics; business and economics; and the natural sciences. No prior computer programming experience is assumed. Offered every semester. Three hours of lecture and one hour of laboratory per week."
+  course_description: "This course explores web service architectures through the lens of ubiquitous computing sensors and mobile devices.  Authentication models such as SAML and OAUTH will be used to integrate well-known web service interfaces.  Students will be able to expose services as well-defined GraphQL or RESTful service endpoints, and be able to utilize the endpoints of existing services.  Students will collaboratively propose, develop, and present projects with defined broader impacts."
   class_meets_days:
     isM: true
-    isT: true
+    isT: false
     isW: true
     isR: false
     isF: true 
@@ -25,44 +24,17 @@ info:
   class_meets_locations:
   - section:
     - day: "M"
-      starttime: "9:00 AM"
-      endtime: "9:50 AM"
-      place: "Pfahler Hall Room 107"
-    - day: "T"
-      starttime: "9:00 AM"
-      endtime: "9:50 AM"
-      place: "LAB: Pfahler Hall Room 107"    
+      starttime: "1:30 PM"
+      endtime: "2:20 PM"
+      place: "Pfahler Hall Room 001"
     - day: "W"
-      starttime: "9:00 AM"
-      endtime: "9:50 AM"
-      place: "Pfahler Hall Room 107"
+      starttime: "1:30 PM"
+      endtime: "2:20 PM"
+      place: "Pfahler Hall Room 001"
     - day: "F"
-      starttime: "9:00 AM"
-      endtime: "9:50 AM"
-      place: "Pfahler Hall Room 107"  
-  - section:
-    - day: "M"
-      starttime: "11:00 AM"
-      endtime: "11:50 AM"
-      place: "Pfahler Hall Room 106"
-    - day: "T"
-      starttime: "11:00 AM"
-      endtime: "11:50 AM"
-      place: "LAB: Pfahler Hall Room 106"    
-    - day: "W"
-      starttime: "11:00 AM"
-      endtime: "11:50 AM"
-      place: "Pfahler Hall Room 106"
-    - day: "F"
-      starttime: "11:00 AM"
-      endtime: "11:50 AM"
-      place: "Pfahler Hall Room 106"       
-  holidays:
-  - date: "2020/10/19"
-  - date: "2020/10/20"
-  - date: "2020/11/25"
-  - date: "2020/11/26"
-  - date: "2020/11/27"
+      starttime: "1:30 PM"
+      endtime: "2:20 PM"
+      place: "Pfahler Hall Room 001"      
   midtermexam: 
     - mdate: "TBD"
       mstarttime: "TBD"
@@ -609,6 +581,18 @@ university:
   - kname: "Commencement"
     kdate: "2021/05/15"
     kdisplay: false
+  fallholidays:
+  - date: "2020/10/19"
+  - date: "2020/10/20"
+  - date: "2020/11/25"
+  - date: "2020/11/26"
+  - date: "2020/11/27" 
+  springholidays:
+  - date: "2021/03/08"  
+  - date: "2021/03/09"
+  - date: "2021/03/10"
+  - date: "2021/03/11"
+  - date: "2021/03/12"
     
 ---
 Welcome!  This introduction is tentatively taken from Dr. Tralie's CS173 [Course Syllabus](http://www.ctralie.com/Teaching/CS173_S2020/index.html), and will be adapted for this course.
