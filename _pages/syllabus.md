@@ -118,9 +118,11 @@ textbooks:
 objectives:
 - objective: "Design a web-servces architecture that incorporates and generalizes a variety of stakeholder needs, exposed via a well-defined interface of data and functionality."
 - objective: "Implement a robust web-service software system server and client that is tolerant of variations in user input and adherent to defined output standards."
-- objective: "Develop web-enabled software that integrates a variety of data sources in a way that enables new functionality greater than the sum of its parts."
 - objective: "Implement an appropriate authentication model using standards such as SAML and OAUTH"
 - objective: "To design and implement a web-based front-end software system that promotes accessibility and usability by a variety of stakeholders."
+
+goals:
+- goal: "Develop web-enabled software that integrates a variety of data sources in a way that enables new functionality greater than the sum of its parts."
 
 grade_breakdown:
 - category: "Programming Assignments"
