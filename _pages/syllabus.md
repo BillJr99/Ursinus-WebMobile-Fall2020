@@ -97,7 +97,7 @@ instructors:
   - day: "F"
     starttime: "12:30 PM"
     endtime: "1:20 PM"
-    location: "TBD"      
+    location: "Networking Office Hours"    
   
 textbooks:
 - title: "RESTful Web Services"
