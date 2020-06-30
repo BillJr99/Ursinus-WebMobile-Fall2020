@@ -10,8 +10,8 @@ info:
   - section: "A"
   course_title: "Web and Mobile Development"
   course_prerequisites: "CS174 Object Oriented Programming"
-  course_start_date: "2020/08/31"
-  course_end_date: "2020/12/11"
+  course_start_date: "2020/09/07"
+  course_end_date: "2020/12/15"
   course_description: "This course explores web service architectures through the lens of ubiquitous computing sensors and mobile devices.  Authentication models such as SAML and OAUTH will be used to integrate well-known web service interfaces.  Students will be able to expose services as well-defined GraphQL or RESTful service endpoints, and be able to utilize the endpoints of existing services.  Students will collaboratively propose, develop, and present projects with defined broader impacts."
   class_meets_days:
     isM: true
@@ -244,9 +244,6 @@ university:
   - kname: "Convocation"
     kdate: "2020/08/28"
     kdisplay: true
-  - kname: "Reading Day"
-    kdate: "2020/12/12"
-    kdisplay: true
   - kname: "Add Deadline"
     kdate: "2020/09/11"
     kdisplay: true
@@ -255,6 +252,15 @@ university:
     kdisplay: true  
   - kname: "Mid Semester Grades Posted"
     kdate: "2020/10/16"
+    kdisplay: false
+  - kname: "2020 Transition to Remote Learning after Thanksgiving Break"
+    kdate: "2020/11/30"
+    kdisplay: true
+  - kname: "Finals Week Begins"
+    kdate: "2020/12/16"
+    kdisplay: false
+  - kname: "Finals Week Ends"
+    kdate: "2020/12/22"
     kdisplay: false
   spring:
   - kname: "Reading Day"
@@ -275,6 +281,12 @@ university:
   - kname: "Commencement"
     kdate: "2021/05/15"
     kdisplay: false
+  - kname: "Finals Week Begins"
+    kdate: "2021/05/07"
+    kdisplay: false
+  - kname: "Finals Week Ends"
+    kdate: "2021/05/13"
+    kdisplay: false    
   fallholidays:
   - date: "2020/10/19"
   - date: "2020/10/20"
