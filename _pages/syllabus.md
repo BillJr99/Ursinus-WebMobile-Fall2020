@@ -195,10 +195,10 @@ schedule:
   date: "2"
   title: "The Peruvian Coin Flip"    
 - week: "6"
-  date: "0"
+  date: "1"
   title: "SAML"
 - week: "6"
-  date: "1"
+  date: "2"
   title: "OAuth"
   readings:
   - rtitle: "OAuth 2.0 Simplified"
