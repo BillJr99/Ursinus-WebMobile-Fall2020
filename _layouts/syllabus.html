@@ -158,158 +158,99 @@ layout: default
     <a name="courseinfo"></a>
     <h2>Course Info</h2> 
 
-      
-    <table id="index" class="table table-condensed" cellspacing="10">
-    <thead>
-    <tr>
-    <th><span></span></th>
-    <th><span></span></th>
-    </tr>
-    </thead>
-
-    <tbody>
-
-    {% if page.info.course_title %}
-    <tr>
-    <td>Course Title</td>
-    <td><b>{{page.info.course_title}}</b></td>
-    </tr>
-    {% endif %}
-
-
-
-    {% if page.info.course_number %}
-    <tr>
-    <td>Course Number</td>
-    <td><b> {{page.info.course_number}} </b>
+    <ul>
+    
+    {% if page.info.course_number and page.info.course_title %}
+    <li><strong>Course Number and Title:</strong> {{page.info.course_number}} - {{page.info.course_title}}
+    
     {% if page.info.course_sections %}
-    <br>
+    <ul>
     {% for section in page.info.course_sections %}
-    Section {{section.section}}<br>
+    <li>Section {{section.section}}</li>
     {% endfor %}
+    </ul>
     {% endif %}
-    </td>
-    </tr>
     {% endif %}
-
-
-
+    
     {% if page.permalink %}
-    <tr>
-    <td>Course Webpage</td>
-    <td><b> <a href="{{site.baseurl}}">
-    {{site.url}}{{site.baseurl}}
-    </a> </b></td>
-    </tr>
+    <li><strong>Course Webpage:</strong> <a href="{{site.baseurl}}">{{site.url}}{{site.baseurl}}</a>
+    <br>
     {% endif %}
-
-
-
+    
     {% if page.university.semester and page.university.academicyear %}
-    <tr>
-    <td> Academic Term </td>
-    <td><b> {{page.university.semester}} {{page.university.academicyear}} </b></td>
-    </tr>
+    <li><strong>Academic Term:</strong> {{page.university.semester}} {{page.university.academicyear}}</a>
+    <br>
     {% endif %}
-    
-    
     
     {% if page.info.course_start_date and page.info.course_end_date %}
-    <tr>
-    <td> Term Start and End </td>
-    <td><b> <script language="JavaScript">document.write(getDateString(strtodate("{{page.info.course_start_date}}")));</script> through <script language="JavaScript">document.write(getDateString(strtodate("{{page.info.course_end_date}}")));</script> </b></td>
-    </tr>
+    <li><strong>Term Start and End:</strong> <script language="JavaScript">document.write(getDateString(strtodate("{{page.info.course_start_date}}")));</script> through <script language="JavaScript">document.write(getDateString(strtodate("{{page.info.course_end_date}}")));</script> </strong></li>
+    <br>
     {% endif %}
-
-
-
+    
     {% if page.info.course_prerequisites %}
-    <tr>
-    <td>Course Prerequisites</td>
-    <td><b> {{page.info.course_prerequisites}} </b></td>
-    </tr>
+    <li><strong>Course Prerequisites:</strong> {{page.info.course_prerequisites}}</li>   
+    <br>    
     {% endif %}
-
-
-
+    
     {% if page.info.class_meets_locations and page.info.course_sections %}
+    <li><strong>Class Meeting Locations and Times:</strong></li>  
+    <ul>
     {% for i in (0..page.info.course_sections.size) %}
     {% if i < page.info.course_sections.size %}
-    <tr>
-    <td>Class Meetings: Section {{ page.info.course_sections[i].section }}</td>
-    <td>
+    <li><strong>Section {{ page.info.course_sections[i].section }}:</strong></li>
     <ul>
     {% for meeting in page.info.class_meets_locations[i].section %}
     <li><script language="JavaScript">document.write(getFullDay("{{meeting.day}}"));</script>s from {{meeting.starttime}} to {{meeting.endtime}} in {{meeting.place}}</li>
     {% endfor %}
     </ul>
-    </td>
-    </tr>
     {% endif %}
     {% endfor %}
+    </ul>
     {% endif %}
     
-
-
     {% if page.info.midtermexam and page.info.course_sections %}
     {% for i in (0..page.info.course_sections.size) %}
     {% if i < page.info.course_sections.size %}
     {% if page.info.midtermexam[i].mdate != "TBD" %}
-    <tr>
-    <td>Midterm Exam: Section {{ page.info.course_sections[i].section }} </td>
-    <td>
-    {{ page.info.midtermexam[i].mdate }} from {{ page.info.midtermexam[i].mstarttime }} to {{ page.info.midtermexam[i].mendtime }} in {{ page.info.midtermexam[i].mroom }}
-    </td>
-    </tr>
+    <li><strong>Midterm Exam:</strong></li>
+    {% break %}
     {% endif %}
     {% endif %}
     {% endfor %}
+    <ul>
+    {% for i in (0..page.info.course_sections.size) %}
+    {% if i < page.info.course_sections.size %}
+    {% if page.info.midtermexam[i].mdate != "TBD" %}
+    <li>Section {{ page.info.course_sections[i].section }}: {{ page.info.midtermexam[i].mdate }} from {{ page.info.midtermexam[i].mstarttime }} to {{ page.info.midtermexam[i].mendtime }} in {{ page.info.midtermexam[i].mroom }}</li>
     {% endif %}
-
+    {% endif %}
+    {% endfor %}
+    </ul>
+    {% endif %}
     
-
     {% if page.info.finalexam and page.info.course_sections %}
     {% for i in (0..page.info.course_sections.size) %}
     {% if i < page.info.course_sections.size %}
-    {% if page.info.finalexam[i].fdate != "TBD" %}
-    <tr>
-    <td>Final Exam: Section {{ page.info.course_sections[i].section }}</td>
-    <td>
-    {{ page.info.finalexam[i].fdate }} from {{ page.info.finalexam[i].fstarttime }} to {{ page.info.finalexam[i].fendtime }} in {{ page.info.finalexam[i].froom }}
-    </td>
-    </tr>
+    {% if page.info.finalexam[i].fdate != "TBD" %}    
+    <li><strong>Final Exam:</strong></li>
+    {% break %}
     {% endif %}
     {% endif %}
-    {% endfor %}
-    {% endif %}
-
-    
-
-    {% if page.university and page.university.semester %}
-    <tr>
-    <td>Key University Dates</td>
-    <td>
-    {% if page.university.semester == "Fall" and page.university.fall %}
+    {% endfor %}    
     <ul>
-    {% for keydate in page.university.fall %}
-    {% if keydate.kdisplay == true %}<li><b>{{keydate.kname}}</b>: <script language="JavaScript">document.write(getDateString(strtodate("{{keydate.kdate}}")));</script></li>{% endif %}
+    {% for i in (0..page.info.course_sections.size) %}
+    {% if i < page.info.course_sections.size %}
+    {% if page.info.finalexam[i].fdate != "TBD" %}
+    <li>Section {{ page.info.course_sections[i].section }}: {{ page.info.finalexam[i].fdate }} from {{ page.info.finalexam[i].fstarttime }} to {{ page.info.finalexam[i].fendtime }} in {{ page.info.finalexam[i].froom }}</li>
+    {% endif %}
+    {% endif %}
     {% endfor %}
     </ul>
-    {% elsif page.university.semester == "Spring" and page.university.spring %}
-    <ul>
-    {% for keydate in page.university.spring %}
-    {% if keydate.kdisplay == true %}<li><b>{{keydate.kname}}</b>: <script language="JavaScript">document.write(getDateString(strtodate("{{keydate.kdate}}")));</script></li>{% endif %}
-    {% endfor %}
-    </ul>   
     {% endif %}    
-    </td>
-    </tr>    
-    {% endif %}
- 
-  
+    </ul>      
     
-    </tbody>
-    </table>
+    </ul>
+
 
 
 
@@ -351,9 +292,9 @@ layout: default
     <table id="instructorstable" class="table table-condensed" cellspacing="10">
     <thead>
     <tr>
-    <th><span></span></th>
-    <th><span></span></th>
-    <th><span></span></th>
+    <th><span><strong>Role</strong></span></th>
+    <th><span><strong>Name and Contact Information</strong></span></th>
+    <th><span><strong>Office Hours</strong></span></th>
     </tr>
     </thead>
 
@@ -374,9 +315,9 @@ layout: default
     
     {{item.name}}
     
-    {%if item.picture %}
+    {%if item.picture and item.title and item.name %}
     <br>
-    <img src="{{ item.picture }}">
+    <img src="{{ item.picture }}" alt="Picture of {{ item.title }} {{ item.name }}">
     {% endif %}
 
     {% if item.webpage_url %}
@@ -414,11 +355,11 @@ layout: default
     <table  id="textbookstable" class="table table-condensed" cellspacing="10">
     <thead>
     <tr>
-    <th><span></span></th>
-    <th><span></span></th>
-    <th><span></span></th>
-    <th><span></span></th>
-    <th><span></span></th>
+    <th><span><strong>Required?</strong></span></th>
+    <th><span><strong>Title</strong></span></th>
+    <th><span><strong>Author</strong></span></th>
+    <th><span><strong>Edition</strong></span></th>
+    <th><span><strong>ISBN</strong></span></th>
     </tr>
     </thead>
 
@@ -434,23 +375,13 @@ layout: default
     </td>
     
     <td align="left">
-    {% if item.image %}
+    {% if item.image and item.title %}
       {% if item.link %}
         <a href="{{ item.link }}">
       {% endif %}
       
-      <center><img src="{{item.image}}"></center> 
-      
-      {% if item.link %}
-        </a>
-      {% endif %}
-    {% endif %}
-    <br>
-    {% if item.title %}
-      {% if item.link %}
-        <a href="{{ item.link }}">
-      {% endif %}
-      
+      <center><img src="{{item.image}}" alt="Picture of the cover of the book entitled {{item.title}}"></center> 
+      <br>     
       {{item.title}}
       
       {% if item.link %}
@@ -495,11 +426,11 @@ layout: default
     <table  id="scheduletable" class="table table-condensed" cellspacing="10">
     <thead>
     <tr>
-    <th><span></span></th>
-    <th><span></span></th>
-    <th><span></span></th>
-    <th><span></span></th>
-    <th><span></span></th>
+    <th><span><strong>Week</strong></span></th>
+    <th><span><strong>Date</strong></span></th>
+    <th><span><strong>Title</strong></span></th>
+    <th><span><strong>Readings</strong></span></th>
+    <th><span><strong>Deliverables</strong></span></th>
     </tr>
     </thead>
 
@@ -508,11 +439,11 @@ layout: default
     <tr align="left">
 
     <td align="left">
-    <b>Week {{ item.week }}</b>
+    <strong>Week {{ item.week }}</strong>
     </td>
 
     <td align="left">
-    <b><script language="JavaScript">document.write(getCourseDate("{{page.info.course_start_date}}", "{{item.week}}", "{{item.date}}", {{page.info.class_meets_days.isM}}, {{page.info.class_meets_days.isT}}, {{page.info.class_meets_days.isW}}, {{page.info.class_meets_days.isR}}, {{page.info.class_meets_days.isF}}, {{page.info.class_meets_days.isS}}, {{page.info.class_meets_days.isU}}));</script></b>
+    <strong><script language="JavaScript">document.write(getCourseDate("{{page.info.course_start_date}}", "{{item.week}}", "{{item.date}}", {{page.info.class_meets_days.isM}}, {{page.info.class_meets_days.isT}}, {{page.info.class_meets_days.isW}}, {{page.info.class_meets_days.isR}}, {{page.info.class_meets_days.isF}}, {{page.info.class_meets_days.isS}}, {{page.info.class_meets_days.isU}}));</script></strong>
     </td>
 
     <td align="left">
@@ -588,8 +519,23 @@ layout: default
     </ul>    
     {% endif %}
     
+    {% if page.university and page.university.semester %}
+    Please note the following key calendar dates:
 
-
+    {% if page.university.semester == "Fall" and page.university.fall %}
+    <ul>
+    {% for keydate in page.university.fall %}
+    {% if keydate.kdisplay == true %}<li><strong>{{keydate.kname}}</strong>: <script language="JavaScript">document.write(getDateString(strtodate("{{keydate.kdate}}")));</script></li>{% endif %}
+    {% endfor %}
+    </ul>
+    {% elsif page.university.semester == "Spring" and page.university.spring %}
+    <ul>
+    {% for keydate in page.university.spring %}
+    {% if keydate.kdisplay == true %}<li><strong>{{keydate.kname}}</strong>: <script language="JavaScript">document.write(getDateString(strtodate("{{keydate.kdate}}")));</script></li>{% endif %}
+    {% endfor %}
+    </ul>   
+    {% endif %}       
+    {% endif %}
 
 
 
@@ -599,8 +545,8 @@ layout: default
     <table  id="gradingtable" class="table table-condensed" cellspacing="10">
     <thead>
     <tr>
-    <th><span></span></th>
-    <th><span></span></th>
+    <th><span><strong>Item</strong></span></th>
+    <th><span><strong>Weight</strong></span></th>
     </tr>
     </thead>
 
@@ -624,8 +570,8 @@ layout: default
     <table  id="lettergradestable" class="table table-condensed" cellspacing="10">
     <thead>
     <tr>
-    <th><span></span></th>
-    <th><span></span></th>
+    <th><span><strong>Letter</strong></span></th>
+    <th><span><strong>Grade Range</strong></span></th>
     </tr>
     </thead>
 
