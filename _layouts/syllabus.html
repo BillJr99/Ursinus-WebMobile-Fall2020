@@ -1,5 +1,14 @@
 ---
 layout: default
+
+boilerplate:
+  links:
+    credithours: https://www.ursinus.edu/offices/academic-affairs/accreditation/campus-resources/credit-hours/
+    disabilityservices: https://www.ursinus.edu/offices/institute-for-student-success/students-with-disabilities/current-students-/
+    bear2bear: https://www.ursinus.edu/offices/student-financial-services/grants-scholarships-loans/bear2bear-student-emergency-fund/
+    mathhelproom: https://www.ursinus.edu/offices/institute-for-student-success/tutoring-help-sessions/math-help-room/
+    academichonesty: https://www.ursinus.edu/student-life/handbook/academic-policies/academic-honesty/
+    titleix: https://www.ursinus.edu/offices/prevention-and-advocacy/title-ix/
 ---
 
 <!-- 
@@ -176,7 +185,7 @@ layout: default
     {% if page.info.credit_hours %}
     <li><strong>Credit Hours:</strong> {{ page.info.credit_hours }}</li>
     <ul>
-    <li><a href="https://www.ursinus.edu/offices/academic-affairs/accreditation/campus-resources/credit-hours/">Credit Hours</a> include "contact time" in the classroom and outside course work.  It is expected that the sum of classroom time and outside course work time should add up to three times the listed credit hours per week.</li>
+    <li><a href="{{layout.boilerplate.links.credithours}}">Credit Hours</a> include "contact time" in the classroom and outside course work.  It is expected that the sum of classroom time and outside course work time should add up to three times the listed credit hours per week.</li>
     </ul>
     {% endif %}    
     
@@ -299,7 +308,7 @@ layout: default
     
     <a name="accommodations"></a>
     <h3>Accommodations</h3>
-    Ursinus College and your instructor are committed to ensuring equal access and providing reasonable accommodations for all students. If you have, or think you have, a disability in any area such as, mental health, attention, learning, chronic health, sensory, or physical, please contact the Director of <a href="https://www.ursinus.edu/offices/institute-for-student-success/students-with-disabilities/current-students-/">Disability Services</a> via email or at 484-762-4329.
+    Ursinus College and your instructor are committed to ensuring equal access and providing reasonable accommodations for all students. If you have, or think you have, a disability in any area such as, mental health, attention, learning, chronic health, sensory, or physical, please contact the Director of <a href="{{layout.boilerplate.links.disabilityservices}}">Disability Services</a> via email or at 484-762-4329.
     
     
     <h3>Let's Talk</h3>
@@ -310,11 +319,11 @@ layout: default
     
     <a name="bear2bear"></a>
     <h3>Bear2Bear</h3>
-    The <a href="https://www.ursinus.edu/offices/student-financial-services/grants-scholarships-loans/bear2bear-student-emergency-fund/">Bear2Bear</a> fund is a student emergency fund established to assist with temporary emergency financial circumstances.   
+    The <a href="{{layout.boilerplate.links.bear2bear}}">Bear2Bear</a> fund is a student emergency fund established to assist with temporary emergency financial circumstances.   
     
     
     <h3>Help Room</h3>
-    The math help room (Pfahler 102) is a great place to go if you are struggling. Students who have previously taken the course will be there to help you with the assignments. Visit the <a href="https://www.ursinus.edu/offices/institute-for-student-success/tutoring-help-sessions/math-help-room/">Math Help Room</a> page for more information. 
+    The math help room (Pfahler 102) is a great place to go if you are struggling. Students who have previously taken the course will be there to help you with the assignments. Visit the <a href="{{layout.boilerplate.links.mathhelproom}}">Math Help Room</a> page for more information. 
 
 
 
@@ -635,6 +644,15 @@ layout: default
     
     <a name="policies"></a>
     <h2>Course Policies</h2>
+ 
+
+
+ 
+    <a name="environment"></a>
+    <h3>Classroom Environment and Inclusivity Standards</h3>
+    My goal is to foster a environment in which students across all axes of diversity feel welcome and valued, both by me and by their peers. Axes of diversity include, but are not limited to, age, background, beliefs, race, ethnicity, gender/gender identity/gender expression (please feel free to tell me in person or over e-mail which pronouns I should use), national origin, religious affiliation, and sexual orientation. Discrimination of any form will not be tolerated.
+    
+    Furthermore, I want all students to feel comfortable expressing their opinions or confusion at any point in the course, as long as they do so respectfully. As I will stress over and over, being confused is an important part of the process of learning computer science. Therefore, I will not tolerate any form of put-downs by one student towards another about their confusion or progress in the class. Learning computer science and struggling to grow is not <a href="https://i0.wp.com/katielmartin.com/wp-content/uploads/2019/02/1_9HzbByi2Uzit8474Rp4ZPg-1.jpg?w=550&ssl=1">always comfortable</a>, but I want it to feel safe.  Much of this material is probably new to everyone, and those with some prior experience likely recall a time when it was new to them, too.  Remember that <strong>this is not a competition</strong>: helping others to grow is itself a richly rewarding professional development opportunity.  
     
     
     
@@ -642,7 +660,7 @@ layout: default
     <h3>Online Communication Policy</h3>
     Since this is a class-wide communication, the following rules apply to message groups and electronic communications:
     <ol>
-    <li>Students are expected to be respectful and mindful of the <a href="#environment">classroom environment and inclusivity standards.</li>
+    <li>Students are expected to be respectful and mindful of the <a href="#environment">classroom environment and inclusivity standards</a>.</li>
     <li>They are equally applicable to a virtual environment as they are in class.</li>
     <li>Students are not permitted to share direct answers or questions which might completely give away answers to any homework problems or labs publicly on Microsoft Teams. When in doubt, please send me a direct message there.</li>
     <li>I will attempt to answer questions real time during my virtual office hours. Otherwise, I will make every attempt to respond within 24 hours on weekdays, at any time before 9PM. I cannot be expected to respond at all on Saturdays or Sundays, so please plan accordingly. (Of course, students can and should still respond to each other outside of these intervals, when appropriate).</li>
@@ -651,17 +669,6 @@ layout: default
     <p><a href="http://blogs.onlineeducation.touro.edu/15-rules-netiquette-online-discussion-boards/"><img src="http://blogs.onlineeducation.touro.edu/wp-content/uploads/2014/05/Netiquette-Online-Discussion-Boards-infographic.png" alt="Netiquette in Online Discussion Boards infographic" width="340px" border="0" /></a></p><br />
     <!--<p>--><strong><!--Please include attribution to the-->Courtesy of the <a href="http://blogs.onlineeducation.touro.edu/" title="Online Education Blog of Touro College">Online Education Blog of Touro College</a><!--with this graphic-->.</strong><!--</p>--><br />
     <p>
-    
-    
-    
-    
-    
-    
-    <a name="environment"></a>
-    <h3>Classroom Environment and Inclusivity Standards</h3>
-    My goal is to foster a environment in which students across all axes of diversity feel welcome and valued, both by me and by their peers. Axes of diversity include, but are not limited to, age, background, beliefs, race, ethnicity, gender/gender identity/gender expression (please feel free to tell me in person or over e-mail which pronouns I should use), national origin, religious affiliation, and sexual orientation. Discrimination of any form will not be tolerated.
-    
-    Furthermore, I want all students to feel comfortable expressing their opinions or confusion at any point in the course, as long as they do so respectfully. As I will stress over and over, being confused is an important part of the process of learning computer science. Therefore, I will not tolerate any form of put-downs by one student towards another about their confusion or progress in the class. Learning computer science and struggling to grow is not <a href="https://i0.wp.com/katielmartin.com/wp-content/uploads/2019/02/1_9HzbByi2Uzit8474Rp4ZPg-1.jpg?w=550&ssl=1">always comfortable</a>, but I want it to feel safe.  Much of this material is probably new to everyone, and those with some prior experience likely recall a time when it was new to them, too.  Remember that <strong>this is not a competition</strong>: helping others to grow is itself a richly rewarding professional development opportunity.  
     
     
     
@@ -678,7 +685,7 @@ layout: default
     <br />
     <img src="./images/collaborationpolicy.png" alt="Collaboration Policy Table" />
     <br />
-    If the work you submit appears to be copied from previous work or the collaboration policy has been violated in any way according to the College <a href="https://www.ursinus.edu/student-life/handbook/academic-policies/academic-honesty/">Academic Honesty</a> policy, regardless of intent, then it may be an academic dishonesty case, and it will be referred to the Associate Dean for Academic Affairs.  I am required to make this report in every occurrence, so it is best to speak with me first if there are any questions about the policy or expectations.  You should feel free to have these conversations with me anytime prior to making your submission without fear of penalty.
+    If the work you submit appears to be copied from previous work or the collaboration policy has been violated in any way according to the College <a href="{{layout.boilerplate.links.academichonesty}}">Academic Honesty</a> policy, regardless of intent, then it may be an academic dishonesty case, and it will be referred to the Associate Dean for Academic Affairs.  I am required to make this report in every occurrence, so it is best to speak with me first if there are any questions about the policy or expectations.  You should feel free to have these conversations with me anytime prior to making your submission without fear of penalty.
     
     
     
@@ -690,7 +697,7 @@ layout: default
     
     
     <h3>Title IX</h3>
-    Title IX is a federal law, under which it is prohibited to discriminate on the basis of gender.  The <a href="https://www.ursinus.edu/offices/prevention-and-advocacy/title-ix/">Title IX Coordinator</a> is available to receive inquiries and to investigate allegations in this regard.  
+    Title IX is a federal law, under which it is prohibited to discriminate on the basis of gender.  The <a href="{{layout.boilerplate.links.titleix}}">Title IX Coordinator</a> is available to receive inquiries and to investigate allegations in this regard.  
     
     
     
