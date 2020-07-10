@@ -10,6 +10,7 @@ info:
   - section: "A"
   course_title: "Web and Mobile Development"
   credit_hours: "4 Semester Hours"
+  chatlink: https://groupme.com/join_group/60668962/X8z3mzM7
   course_prerequisites: "CS174 Object Oriented Programming"
   course_start_date: "2020/09/07"
   course_end_date: "2020/12/15"
