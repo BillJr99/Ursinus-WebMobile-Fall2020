@@ -9,6 +9,7 @@ info:
   course_sections: 
   - section: "A"
   course_title: "Web and Mobile Development"
+  credit_hours: "4 Semester Hours"
   course_prerequisites: "CS174 Object Oriented Programming"
   course_start_date: "2020/09/07"
   course_end_date: "2020/12/15"
@@ -53,6 +54,7 @@ info:
       fstarttime: "TBD"
       fendtime: "TBD"
       froom: "TBD"
+  flexible_submission_policy: "In the absence of <a href="#accommodations">accommodations</a> arranged in advance with the instructor or college, all assignments are due at 11:59PM Eastern Time on the date(s) stated on the schedule.  No prior permission is required for flexible submission, which awards 95% credit for work submitted up to 6 hours past the deadline, 90% credit for work submitted up to 24 hours past the deadline, 80% credit for work submitted up to 48 hours past the deadline, and 50% credit for work submitted up to 7 days past the deadline."      
    
 instructors:
 - name: William Mongan
@@ -107,6 +109,7 @@ textbooks:
   link: https://www.crummy.com/writing/RESTful-Web-Services/
   image: https://www.crummy.com/writing/RESTful-Web-Services/cover-thumb.png
   isrequired: true  
+  freelyavailable: https://www.crummy.com/writing/RESTful-Web-Services/
 - title: "RESTful Java with JAX-RS 2.0"
   authors: "Bill Burke"
   edition: "First Edition"
@@ -114,6 +117,7 @@ textbooks:
   link: https://www.amazon.com/gp/product/144936134X
   image: http://images.amazon.com/images/P/144936134X.01._PI_SCMZZZZZZZ_.jpg
   isrequired: true   
+  freelyavailable: false
 
 objectives:
 - objective: "Design a web-servces architecture that incorporates and generalizes a variety of stakeholder needs, exposed via a well-defined interface of data and functionality."
