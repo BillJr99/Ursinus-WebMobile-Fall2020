@@ -22,16 +22,6 @@ import threading
 # Tie to learning outcomes
 # Hide unused links
 
-# TEST
-# Fix links to use whole course_homepage
-# Set point values based on assignment/exercise/lab point values - set on the respective markdowns
-# Remove "due" from assignment/lab titles
-# Do not add deliverables to the calendar; assignments/labs with due dates already appear there
-# Make assignments due 11:59PM eastern time by setting to the next morning UTC time (might be 1AM during DST, which is fine)
-# Add grading schemes (letter grade breakdowns)
-# Add the gradebook weighted columns
-# Set up a module for each schedule day (delete on initial script run)
-
 API_URL = "https://ursinus.instructure.com/"
 # Generate key at API_URL + profile/settings
 # Obtain User ID from API_URL + /api/v1/users/self
@@ -400,7 +390,7 @@ def process_markdown(fname, canvas, course, courseid, homepage):
         startd = getCourseDate(startdate, weekidx, dayidx, isM, isT, isW, isR, isF, isS, isU)
         
         coursedt = getCourseDate(startdate, weekidx, dayidx, isM, isT, isW, isR, isF, isS, isU, tostring=False)
-        coursedtstr = coursedt.strftime('%a, %b %-d,%Y')
+        coursedtstr = coursedt.strftime('%a, %b %d, %Y')
         weekdayidx = "(Week " + str(int(weekidx)+1) + " Day " + str(int(dayidx)+1) + ")"
         
         # Create a module for this entry
