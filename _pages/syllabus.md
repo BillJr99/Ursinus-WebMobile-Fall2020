@@ -10,7 +10,7 @@ info:
   - section: "A"
   course_title: "Web and Mobile Development"
   credit_hours: "4 Semester Hours"
-  course_homepage: "https://www.billmongan.com/Ursinus-WebMobile"
+  course_homepage: "https://www.billmongan.com/Ursinus-WebMobile/"
   chatlink: https://groupme.com/join_group/60668962/X8z3mzM7
   course_prerequisites: "CS174 Object Oriented Programming"
   course_start_date: "2020/09/07"
@@ -166,7 +166,7 @@ letter_grades:
 - letter: "D-"
   range: "59.5-62.99"
 - letter: "F"
-  range: "59.49 and below" 
+  range: "0-59.49" 
 
 schedule:
 - week: "0"
