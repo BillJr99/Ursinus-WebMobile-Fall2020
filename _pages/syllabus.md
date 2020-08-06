@@ -12,7 +12,7 @@ info:
   credit_hours: "4 Semester Hours"
   course_homepage: "https://www.billmongan.com/Ursinus-WebMobile/"
   chatlink: https://groupme.com/join_group/60668962/X8z3mzM7
-  class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/_layouts/15/Doc.aspx?sourcedoc=%7B9FBA09A1-B2EE-49CB-BCCB-50FE129F0631%7D&file=CS471%20Web%20and%20Mobile%20Fall%202020&action=edit&mobileredirect=true&wdorigin=Sharepoint&RootFolder=%2fpersonal%2fwmongan%5fursinus%5fedu%2fDocuments%2fClass%20Notebooks%2fCS471%20Web%20and%20Mobile%20Fall%202020
+  class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS471%20Web%20and%20Mobile%20Fall%202020
   ical: files/CS471.ics
   course_prerequisites: "CS174 Object Oriented Programming"
   course_start_date: "2020/09/07"
