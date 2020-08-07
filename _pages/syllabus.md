@@ -298,8 +298,6 @@ university:
     kdate: "2021/05/13"
     kdisplay: false    
   fallholidays:
-  - date: "2020/10/19"
-  - date: "2020/10/20"
   - date: "2020/11/25"
   - date: "2020/11/26"
   - date: "2020/11/27" 
