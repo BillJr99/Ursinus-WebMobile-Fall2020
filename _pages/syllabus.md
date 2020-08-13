@@ -10,7 +10,7 @@ info:
   - section: "A"
   course_title: "Web and Mobile Development"
   credit_hours: "4 Semester Hours"
-  course_homepage: "https://www.billmongan.com/Ursinus-WebMobile/"
+  course_homepage: "https://www.billmongan.com/Ursinus-WebMobile-Fall2020/"
   chatlink: https://groupme.com/join_group/60668962/X8z3mzM7
   class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS471%20Web%20and%20Mobile%20Fall%202020
   ical: files/CS471.ics
