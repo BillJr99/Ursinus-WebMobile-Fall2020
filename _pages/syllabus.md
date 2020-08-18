@@ -180,16 +180,20 @@ schedule:
 - week: "0"
   date: "0"
   title: "Course Sneak Preview"
-  link: "http://www.billmongan.com"
   deliverables:
-  - dtitle: "Lab 0: Warmup Handed Out"
-    dlink: "http://www.billmongan.com"
+  - dtitle: "Programming Assignment: Warmup Handed Out"
+    dlink: "Assignments/Warmup"
+    points: 15
 - week: "0"
   date: "1"
   title: "Web Services"
 - week: "1"
   date: "0"
   title: "Web Service Design"
+  deliverables:
+  - dtitle: "Programming Assignment: Warmup Due"
+    dlink: "Assignments/Warmup"
+    points: 15  
 - week: "2"
   date: "0"
   title: "GraphQL"
