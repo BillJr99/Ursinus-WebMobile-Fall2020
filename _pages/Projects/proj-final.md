@@ -49,8 +49,11 @@ tags:
   
 ---
 
-In this project, you will propose a topic of your choosing and a group of at least 2 and up to 3 total members.  The project must be approved by the instructor before it may commence, but the topic is entirely up to you.  Multidisciplinary projects with a broader impact are encouraged, and you are welcome to collaborate with a stakeholder outside the department for inspiration on potential projects (this person is not to contribute code, only disciplinary context).
+In this project, you will propose a topic of your choosing and a group of at least 2 and up to 3 total members.  The project must be approved by the instructor before it may commence, but the topic is entirely up to you.  Multidisciplinary projects with a broader impact are encouraged, and you are welcome to collaborate with a stakeholder outside the department for inspiration on potential projects (this person is not to contribute code, only disciplinary context).  You are also encouraged to identify a stakeholder (please see me for assistance in this regard) who will advise you on the design of your project and test the final implementation.  
 
 You will use git or another version control system to coordinate between your team.  
 
 Finally, prepare as a team a project presentation using a screencast (such as [Screencast-O-Matic](https://screencast-o-matic.com/)) that you will share with the class for final presentations.  Alternatively, you may choose to present to a live class audience, as time permits.
+
+## Extra Credit (10%)
+If you deploy your project publicly and make your repository/repositories publicly open source (please note this in your README), I will award extra credit to your project.
