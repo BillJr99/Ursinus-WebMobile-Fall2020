@@ -317,7 +317,7 @@ schedule:
     - rtitle: "RESTful Web Services Chapter 7"  
 - week: "9"
   date: "0"
-  title: "Server-Side Authenticaiton Models"  
+  title: "Server-Side Authentication Models"  
 - week: "9"
   date: "1"
   title: "Digital Certificates through Public Key Cryptosystems"    
