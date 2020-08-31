@@ -40,8 +40,7 @@ info:
         - "This JSON result was returned from a web request to <a href=\"https://api.weatherusa.net/v1/forecast?q=40.1915,-75.4559&daily=0&units=e&maxtime=7d\">https://api.weatherusa.net/v1/forecast?q=40.1915,-75.4559&daily=0&units=e&maxtime=7d</a>, which obtains the 7-day forecast at Ursinus College given the College's latitude and longitude GPS coordinates.  Use a <a href=\"https://jsonformatter.org/json-pretty-print\">JSON Pretty Printer</a> to better format the JSON for reading."
         - What do the curly braces represent?
         - What does the square bracket represent?
-        - Modify the program above to access this RESTful endpoint and, in a loop, print out each day's date (using <code>validt</code>) and temperature. 
-        An example <code>for</code> loop is given above.
+        - Modify the program above to access this RESTful endpoint and, in a loop, print out each day's date (using <code>validt</code>) and temperature. An example <code>for</code> loop is given above.
 tags:
   - rest
   
