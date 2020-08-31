@@ -343,7 +343,7 @@ schedule:
   title: "Progressive Web Apps (PWA) for Cross Platform Development"    
 - week: "13"
   date: "0"
-  title: "Progressive Web Apps (PWA) for Cross Platform Development"  
+  title: "Caches"  
 - week: "13"
   date: "1"
   title: "Open-Source Software Development"  
