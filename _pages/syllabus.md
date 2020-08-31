@@ -216,6 +216,7 @@ schedule:
 - week: "1"
   date: "0"
   title: "Anatomy of a RESTful Call"  
+  link: "./Activities/RESTfulCalls"
 - week: "1"
   date: "1"
   title: "Web Services"
