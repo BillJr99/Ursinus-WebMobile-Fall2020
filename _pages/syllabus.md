@@ -292,6 +292,9 @@ schedule:
 - week: "6"
   date: "2"
   title: "CORS"  
+  deliverables:
+    - dtitle: "Course Notebook Participation: First Check"
+      points: 10  
 - week: "7"
   date: "0"
   title: "Databases"
@@ -349,19 +352,30 @@ schedule:
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
 - week: "12"
   date: "2"
-  title: "Progressive Web Apps (PWA) for Cross Platform Development"    
+  title: "Progressive Web Apps (PWA) for Cross Platform Development"
+  deliverables:
+  - dtitle: "Final Project: Project and Presentation Handed Out"
+    dlink: "./Projects/Final"
+    points: 100    
 - week: "13"
   date: "0"
   title: "Caches"  
 - week: "13"
   date: "1"
   title: "Open-Source Software Development"  
+  deliverables:
+    - dtitle: "Course Notebook Participation: Second Check"
+      points: 10    
 - week: "13"
   date: "2"
-  title: "Workshopping"
+  title: "Final Project Workshopping"
 - week: "13"
   date: "3"
   title: "Workshopping"
+  deliverables:
+  - dtitle: "Final Project: Project and Presentation Due"
+    dlink: "./Projects/Final"
+    points: 100    
 - week: "14"
   date: "0"
   title: "Final Project Presentations"
