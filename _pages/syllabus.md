@@ -371,14 +371,14 @@ schedule:
   title: "Final Project Workshopping"
 - week: "13"
   date: "3"
+  title: "Workshopping"  
+- week: "14"
+  date: "0"
   title: "Workshopping"
   deliverables:
   - dtitle: "Final Project: Project and Presentation Due"
     dlink: "./Projects/Final"
     points: 100    
-- week: "14"
-  date: "0"
-  title: "Final Project Presentations"
 - week: "14"
   date: "1"
   title: "Final Project Presentations"
