@@ -208,6 +208,7 @@ schedule:
 - week: "0"
   date: "2"
   title: "Anatomy of an HTTP Request with Wireshark"
+  link: "./Ursinus-WebMobile-HTTP"
   deliverables:
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "Assignments/Warmup"
