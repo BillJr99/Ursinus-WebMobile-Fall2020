@@ -187,6 +187,9 @@ schedule:
 - week: "0"
   date: "1"
   title: "Course Tools and Version Control"
+  readings:
+  - rtitle: "Getting Started with Git and Github"
+    rlink: "Modules/Github/Module"   
 - week: "0"
   date: "2"
   title: "Anatomy of an HTTP Request with Wireshark"
