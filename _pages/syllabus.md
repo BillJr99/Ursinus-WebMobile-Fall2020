@@ -217,6 +217,10 @@ schedule:
   date: "0"
   title: "Anatomy of a RESTful Call"  
   link: "./Activities/RESTfulCalls"
+  deliverables:
+    - dtitle: "Lab: WeatherUSA Service Client Handed Out"
+      dlink: "./Labs/WeatherUSA"
+      points: 100
 - week: "1"
   date: "1"
   title: "Web Services"
@@ -228,6 +232,10 @@ schedule:
 - week: "2"
   date: "0"
   title: "Web Service Design: CRUD" 
+  deliverables:
+    - dtitle: "Lab: WeatherUSA Service Client Due"
+      dlink: "./Labs/WeatherUSA"
+      points: 100  
 - week: "2"
   date: "1"
   title: "Data encoding and JSON"
