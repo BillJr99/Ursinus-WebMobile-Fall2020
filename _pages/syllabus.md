@@ -293,7 +293,7 @@ schedule:
   date: "2"
   title: "CORS"  
   deliverables:
-    - dtitle: "Course Notebook Participation: First Check"
+    - dtitle: "Participation: First Notebook Check"
       points: 10  
 - week: "7"
   date: "0"
@@ -364,7 +364,7 @@ schedule:
   date: "1"
   title: "Open-Source Software Development"  
   deliverables:
-    - dtitle: "Course Notebook Participation: Second Check"
+    - dtitle: "Participation: Second Notebook Check"
       points: 10    
 - week: "13"
   date: "2"
