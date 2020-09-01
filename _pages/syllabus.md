@@ -227,6 +227,12 @@ schedule:
   title: "Web Services"
   readings:
     - rtitle: "RESTful Web Services Chapter 1"
+    - rtitle: "A Service-Based Software Engineering Portal Website"
+      rlink: "https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf"
+    - rtitle: "REportal"
+      rlink: "https://www.cs.drexel.edu/~spiros/teaching/CS675/slides/reportalTechReport.pdf"
+    - rtitle: "A Biomedical Monitoring Web Service for the Internet-of-Things"
+      rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002"
 - week: "1"
   date: "2"
   title: "RESTful Web Services, Body Parameters, and Headers"  
@@ -250,6 +256,7 @@ schedule:
 - week: "2"
   date: "2"
   title: "The Peruvian Coin Flip"
+  link: "./Activities/CoinFlip"
   deliverables:
     - dtitle: "Programming Assignment: Service Clients Handed Out"
       dlink: "./Assignments/ServiceClient"

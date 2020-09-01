@@ -31,7 +31,8 @@ info:
         </script>
       title: Flipping a Coin
       questions:
-        - test
+        - How can you verify the coin toss result that your partner obtained so that you can be sure that your guess and the flip was fair?
+        - How might <a href=\"https://www.blackbaud.com/files/customreports/PhoneDirectory_web.pdf\">this phone book</a> help?
 
 tags:
   - cryptographic
