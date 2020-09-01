@@ -36,7 +36,11 @@ tags:
   
 ---
 
-In this assignment, you will choose two REST service endpoints and integrate them together.  You may select any two endpoints you want.  Here are some examples you can choose from (but you don't have to pick one of these!):
+In this assignment, you will choose two REST service endpoints and integrate them together.  You may select any two endpoints you want.  
+
+## Part 1: Service Endpoint Integration
+
+Here are some examples you can choose from (but you don't have to pick one of these!):
 
 * [Google Calendar](https://developers.google.com/calendar/v3/reference)
 * [Canvas](https://canvas.instructure.com/doc/api/)
@@ -56,3 +60,7 @@ Regardless of the services you choose, you should:
 2. Use that result to form the input of a request to a second service endpoint, and then process that result accordingly
 
 In your README, please include a paragraph description of your intended audience: who can use your program, and how does it improve their workflow, their life, and/or their community?
+
+## Part 2: Presentation
+
+Make a [Screencast](https://screencast-o-matic.com/) in which you demonstrate your program, and also review your codebase.  Imagine you are explaining how to use these API's to a new web service developer.  Give them a thorough tour!  I hope to solicit volunteers to demo their programs to the class!
