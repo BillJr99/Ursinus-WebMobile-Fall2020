@@ -195,6 +195,7 @@ schedule:
 - week: "0"
   date: "0"
   title: "Course Sneak Preview"
+  link: "/Ursinus-WebMobile-Overview"
   deliverables:
   - dtitle: "Programming Assignment: Warmup Handed Out"
     dlink: "Assignments/Warmup"
