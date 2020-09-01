@@ -6,7 +6,7 @@ excerpt: "Web and Mobile Development - Peruvian Coin Flip"
 
 info:
   goals: 
-    - To establish trust with unknown parties using a model algorithm (inspired by <a href=\"https://classic.csunplugged.org/wp-content/uploads/2014/12/unplugged-17-cryptographic_protocols_0.pdf\">CSUnplugged</a>)
+    - "To establish trust with unknown parties using a model algorithm (inspired by <a href=\"https://classic.csunplugged.org/wp-content/uploads/2014/12/unplugged-17-cryptographic_protocols_0.pdf\">CSUnplugged</a>)"
   models:
     - model: |
         <button id="click" type="button">Coin Toss</button> <span id="result"></span>
@@ -32,7 +32,7 @@ info:
       title: Flipping a Coin
       questions:
         - How can you verify the coin toss result that your partner obtained so that you can be sure that your guess and the flip was fair?
-        - How might <a href=\"https://www.blackbaud.com/files/customreports/PhoneDirectory_web.pdf\">this phone book</a> help?
+        - "How might <a href=\"https://www.blackbaud.com/files/customreports/PhoneDirectory_web.pdf\">this phone book</a> help?"
 
 tags:
   - cryptographic
