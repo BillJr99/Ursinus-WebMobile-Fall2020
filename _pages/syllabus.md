@@ -246,9 +246,14 @@ schedule:
   deliverables:
     - dtitle: "Lab: COVID plot.ly Generator Handed Out"
       dlink: "./Labs/COVIDPlotlyBrowser"
+      points: 100
 - week: "2"
   date: "2"
   title: "The Peruvian Coin Flip"
+  deliverables:
+    - dtitle: "Programming Assignment: Service Clients Handed Out"
+      dlink: "./Assignments/ServiceClient"
+      points: 100
 - week: "3"
   date: "0"
   title: "SAML and OAuth"
@@ -268,7 +273,8 @@ schedule:
   title: "Interacting with Existing Services through Web Service Clients with node.js"
   deliverables:
     - dtitle: "Lab: COVID plot.ly Generator Due"
-      dlink: "./Labs/COVIDPlotlyBrowser"  
+      dlink: "./Labs/COVIDPlotlyBrowser"
+      points: 100       
 - week: "4"
   date: "1"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
@@ -278,7 +284,11 @@ schedule:
   date: "2"
   title: "Interacting with Existing Services through Web Service Clients with node.js"  
   readings:
-    - rtitle: "RESTful Web Services Chapter 4"  
+    - rtitle: "RESTful Web Services Chapter 4" 
+  deliverables:
+    - dtitle: "Programming Assignment: Service Clients Due"
+      dlink: "./Assignments/ServiceClient"
+      points: 100    
 - week: "5"
   date: "0"
   title: "GraphQL"
