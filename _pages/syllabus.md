@@ -239,10 +239,13 @@ schedule:
       points: 100  
 - week: "2"
   date: "1"
-  title: "Introduction to node.js: Asynchronous Programming and Promises" 
+  title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises" 
   readings:
     - rtitle: "node.js Reference Guide"
-      rlink: "https://books.goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf"  
+      rlink: "https://books.goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf"
+  deliverables:
+    - dtitle: "Lab: COVID plot.ly Generator Handed Out"
+      dlink: "./Labs/COVIDPlotlyBrowser"
 - week: "2"
   date: "2"
   title: "The Peruvian Coin Flip"
@@ -262,7 +265,10 @@ schedule:
     - rtitle: "RESTful Web Services Chapter 2"   
 - week: "4"
   date: "0"
-  title: "Interacting with Existing Services through Web Service Clients with node.js"  
+  title: "Interacting with Existing Services through Web Service Clients with node.js"
+  deliverables:
+    - dtitle: "Lab: COVID plot.ly Generator Due"
+      dlink: "./Labs/COVIDPlotlyBrowser"  
 - week: "4"
   date: "1"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
