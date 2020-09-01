@@ -225,6 +225,7 @@ schedule:
 - week: "1"
   date: "1"
   title: "Web Services"
+  link: "./Activities/RESTfulService"
   readings:
     - rtitle: "RESTful Web Services Chapter 1"
     - rtitle: "A Service-Based Software Engineering Portal Website"
@@ -299,6 +300,10 @@ schedule:
 - week: "5"
   date: "0"
   title: "GraphQL"
+  deliverables:
+    - dtitle: "Programming Assignment: RESTful Services Handed Out"
+      dlink: "./Assignments/Service"
+      points: 100
 - week: "5"
   date: "1"
   title: "Creating Your Own Web Services with node.js"
@@ -325,6 +330,10 @@ schedule:
   readings:
     - rtitle: "SQL Reference Guide"
       rlink: "https://books.goalkicker.com/SQLBook/SQLNotesForProfessionals.pdf"
+  deliverables:
+    - dtitle: "Programming Assignment: RESTful Services Due"
+      dlink: "./Assignments/Service"
+      points: 100      
 - week: "7"
   date: "1"
   title: "Databases"

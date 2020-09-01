@@ -1,8 +1,8 @@
 ---
 layout: assignment
-permalink: /Assignments/ServiceClient
-title: "CS471: Web and Mobile Development - Service Clients"
-excerpt: "CS471: Web and Mobile Development - Service Clients"
+permalink: /Assignments/Service
+title: "CS471: Web and Mobile Development - RESTful Services"
+excerpt: "CS471: Web and Mobile Development - RESTful Services"
 
 info:
   coursenum: CS471
@@ -10,9 +10,9 @@ info:
     clonelink: false
   points: 100
   goals:
-    - To implement a web service client in node.js
+    - To implement a web service in node.js using express and mongoose
   rubric:
-    - weight: 60
+    - weight: 40
       description: Algorithm Implementation
       preemerging: The algorithm fails on the test inputs due to major issues, or the program fails to compile and/or run
       beginning: The algorithm fails on the test inputs due to one or more minor issues
@@ -24,6 +24,12 @@ info:
       beginning: Code commenting and structure is limited in ways that reduce the readability of the program, and/or there are minor departures from the style guide
       progressing: Code documentation is present that re-states the explicit code definitions, and/or code is written that mostly adheres to the style guide
       proficient: Code is documented at non-trivial points in a manner that enhances the readability of the program, and code is written according to the style guide
+    - weight: 20
+      description: Service Endpoint Interface Design
+      preemerging: Improper service endpoints are given, or use verbs instead of a CRUD model
+      beginning: An arbitrary mapping of service endpoints is given to HTTP verbs (for example, only GET or POST verbs are used)
+      progressing: Some service endpoints are ambiguous or improperly mapped
+      proficient: Service endpoints are thoroughly defined for the application chosen, with CRUD endpoints that represent nouns that are appropriately mapped to HTTP verbs
     - weight: 10
       description: Writeup and Submission
       preemerging: An incomplete submission is provided
@@ -32,35 +38,24 @@ info:
       proficient: The program is submitted according to the directions, including a readme writeup describing the solution, and thoughtful answers to the bolded questions throughout
   
 tags:
-  - restclient
+  - restservice
   
 ---
 
-In this assignment, you will choose two REST service endpoints and integrate them together.  You may select any two endpoints you want.  
+In this assignment, you will design a RESTful service interface and implement it using node.js.  You will test your service with a client that you will implement in node.js or in a web browser using JavaScript.
 
-## Part 1: Service Endpoint Integration
+## Part 1: Stakeholder-Based Design
 
-Here are some examples you can choose from (but you don't have to pick one of these!):
+Choose a partner with whom you will discuss your model interface.  Your RESTful endpoints and data types should be well-established here.  Please document the results of this discussion and your overall design in your README.  I should be able to deploy and use your service by just reading your design document in the README.
 
-* [Google Calendar](https://developers.google.com/calendar/v3/reference)
-* [Canvas](https://canvas.instructure.com/doc/api/)
-* [Yahoo! Finance](https://rapidapi.com/apidojo/api/yahoo-finance1)
-* [Pokemon](https://pokeapi.co/docs/v2)
-* [Nexmo SMS Text Messaging](https://developer.nexmo.com/api/sms)
-* [International Space Station Location](https://wheretheiss.at/w/developer)
-* [Spoonacular Recipes](https://spoonacular.com/food-api/docs)
-* [Open Movie Database](http://www.omdbapi.com/)
-* [Text to Speech](http://www.voicerss.org/api/)
+Prior to proceeding, notify the instructor of the general service that you plan to implement, and the design and interface you plan to utilize.
 
-Please advise the instructor of your choices before you begin (this is not intended to restrict you, but just to determine if you need any additional resources to complete the assignment based on the choices you make).  
+## Part 2: Service Implementation
+Craete your model, routes, and `express` service in node.js, according to the design you determined with your partner.
 
-Regardless of the services you choose, you should:
+## Part 3: Service Client
+Develop a service client in node.js or a browser webpage to invoke each operation of your service.
 
-1. Connect to one service, download and parse the result
-2. Use that result to form the input of a request to a second service endpoint, and then process that result accordingly
-
-In your README, please include a paragraph description of your intended audience: who can use your program, and how does it improve their workflow, their life, and/or their community?
-
-## Part 2: Presentation
+## Part 4: Presentation
 
 Make a [Screencast](https://screencast-o-matic.com/) in which you demonstrate your program, and also review your codebase.  Imagine you are explaining how to use these API's to a new web service developer.  Give them a thorough tour!  I hope to solicit volunteers to demo their programs to the class!
