@@ -26,7 +26,7 @@ info:
       title: RESTful Service
       embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/RESTfulServiceExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
       questions:
-        - "Launch the given web service and invoke it using your choice of web client.  To do this, you will want to set up a <a href=\"http://mongodb.com\">mongodb</a> database, add a test user with a password, and allow access from any IP address.  MongoDB will give you a connection string that you can paste into <code>index.js</code> over my default <code>test_user</code> connection string.
+        - "Launch the given web service and invoke it using your choice of web client.  To do this, you will want to set up a <a href=\"http://mongodb.com\">mongodb</a> database, add a test user with a password, and allow access from any IP address.  MongoDB will give you a connection string that you can paste into <code>index.js</code> over my default <code>test_user</code> connection string."
         - Invoke the service using a node.js application or a JavaScript browser client.
         - What HTTP verb is used to create a new item?  To retrieve an item?  To update an item?  To delete an item?
         - Why is POST used to create items while PUT is used to update them?  Aren't these interchangeable?
