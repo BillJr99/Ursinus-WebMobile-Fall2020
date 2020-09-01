@@ -30,7 +30,7 @@ info:
         - Invoke the service using a node.js application or a JavaScript browser client.
         - What HTTP verb is used to create a new item?  To retrieve an item?  To update an item?  To delete an item?
         - Why is POST used to create items while PUT is used to update them?  Aren't these interchangeable?
-        - What if you wanted to support other verbs on these items, like <code>putOnSale</code>?  Are service endpoints typically nouns or verbs, and how might you re-work a sale verb like this one into an appropriate CRUD endpoint?
+        - "What if you wanted to support other verbs on these items, like <code>putOnSale</code>?  Are service endpoints typically nouns or verbs, and how might you re-work a sale verb like this one into an appropriate CRUD endpoint?"
         - What is the advantage of separating your code into a model and a controller implementation?
         
 tags:
