@@ -20,7 +20,7 @@ tags:
 
 The purpose of this assignment is to get us setup for the course, both by getting to know each other better, and by setting up the software environment.
 
-## Personal Survey (5 Pts)
+## Personal Survey (10 Pts)
 
 I gave a couple of fun facts about myself in the class, but I want to get to know you all better. So please submit answers to the following questions as a private message to me on [{{ page.info.chatname }}]({{ page.info.chatlink }}).
 
