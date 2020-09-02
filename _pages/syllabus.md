@@ -344,6 +344,7 @@ schedule:
 - week: "9"
   date: "0"
   title: "Server-Side Authentication Models"  
+  link: "../Ursinus-WebMobile-ServerSideAuth"
 - week: "9"
   date: "1"
   title: "Digital Certificates through Public Key Cryptosystems"    
