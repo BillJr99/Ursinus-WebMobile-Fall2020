@@ -287,19 +287,17 @@ schedule:
   date: "1"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
   readings:
-    - rtitle: "RESTful Web Services Chapter 3"     
+    - rtitle: "RESTful Web Services Chapter 3-4"     
 - week: "4"
   date: "2"
-  title: "Interacting with Existing Services through Web Service Clients with node.js"  
-  readings:
-    - rtitle: "RESTful Web Services Chapter 4" 
+  title: "Progressive Web Apps (PWA) for Cross Platform Development"  
   deliverables:
     - dtitle: "Programming Assignment: Service Clients Due"
       dlink: "./Assignments/ServiceClient"
       points: 100    
 - week: "5"
   date: "0"
-  title: "GraphQL"
+  title: "Interface Contracts and GraphQL"
   deliverables:
     - dtitle: "Programming Assignment: RESTful Services Handed Out"
       dlink: "./Assignments/Service"
@@ -309,9 +307,13 @@ schedule:
   title: "Creating Your Own Web Services with node.js"
   readings:
     - rtitle: "RESTful Web Services Chapters 5 and 6"  
+  deliverables:
+    - dtitle: "Lab: Food Bank Map Handed Out"
+      dlink: "./Labs/FoodBankMap"
+      points: 100     
 - week: "5"
   date: "2"
-  title: "Creating Your Own Web Services with node.js"  
+  title: "Creating Your Own Web Services with node.js"       
 - week: "6"
   date: "0"
   title: "Creating Your Own Web Services with node.js"   
@@ -324,22 +326,26 @@ schedule:
   deliverables:
     - dtitle: "Participation: First Notebook Check"
       points: 10  
+  deliverables:
+    - dtitle: "Lab: Food Bank Map Due"
+      dlink: "./Labs/FoodBankMap"
+      points: 100       
 - week: "7"
   date: "0"
   title: "Databases"
   readings:
     - rtitle: "SQL Reference Guide"
-      rlink: "https://books.goalkicker.com/SQLBook/SQLNotesForProfessionals.pdf"
-  deliverables:
-    - dtitle: "Programming Assignment: RESTful Services Due"
-      dlink: "./Assignments/Service"
-      points: 100      
+      rlink: "https://books.goalkicker.com/SQLBook/SQLNotesForProfessionals.pdf"    
 - week: "7"
   date: "1"
   title: "Databases"
 - week: "7"
   date: "2"
   title: "Databases"  
+  deliverables:
+    - dtitle: "Programming Assignment: RESTful Services Due"
+      dlink: "./Assignments/Service"
+      points: 100    
 - week: "8"
   date: "0"
   title: "NoSQL"  
@@ -369,6 +375,10 @@ schedule:
   readings:
     - rtitle: "HTML5 Reference Guide"
       rlink: "https://books.goalkicker.com/HTML5Book/HTML5NotesForProfessionals.pdf"
+  deliverables:
+  - dtitle: "Final Project: Interface Design Handed Out"
+    dlink: "./Projects/Final"
+    points: 25       
 - week: "10"
   date: "2"
   title: "CSS"  
@@ -385,14 +395,18 @@ schedule:
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
 - week: "12"
   date: "2"
-  title: "Progressive Web Apps (PWA) for Cross Platform Development"
+  title: "Caches"
   deliverables:
+  deliverables:
+  - dtitle: "Final Project: Interface Design Due"
+    dlink: "./Projects/Final"
+    points: 25     
   - dtitle: "Final Project: Project and Presentation Handed Out"
     dlink: "./Projects/Final"
-    points: 100    
+    points: 75    
 - week: "13"
   date: "0"
-  title: "Caches"  
+  title: "Data Services at Scale"  
 - week: "13"
   date: "1"
   title: "Open-Source Software Development"  
@@ -411,7 +425,7 @@ schedule:
   deliverables:
   - dtitle: "Final Project: Project and Presentation Due"
     dlink: "./Projects/Final"
-    points: 100    
+    points: 75    
 - week: "14"
   date: "1"
   title: "Final Project Presentations"

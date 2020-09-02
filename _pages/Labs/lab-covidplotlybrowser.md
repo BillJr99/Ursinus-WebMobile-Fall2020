@@ -49,6 +49,10 @@ First, deploy [this tutorial](https://chart-studio.plotly.com/~PlotBot/880.js) i
 ## Step 2: Downloading COVID Data
 In the `<script>` section, [make an HTTP GET request](https://www.w3schools.com/xml/xml_http.asp) to the [COVID Tracking API](https://covidtracking.com/data/api).  For now, you can `console.log()` the text returned, so that it prints to the browser console window.  Specifically, you will use this endpoint: [https://api.covidtracking.com/v1/states/daily.json](https://api.covidtracking.com/v1/states/daily.json).  
 
+You can try out this API from the console using curl as follows (this example filters out only those objects whose state is PA):
+
+`curl --silent 'https://api.covidtracking.com/v1/states/daily.json' | jq '.[] | select(.state == "PA")'`
+
 Create two arrays for your plot: the `date` and the `positive` field (for the count of positive cases on that date).  For simplicity, only add those records whose `state` is a particular state, like PA.  You can obtain a JSON object (an array that you can iterate) as follows: `var responseObj = JSON.parse(xhttp.responseText);`.
 
 Note that plot.ly expects dates to be in the form `yyyy-mm-dd`, while this data reports the date in `yyyymmdd` format.  Using the `str.substring` method, convert your date to the proper format.

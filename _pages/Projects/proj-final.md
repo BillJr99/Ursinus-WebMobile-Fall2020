@@ -19,13 +19,19 @@ info:
       beginning: The algorithm fails on the test inputs due to one or more minor issues
       progressing: The algorithm is implemented to solve the problem correctly according to given test inputs, but would fail if executed in a general case due to a minor issue or omission in the algorithm design or implementation
       proficient: A reasonable algorithm is implemented to solve the problem which correctly solves the problem according to the given test inputs, and would be reasonably expected to solve the problem in the general case
-    - weight: 20
+    - weight: 10
       description: Test Cases
       preemerging: Testing was performed outside of the unit test framework, or not performed at all
       beginning: Trivial test cases are provided in a unit test framework
       progressing: Test cases that cover some, but not all, boundary cases and branches of the program are provided
       proficient: Test cases that cover all boundary cases and branches of the program are provided
     - weight: 20
+      description: Service Endpoint Interface Design
+      preemerging: Improper service endpoints are given, or use verbs instead of a CRUD model
+      beginning: An arbitrary mapping of service endpoints is given to HTTP verbs (for example, only GET or POST verbs are used)
+      progressing: Some service endpoints are ambiguous or improperly mapped
+      proficient: Service endpoints are thoroughly defined for the application chosen, with CRUD endpoints that represent nouns that are appropriately mapped to HTTP verbs      
+    - weight: 10
       description: Code Quality and Documentation
       preemerging: Code commenting and structure are absent, or code structure departs significantly from best practice, and/or the code departs significantly from the style guide
       beginning: Code commenting and structure is limited in ways that reduce the readability of the program, and/or there are minor departures from the style guide
@@ -54,6 +60,11 @@ In this project, you will propose a topic of your choosing and a group of at lea
 You will use git or another version control system to coordinate between your team.  
 
 Finally, prepare as a team a project presentation using a screencast (such as [Screencast-O-Matic](https://screencast-o-matic.com/)) that you will share with the class for final presentations.  Alternatively, you may choose to present to a live class audience, as time permits.
+
+Some possible projects include:
+
+* Online debugging table for introductory students: a service-based mobile-friendly site that supports exception posting, commenting, resolution, and searching
+* [Canvas](https://canvas.instructure.com/doc/api/) Course Manager: An organizational utility for students using Canvas with a personal [iCal](https://en.wikipedia.org/wiki/ICalendar) generator for your personal calendar
 
 ## Extra Credit (10%)
 If you deploy your project publicly and make your repository/repositories publicly open source (please note this in your README), I will award extra credit to your project.

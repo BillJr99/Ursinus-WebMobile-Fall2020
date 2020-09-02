@@ -51,6 +51,7 @@ Here are some examples you can choose from (but you don't have to pick one of th
 * [Spoonacular Recipes](https://spoonacular.com/food-api/docs)
 * [Open Movie Database](http://www.omdbapi.com/)
 * [Text to Speech](http://www.voicerss.org/api/)
+* [SEPTA](http://www3.septa.org/api/)
 
 Please advise the instructor of your choices before you begin (this is not intended to restrict you, but just to determine if you need any additional resources to complete the assignment based on the choices you make).  
 
