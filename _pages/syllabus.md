@@ -285,6 +285,7 @@ schedule:
 - week: "5"
   date: "0"
   title: "Interface Contracts and GraphQL"
+  link: "./Activities/GraphQL"
   deliverables:
     - dtitle: "Programming Assignment: RESTful Services Handed Out"
       dlink: "./Assignments/Service"
@@ -319,7 +320,10 @@ schedule:
   deliverables:
     - dtitle: "Lab: Food Bank Map Due"
       dlink: "./Labs/FoodBankMap"
-      points: 100       
+      points: 100  
+    - dtitle: "Lab: GraphQL Handed Out"
+      dlink: "./Labs/GraphQL"
+      points: 100      
 - week: "7"
   date: "0"
   title: "Databases"
@@ -336,6 +340,9 @@ schedule:
     - dtitle: "Programming Assignment: RESTful Services Due"
       dlink: "./Assignments/Service"
       points: 100    
+    - dtitle: "Lab: GraphQL Due"
+      dlink: "./Labs/GraphQL"
+      points: 100      
 - week: "8"
   date: "0"
   title: "NoSQL"  
