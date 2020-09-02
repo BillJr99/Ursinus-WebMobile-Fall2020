@@ -42,6 +42,8 @@ info:
         - What does the square bracket represent?
         - Modify the program above to access this RESTful endpoint and, in a loop, print out each day's date (using <code>validt</code>) and temperature. An example <code>for</code> loop in <a href=\"https://www.w3schools.com/js/js_json_arrays.asp\">JavaScript</a> is given above.
     - model: |
+        <div align="left">
+        <pre>
         <code>
         {
             "response": {
@@ -77,11 +79,15 @@ info:
             }
         }
         </code>
+        <pre>
+        </div>
       title: A Sample JSON Response
       questions:
         - "What is the path to <code>longitude</code>?"
         - "What is the path to <code>temp_f</code>?"
     - model: |
+        <div align="left">
+        <pre>
         <code>
         "forecast": {
             "txt_forecast": {
@@ -99,6 +105,8 @@ info:
                  ]
         }
         </code>
+        <pre>
+        </div>
       title: A Sample JSON Array Response
       questions:
         - "What is the path to the first <code>fcttext</code> element?"
