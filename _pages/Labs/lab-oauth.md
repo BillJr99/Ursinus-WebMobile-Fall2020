@@ -40,7 +40,7 @@ In this lab, you will connect to a service using OAuth and obtain a key \[[^1]\]
 
 ## Part 1: Allowing the User to Log In
 
-Direct the user to the github page at https://github.com/login/oauth/authorize?client_id=<CLIENT ID>&redirect_uri=http://<YOUR REPL.IT PROJECT URL>/oauth/redirect&state=<RANDOM STRING>
+Direct the user to the github page at `https://github.com/login/oauth/authorize?client_id=<CLIENT ID>&redirect_uri=http://<YOUR REPL.IT PROJECT URL>/oauth/redirect&state=<RANDOM STRING>`
 
 You can generate a Client ID and Client Secret for your application at the [Github Developer page](https://docs.github.com/en/developers/apps/creating-an-oauth-app).
 
@@ -50,7 +50,7 @@ Deploy a repl.it project in node.js that uses `express` to capture a call to `/o
 
 The HTTP request will contain a query parameter called `code` that you can extract.  You will also receive the `state` string that you originally passed - this should equal your original string.  In the handler for this endpoint, use the code to make a POST request to:
 
-https://github.com/login/oauth/access_token?client_id=<CLIENT ID>&client_secret=<CLIENT SECRET>&code=<CODE>
+`https://github.com/login/oauth/access_token?client_id=<CLIENT ID>&client_secret=<CLIENT SECRET>&code=<CODE>`
 
 with a header: `accept: application/json`.
 
@@ -60,6 +60,6 @@ You can pass a user ID back to the user, to which you associate the correspondin
 
 ## Part 3: Accessing the Github User's Information
 
-Perform a GET request to https://api.github.com/user with header: `Authorization: token <ACCESS TOKEN>` to test that the OAuth protocol you implemented successfully authenticated the user.  You could use this account information as the basis of your own app authentication, avoiding the need to store a password for the user.
+Perform a GET request to `https://api.github.com/user` with header: `Authorization: token <ACCESS TOKEN>` to test that the OAuth protocol you implemented successfully authenticated the user.  You could use this account information as the basis of your own app authentication, avoiding the need to store a password for the user.
 
 [^1]: [https://www.sohamkamani.com/blog/javascript/2018-06-24-oauth-with-node-js/](https://www.sohamkamani.com/blog/javascript/2018-06-24-oauth-with-node-js/)
