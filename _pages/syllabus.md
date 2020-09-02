@@ -365,7 +365,7 @@ schedule:
   readings:
     - rtitle: "RESTful Web Services Chapter 7"  
   deliverables:
-    - dtitle: "Lab: Swagger Handed Out"
+    - dtitle: "Lab: Swagger Due"
       dlink: "./Labs/Swagger"
       points: 100  
 - week: "9"
