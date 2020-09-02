@@ -60,24 +60,6 @@ info:
       starttime: "1:30 PM"
       endtime: "2:20 PM"
       place: "Pfahler Hall Room 109"      
-  midtermexam: 
-    - mdate: "TBD"
-      mstarttime: "TBD"
-      mendtime: "TBD"
-      mroom: "TBD"
-    - mdate: "TBD"
-      mstarttime: "TBD"
-      mendtime: "TBD"
-      mroom: "TBD"      
-  finalexam: 
-    - fdate: "TBD"
-      fstarttime: "TBD"
-      fendtime: "TBD"
-      froom: "TBD"
-    - fdate: "TBD"
-      fstarttime: "TBD"
-      fendtime: "TBD"
-      froom: "TBD"
   flexible_submission_policy: "In the absence of <a href=\"#accommodations\">accommodations</a> arranged in advance with the instructor or college, all assignments are due at 11:59PM Eastern Time on the date(s) stated on the schedule.  No prior permission is required for flexible submission, which allows up to 2 days to be used during the semester by each student.  For example, one deliverable may be submitted 2 days late, or two deliverables may each be submitted 1 day late.  After these 2 days are utilized, subsequent deliverables may be submitted after the deadline, awarding up to: 95% credit for work submitted up to 6 hours past the deadline, 90% credit for work submitted up to 24 hours past the deadline, 80% credit for work submitted up to 48 hours past the deadline, and 50% credit for work submitted up to 7 days past the deadline.  To exercise flexible submission, please e-mail the instructor after submitting your deliverable, indicating: a) which deliverable you have submitted past the deadline, and b) how many flex days you wish to use (if any)." 
    
 instructors:
@@ -237,7 +219,7 @@ schedule:
 - week: "1"
   date: "2"
   title: "RESTful Web Services, Body Parameters, and Headers" 
-  link: "./Ursinus-WebMobile-REST"  
+  link: "../Ursinus-WebMobile-REST"  
 - week: "2"
   date: "0"
   title: "RESTful Web Services, Body Parameters, and Headers" 
@@ -266,7 +248,7 @@ schedule:
 - week: "3"
   date: "0"
   title: "SAML and OAuth"
-  link: "./Ursinus-WebMobile-REST"  
+  link: "../Ursinus-WebMobile-OAuth"  
   readings:
   - rtitle: "OAuth 2.0 Simplified"
     rlink: "https://aaronparecki.com/oauth-2-simplified/#roles" 
