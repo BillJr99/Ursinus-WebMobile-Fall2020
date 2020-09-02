@@ -41,6 +41,68 @@ info:
         - What do the curly braces represent?
         - What does the square bracket represent?
         - Modify the program above to access this RESTful endpoint and, in a loop, print out each day's date (using <code>validt</code>) and temperature. An example <code>for</code> loop in <a href=\"https://www.w3schools.com/js/js_json_arrays.asp\">JavaScript</a> is given above.
+    - model: |
+        <code>
+        {
+            "response": {
+                "version": "0.1",
+                "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+                "features": {
+                    "conditions": 1
+                }
+            },
+            "current_observation": {
+                "image": {
+                    "url": "http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+                    "title": "Weather Underground",
+                    "link": "http://www.wunderground.com"
+                },
+                "display_location": {
+                    "city": "Philadelphia",
+                    "state": "PA",
+                    "zip": "19104",
+                    "latitude": "39.96150970",
+                    "longitude": "-75.19716644",
+                    "elevation": "41.00000000"
+                },
+                "observation_location": {
+                    "full": "University City - West Philadelphia, Philadelphia, Pennsylvania",
+                    "city": "University City - West Philadelphia, Philadelphia",
+                    "state": "Pennsylvania",
+                    "latitude": "39.950554",
+                    "longitude": "-75.211868",
+                    "elevation": "70 ft"
+                },
+              "temp_f": 76.5,      
+            }
+        }
+        </code>
+      title: A Sample JSON Response
+      questions:
+        - "What is the path to <code>longitude</code>?"
+        - "What is the path to <code>temp_f</code>?"
+    - model: |
+        <code>
+        "forecast": {
+            "txt_forecast": {
+                "date": "5:00 PM EDT",
+                "forecastday": [
+                    {
+                        "period": 0,
+                        "icon": "tstorms",
+                        "icon_url": "http://icons-ak.wxug.com/i/c/k/tstorms.gif",
+                        "title": "Sunday",
+                        "fcttext": "Mostly cloudy with thunderstorms and rain showers. High of 88F. Winds from the SSW at 5 to 15 mph. Chance of rain 30%.",
+                        "fcttext_metric": "Mostly cloudy with thunderstorms and rain showers. High of 31C. Breezy. Winds from the SSW at 10 to 20 km/h. Chance of rain 30%.",
+                        "pop": "30"
+                    }
+                 ]
+        }
+        </code>
+      title: A Sample JSON Array Response
+      questions:
+        - "What is the path to the first <code>fcttext</code> element?"
+        
 tags:
   - rest
   
