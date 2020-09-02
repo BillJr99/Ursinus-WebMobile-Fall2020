@@ -36,7 +36,7 @@ tags:
   
 ---
 
-In this lab, you will connect to a service using OAuth and obtain a key \[[^1\].  We will implement a proper online OAuth protocol, such that a node.js web service will receive the callback from the service provider to parse the token for the user.  We will use [Github](https://docs.github.com/en/rest) in this example, but you may substitute any service provider you choose (as long as it offers a 3-Legged OAuth option with a callback).
+In this lab, you will connect to a service using OAuth and obtain a key \[[^1]\].  We will implement a proper online OAuth protocol, such that a node.js web service will receive the callback from the service provider to parse the token for the user.  We will use [Github](https://docs.github.com/en/rest) in this example, but you may substitute any service provider you choose (as long as it offers a 3-Legged OAuth option with a callback).
 
 ## Part 1: Allowing the User to Log In
 
