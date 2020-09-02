@@ -129,7 +129,7 @@ textbooks:
 objectives:
 - objective: "Design a web-servces architecture that incorporates and generalizes a variety of stakeholder needs, exposed via a well-defined interface of data and functionality."
 - objective: "Implement a robust web-service software system server and client that is tolerant of variations in user input and adherent to defined output standards."
-- objective: "Implement an appropriate authentication model using standards such as SAML and OAUTH"
+- objective: "Implement an appropriate authentication model using standards such as SAML and OAuth"
 - objective: "To design and implement a web-based front-end software system that promotes accessibility and usability by a variety of stakeholders."
 
 goals:
@@ -254,7 +254,7 @@ schedule:
     rlink: "https://aaronparecki.com/oauth-2-simplified/#roles" 
 - week: "3"
   date: "1"
-  title: "OAuth"       
+  title: "OAuth"        
 - week: "3"
   date: "2"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
@@ -266,7 +266,10 @@ schedule:
   deliverables:
     - dtitle: "Lab: COVID plot.ly Generator Due"
       dlink: "./Labs/COVIDPlotlyBrowser"
-      points: 100       
+      points: 100 
+    - dtitle: "Lab: OAuth Handed Out"
+      dlink: "./Labs/OAuth"  
+      points: 100      
 - week: "4"
   date: "1"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
@@ -292,6 +295,9 @@ schedule:
   readings:
     - rtitle: "RESTful Web Services Chapters 5 and 6"  
   deliverables:
+    - dtitle: "Lab: OAuth Due"
+      dlink: "./Labs/OAuth"  
+      points: 100  
     - dtitle: "Lab: Food Bank Map Handed Out"
       dlink: "./Labs/FoodBankMap"
       points: 100     
