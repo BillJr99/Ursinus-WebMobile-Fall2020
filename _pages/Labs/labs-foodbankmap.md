@@ -172,31 +172,31 @@ Finally, let's implement the `showPosition` function, which takes a single param
 
 To obtain a Google API key on your account, first go to [https://console.cloud.google.com](https://console.cloud.google.com), and log into your Google account.  Select "Credentials" under the "APIs and Services" menu on the left.
 
-![GitHub Logo](../images/lab-foodbankmap/googleapiappkey.png)
+![Google API Key](../images/lab-foodbankmap/googleapiappkey.png)
 
 Select your project from the top (or create a new one if prompted), and click the "Create Credentials" button near the top middle of the page.  Select "API key" to create a new key.
 
-![GitHub Logo](../images/lab-foodbankmap/googlemapcreatecredentials.png)
+![Google API Credentials](../images/lab-foodbankmap/googlemapcreatecredentials.png)
 
 Fill out the form that appears and you will be given an API key.  Copy this down: it will go into your webpage above at the placeholder `YOUR_API_KEY_HERE`.
 
 Next, click the "Library" menu on the left, and search for the "Maps JavaScript API" service.  Click on it.
 
-![GitHub Logo](../images/lab-foodbankmap/googleapilibrary.png)
+![Google API Library of Services](../images/lab-foodbankmap/googleapilibrary.png)
 
 Click "Enable" to add it to your project and key.
 
-![GitHub Logo](../images/lab-foodbankmap/googleapienablemaps.png)
+![Enabling Maps Service](../images/lab-foodbankmap/googleapienablemaps.png)
 
 Under the Credentials menu on the left, click the "Edit" icon on your key to manage it.  We're going to add "restrictions" to your key so that others cannot use it.  This is especially important if you have enabled billing on your key (which we will not!).
 
-![GitHub Logo](../images/lab-foodbankmap/googleapimanagekey.png)
+![Managing the Key](../images/lab-foodbankmap/googleapimanagekey.png)
 
 I added an HTTP referrer restriction as shown below.  Specifically, I added my repl.it URL (seen on the repl.it browser page on the right side of your repl.it project), with a `/*` at the end, to show that all URL's under this domain are acceptable.  I added a second variant of the URL for external browser access, which you can see and replicate below.  Now, I can only use this key from my repl.it project web page.
 
 Additionally, I added an API restriction and selected "Google Maps API" so that the key can only be used for calls to the Google Maps API, and not to other Google services.
 
-![GitHub Logo](../images/lab-foodbankmap/googleapirestrictkey.png)
+![Adding Key Restrictions](../images/lab-foodbankmap/googleapirestrictkey.png)
 
 Try it out by copying the repl.it URL into a web browser and allowing location access.  You will get an error that says the map failed to load, and it will display "For development purposes only" as an overlay on the map, if you do not have billing set up for the Google API service.  This is perfectly acceptable, and there is no need to set up any billing accounts!
 
