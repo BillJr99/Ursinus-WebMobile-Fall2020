@@ -304,7 +304,10 @@ schedule:
       points: 100     
 - week: "5"
   date: "2"
-  title: "Creating Your Own Web Services with node.js"       
+  title: "Creating Your Own Web Services with node.js"
+  readings:
+    - rtitle: "Swagger for Service Documentation"
+      rlink: "https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563"
 - week: "6"
   date: "0"
   title: "Creating Your Own Web Services with node.js"   
@@ -342,7 +345,10 @@ schedule:
       points: 100    
     - dtitle: "Lab: GraphQL Due"
       dlink: "./Labs/GraphQL"
-      points: 100      
+      points: 100   
+    - dtitle: "Lab: Swagger Handed Out"
+      dlink: "./Labs/Swagger"
+      points: 100
 - week: "8"
   date: "0"
   title: "NoSQL"  
@@ -354,6 +360,10 @@ schedule:
   title: "Web Services with Data Stores"    
   readings:
     - rtitle: "RESTful Web Services Chapter 7"  
+  deliverables:
+    - dtitle: "Lab: Swagger Handed Out"
+      dlink: "./Labs/Swagger"
+      points: 100  
 - week: "9"
   date: "0"
   title: "Server-Side Authentication Models"  

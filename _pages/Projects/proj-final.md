@@ -36,7 +36,7 @@ info:
       preemerging: Code commenting and structure are absent, or code structure departs significantly from best practice, and/or the code departs significantly from the style guide
       beginning: Code commenting and structure is limited in ways that reduce the readability of the program, and/or there are minor departures from the style guide
       progressing: Code documentation is present that re-states the explicit code definitions, and/or code is written that mostly adheres to the style guide
-      proficient: Code is documented at non-trivial points in a manner that enhances the readability of the program, and code is written according to the style guide
+      proficient: Code is documented using Swagger at non-trivial points in a manner that enhances the readability of the program, and code is written according to the style guide
     - weight: 10
       description: Presentation
       preemerging: No presentation was provided, the presentation could not be viewed, or the presentation was not on the subject of the final project
