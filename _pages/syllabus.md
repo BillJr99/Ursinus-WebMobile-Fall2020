@@ -320,6 +320,7 @@ schedule:
 - week: "6"
   date: "2"
   title: "CORS"  
+  link: "./Activities/CORS"
   deliverables:
     - dtitle: "Participation: First Notebook Check"
       points: 10  
@@ -393,11 +394,18 @@ schedule:
 - week: "10"
   date: "2"
   title: "CSS"  
+  readings:
+    - rtitle: "RESTful Web Services Chapter 11"   
 - week: "11"
   date: "0"
-  title: "jQuery"  
+  title: "Accessibility" 
   readings:
-    - rtitle: "RESTful Web Services Chapter 11"  
+    - rtitle: "Web Accessibility Principles"
+      rlink: "https://www.w3.org/WAI/fundamentals/accessibility-principles/"
+    - rtitle: "Web Accessibility Reference"
+      rlink: "https://www.w3.org/WAI/WCAG21/quickref/"
+    - rtitle: "WAVE Accessibility Plugin"
+      rlink: "https://wave.webaim.org/extension/"    
 - week: "12"
   date: "0"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
