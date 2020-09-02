@@ -236,7 +236,8 @@ schedule:
       rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002"
 - week: "1"
   date: "2"
-  title: "RESTful Web Services, Body Parameters, and Headers"  
+  title: "RESTful Web Services, Body Parameters, and Headers" 
+  link: "./Ursinus-WebMobile-REST"  
 - week: "2"
   date: "0"
   title: "RESTful Web Services, Body Parameters, and Headers" 
@@ -265,6 +266,7 @@ schedule:
 - week: "3"
   date: "0"
   title: "SAML and OAuth"
+  link: "./Ursinus-WebMobile-REST"  
   readings:
   - rtitle: "OAuth 2.0 Simplified"
     rlink: "https://aaronparecki.com/oauth-2-simplified/#roles" 
