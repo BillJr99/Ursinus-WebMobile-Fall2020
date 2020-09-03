@@ -137,13 +137,13 @@ goals:
 
 grade_breakdown:
 - category: "Programming Assignments"
-  weight: "50%"
+  weight: "35%"
 - category: "Labs"
-  weight: "25%"
+  weight: "35%"
 - category: "Final Project"
   weight: "20%"
 - category: "Class Participation"
-  weight: "5%"
+  weight: "10%"
 
 letter_grades:
 - letter: "A+"
