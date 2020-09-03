@@ -30,3 +30,6 @@ tags:
   
 ---
 
+## Did You Know?
+
+I used this tool on these course webpages, and found multiple areas of improvement that I've since developed.  This has been a very useful tool for me, and this is why I wanted to take time to share it with you as well.  Plan to use it everywhere you create web materials.  These principles apply to many visual media, like presentations, as well!
