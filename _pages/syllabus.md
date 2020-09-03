@@ -403,6 +403,8 @@ schedule:
   readings:
     - rtitle: "HTML5 Reference Guide"
       rlink: "https://books.goalkicker.com/HTML5Book/HTML5NotesForProfessionals.pdf"
+    - rtitle: "HTML5 Tutorial"
+      rlink: "https://www.w3schools.com/html/default.asp"
   deliverables:
   - dtitle: "Final Project: Interface Design Handed Out"
     dlink: "./Projects/Final"
@@ -412,9 +414,12 @@ schedule:
   title: "CSS"  
   readings:
     - rtitle: "RESTful Web Services Chapter 11"       
+    - rtitle: "CSS Tutorial"
+      rlink: "https://www.w3schools.com/css/"
 - week: "10"
   date: "2"
   title: "Accessibility" 
+  link: "./Activities/Accessibility"
   readings:
     - rtitle: "Web Accessibility Principles"
       rlink: "https://www.w3.org/WAI/fundamentals/accessibility-principles/"
@@ -425,7 +430,10 @@ schedule:
   deliverables:
     - dtitle: "Programming Assignment: NoSQL Due"
       dlink: "./Assignments/NoSQL"
-      points: 100    
+      points: 100 
+    - dtitle: "Lab: Accessibility Handed Out"
+      dlink: "./Labs/Accessibility"
+      points: 100
 - week: "11"
   date: "0"
   title: "Mobile Application Development"         
@@ -440,13 +448,15 @@ schedule:
   date: "2"
   title: "Caches"
   deliverables:
-  deliverables:
-  - dtitle: "Final Project: Interface Design Due"
-    dlink: "./Projects/Final"
-    points: 25     
-  - dtitle: "Final Project: Project and Presentation Handed Out"
-    dlink: "./Projects/Final"
-    points: 75    
+    - dtitle: "Lab: Accessibility Due"
+      dlink: "./Labs/Accessibility"
+      points: 100  
+    - dtitle: "Final Project: Interface Design Due"
+      dlink: "./Projects/Final"
+      points: 25     
+    - dtitle: "Final Project: Project and Presentation Handed Out"
+      dlink: "./Projects/Final"
+      points: 75    
 - week: "13"
   date: "0"
   title: "Data Services at Scale"  

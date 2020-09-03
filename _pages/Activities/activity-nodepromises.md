@@ -19,7 +19,8 @@ info:
         - "In the second example, why is there a <code>return</code> statement in the middle of execution?  This statement does not return from the function: what do you think it does?"
         - "What are the advantages and disadvantages of the <code>await</code> statements in the third example?"
 tags:
-  - ssl
+  - node
+  - async
   
 ---
 
