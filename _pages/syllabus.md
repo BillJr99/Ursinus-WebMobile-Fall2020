@@ -380,10 +380,12 @@ schedule:
   link: "../Ursinus-WebMobile-ServerSideAuth"
 - week: "9"
   date: "1"
-  title: "Digital Certificates through Public Key Cryptosystems"    
+  title: "Digital Certificates through Public Key Cryptosystems" 
+  link: "./Activities/DigitalSignatures"  
 - week: "9"
   date: "2"
   title: "Secure Sockets Layer (SSL)"    
+  link: "./Activities/SSL"
   deliverables:
     - dtitle: "Programming Assignment: Databases Due"
       dlink: "./Assignments/Databases"

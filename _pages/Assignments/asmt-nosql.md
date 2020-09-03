@@ -47,6 +47,7 @@ To do a lookup using the `MongoClient` library, you can do the following in node
 
 ```javascript
   // https://www.w3schools.com/nodejs/nodejs_mongodb_join.asp
+  var dbo = db.db('mycollection')
   dbo.collection('People').aggregate([
     { $lookup:
        {
@@ -58,7 +59,6 @@ To do a lookup using the `MongoClient` library, you can do the following in node
      }
     ]).toArray(function(err, result) {
         if (err) throw err;
-
         db.close();
   });
 ```
