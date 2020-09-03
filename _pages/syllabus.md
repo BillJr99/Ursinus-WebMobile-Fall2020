@@ -462,16 +462,27 @@ schedule:
   title: "Data Services at Scale"  
 - week: "13"
   date: "1"
-  title: "Open-Source Software Development"  
+  title: "Open-Source Software Development" 
+  link: "https://cse.buffalo.edu/~kershner/CSE111WebSite/Spring%202009/Lectures/OpenSource.09.ppt"  
+  readings:
+    - rtitle: "HFOSS - Humanitarian Free Open Source Software"
+      rlink: "http://www.hfoss.org/"
   deliverables:
     - dtitle: "Participation: Second Notebook Check"
-      points: 10    
+      points: 10  
+    - dtitle: "Lab: Pull Requests Handed Out"
+      dlink: "./Labs/PullRequests"    
+      points: 100
 - week: "13"
   date: "2"
   title: "Final Project Workshopping"
 - week: "13"
   date: "3"
-  title: "Workshopping"  
+  title: "Workshopping"
+  deliverables:
+    - dtitle: "Lab: Pull Requests Due"
+      dlink: "./Labs/PullRequests"    
+      points: 100  
 - week: "14"
   date: "0"
   title: "Workshopping"
