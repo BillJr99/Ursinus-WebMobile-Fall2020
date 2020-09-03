@@ -447,6 +447,7 @@ schedule:
 - week: "12"
   date: "2"
   title: "Caches"
+  link: "./Activities/Cache"
   deliverables:
     - dtitle: "Lab: Accessibility Due"
       dlink: "./Labs/Accessibility"
