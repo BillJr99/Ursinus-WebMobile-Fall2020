@@ -358,6 +358,10 @@ schedule:
   date: "0"
   title: "NoSQL"  
   link: "./Activities/NoSQL"
+  deliverables:
+    - dtitle: "Programming Assignment: Databases Handed Out"
+      dlink: "./Assignments/Databases"
+      points: 100
 - week: "8"
   date: "1"
   title: "NoSQL"   
@@ -380,6 +384,13 @@ schedule:
 - week: "9"
   date: "2"
   title: "Secure Sockets Layer (SSL)"    
+  deliverables:
+    - dtitle: "Programming Assignment: Databases Due"
+      dlink: "./Assignments/Databases"
+      points: 100  
+    - dtitle: "Programming Assignment: NoSQL Handed Out"
+      dlink: "./Assignments/NoSQL"
+      points: 100        
 - week: "10"
   date: "0"
   title: "Mobile Application Development"    
@@ -407,7 +418,11 @@ schedule:
     - rtitle: "Web Accessibility Reference"
       rlink: "https://www.w3.org/WAI/WCAG21/quickref/"
     - rtitle: "WAVE Accessibility Plugin"
-      rlink: "https://wave.webaim.org/extension/"    
+      rlink: "https://wave.webaim.org/extension/" 
+  deliverables:
+    - dtitle: "Programming Assignment: NoSQL Due"
+      dlink: "./Assignments/NoSQL"
+      points: 100    
 - week: "12"
   date: "0"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  

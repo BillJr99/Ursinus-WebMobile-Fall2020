@@ -13,6 +13,7 @@ info:
   models:
     - model: |
           <div>
+            <strong>People</strong><br />
             <table>
             <thead>
               <tr>
@@ -46,7 +47,7 @@ info:
         - Draw a flow chart of the function calls in the program above.
     - model: |
           <div>
-            People<br />
+            <strong>People</strong><br />
             <table>
             <thead>
               <tr>
@@ -74,7 +75,7 @@ info:
             </tbody>
             </table>      
             <br />
-            Courses<br />
+            <strong>Courses</strong><br />
             <table>
             <thead>
               <tr>
@@ -102,7 +103,7 @@ info:
             </tbody>
             </table>
             <br />
-            Enrollments<br />
+            <strong>Enrollments</strong><br />
             <table>
             <thead>
               <tr>
@@ -139,7 +140,7 @@ info:
           <div align="left">
           <pre>
           <code>
-          SELECT \* FROM Enrollments 
+          SELECT * FROM Enrollments 
             INNER JOIN Courses ON Enrollments.CourseID = Courses.CourseID
             INNER JOIN People ON Enrollments.PersonID = People.PersonID;
           </code>
