@@ -334,6 +334,7 @@ schedule:
 - week: "7"
   date: "0"
   title: "Databases"
+  link: "./Activities/Databases"
   readings:
     - rtitle: "SQL Reference Guide"
       rlink: "https://books.goalkicker.com/SQLBook/SQLNotesForProfessionals.pdf"    
@@ -356,6 +357,7 @@ schedule:
 - week: "8"
   date: "0"
   title: "NoSQL"  
+  link: "./Activities/NoSQL"
 - week: "8"
   date: "1"
   title: "NoSQL"   
