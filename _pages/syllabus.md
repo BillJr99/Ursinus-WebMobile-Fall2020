@@ -233,9 +233,12 @@ schedule:
 - week: "2"
   date: "1"
   title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises" 
+  link: "./Activities/NodePromises"
   readings:
     - rtitle: "node.js Reference Guide"
       rlink: "https://books.goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf"
+    - rtitle: "node.js Tutorial"
+      rlink: "https://www.w3schools.com/nodejs/"
   deliverables:
     - dtitle: "Lab: COVID plot.ly Generator Handed Out"
       dlink: "./Labs/COVIDPlotlyBrowser"
