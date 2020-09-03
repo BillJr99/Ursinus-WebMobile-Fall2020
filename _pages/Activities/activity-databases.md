@@ -139,7 +139,7 @@ info:
       <div align="left">
       <pre>
       <code>
-      SELECT * FROM Enrollments 
+      SELECT \* FROM Enrollments 
         INNER JOIN Courses ON Enrollments.CourseID = Courses.CourseID
         INNER JOIN People ON Enrollments.PersonID = People.PersonID;
       </code>
