@@ -395,9 +395,6 @@ schedule:
       points: 100        
 - week: "10"
   date: "0"
-  title: "Mobile Application Development"    
-- week: "10"
-  date: "1"
   title: "HTML5 and Front End and Mobile Development"  
   readings:
     - rtitle: "HTML5 Reference Guide"
@@ -407,12 +404,12 @@ schedule:
     dlink: "./Projects/Final"
     points: 25       
 - week: "10"
-  date: "2"
+  date: "1"
   title: "CSS"  
   readings:
-    - rtitle: "RESTful Web Services Chapter 11"   
-- week: "11"
-  date: "0"
+    - rtitle: "RESTful Web Services Chapter 11"       
+- week: "10"
+  date: "2"
   title: "Accessibility" 
   readings:
     - rtitle: "Web Accessibility Principles"
@@ -425,6 +422,9 @@ schedule:
     - dtitle: "Programming Assignment: NoSQL Due"
       dlink: "./Assignments/NoSQL"
       points: 100    
+- week: "11"
+  date: "0"
+  title: "Mobile Application Development"         
 - week: "12"
   date: "0"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
