@@ -281,6 +281,7 @@ schedule:
 - week: "4"
   date: "2"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
+  link: "./Activities/PWA"
   deliverables:
     - dtitle: "Programming Assignment: Service Clients Due"
       dlink: "./Assignments/ServiceClient"
