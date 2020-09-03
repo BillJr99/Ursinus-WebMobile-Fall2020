@@ -425,6 +425,7 @@ schedule:
 - week: "11"
   date: "0"
   title: "Mobile Application Development"         
+  link: "./Activities/MobileDev"
 - week: "12"
   date: "0"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
