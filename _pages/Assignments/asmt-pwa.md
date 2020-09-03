@@ -1,18 +1,18 @@
 ---
 layout: assignment
-permalink: /Assignments/Service
-title: "CS471: Web and Mobile Development - RESTful Services"
-excerpt: "CS471: Web and Mobile Development - RESTful Services"
+permalink: /Assignments/PWA
+title: "CS471: Web and Mobile Development - PWA"
+excerpt: "CS471: Web and Mobile Development - PWA"
 
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: https://classroom.github.com/a/8DnXHFfM
+    clonelink: https://classroom.github.com/a/P7BL-rBc
   points: 100
   goals:
-    - To implement a web service in node.js using express and mongoose
+    - To implement a Progressive Web App (PWA)
   rubric:
-    - weight: 40
+    - weight: 60
       description: Algorithm Implementation
       preemerging: The algorithm fails on the test inputs due to major issues, or the program fails to compile and/or run
       beginning: The algorithm fails on the test inputs due to one or more minor issues
@@ -24,12 +24,6 @@ info:
       beginning: Code commenting and structure is limited in ways that reduce the readability of the program, and/or there are minor departures from the style guide
       progressing: Code documentation is present that re-states the explicit code definitions, and/or code is written that mostly adheres to the style guide
       proficient: Code is documented at non-trivial points in a manner that enhances the readability of the program, and code is written according to the style guide
-    - weight: 20
-      description: Service Endpoint Interface Design
-      preemerging: Improper service endpoints are given, or use verbs instead of a CRUD model
-      beginning: An arbitrary mapping of service endpoints is given to HTTP verbs (for example, only GET or POST verbs are used)
-      progressing: Some service endpoints are ambiguous or improperly mapped
-      proficient: Service endpoints are thoroughly defined for the application chosen, with CRUD endpoints that represent nouns that are appropriately mapped to HTTP verbs
     - weight: 10
       description: Writeup and Submission
       preemerging: An incomplete submission is provided
@@ -38,24 +32,20 @@ info:
       proficient: The program is submitted according to the directions, including a readme writeup describing the solution, and thoughtful answers to the bolded questions throughout
   
 tags:
-  - restservice
+  - pwa
   
 ---
 
-In this assignment, you will design a RESTful service interface and implement it using node.js.  You will test your service with a client that you will implement in node.js or in a web browser using JavaScript.
+In this assignment, you will create a Progressive Web App (PWA) using the model discussed in class.
 
-## Part 1: Stakeholder-Based Design
+## Part 1: PWA
+You may choose the topic of your PWA listing, but I suggest developing a client that utilizes a backend service that you've already created.  The requirements are that the PWA must:
 
-Choose a partner with whom you will discuss your model interface.  Your RESTful endpoints and data types should be well-established here.  Please document the results of this discussion and your overall design in your README.  I should be able to deploy and use your service by just reading your design document in the README.
+* Intercept its fetch calls with a `serviceWorker` and provide a cache
+* Call a web service to dynamically obtain data
+* Present that data using a card-style PWA
+* Link to something or provide a functional front-end to facilitate interaction with each card
 
-Prior to proceeding, notify the instructor of the general service that you plan to implement, and the design and interface you plan to utilize.
-
-## Part 2: Service Implementation
-Craete your model, routes, and `express` service in node.js, according to the design you determined with your partner.
-
-## Part 3: Service Client
-Develop a service client in node.js or a browser webpage to invoke each operation of your service.
-
-## Part 4: Presentation
+## Part 2: Presentation
 
 Make a [Screencast](https://screencast-o-matic.com/) in which you demonstrate your program, and also review your codebase.  Imagine you are explaining how to use these API's to a new web service developer.  Give them a thorough tour!  I hope to solicit volunteers to demo their programs to the class!

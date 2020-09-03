@@ -7,7 +7,7 @@ excerpt: "Web and Mobile Development: GraphQL"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/AV8Ieo_D
   points: 100
   goals:
     - To implement a service interface contract with GraphQL

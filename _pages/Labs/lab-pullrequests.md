@@ -7,7 +7,7 @@ excerpt: "Web and Mobile Development: Pull Requests"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/dQ0D_V7_
   points: 100
   goals:
     - To use pull requests to contribute to open source projects on GitHub

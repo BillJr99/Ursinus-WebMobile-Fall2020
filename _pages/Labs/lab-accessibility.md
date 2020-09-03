@@ -7,7 +7,7 @@ excerpt: "Web and Mobile Development: Web Accessibility"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/SwDpHYq1
   points: 100
   goals:
     - To invoke a RESTful web service using node.js

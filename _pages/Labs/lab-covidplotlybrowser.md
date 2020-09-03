@@ -7,7 +7,7 @@ excerpt: "Web and Mobile Development: COVID Plot.ly Browser Client"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/ZLKU7ftG
   points: 100
   goals:
     - To invoke a RESTful web service using the web browser

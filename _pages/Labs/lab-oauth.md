@@ -7,7 +7,7 @@ excerpt: "Web and Mobile Development: OAuth Receiver"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/epgvwhOa
   points: 100
   goals:
     - To implement the OAuth protocol with a node.js receiver

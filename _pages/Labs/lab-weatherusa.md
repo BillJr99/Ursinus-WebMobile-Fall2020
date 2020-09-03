@@ -7,7 +7,7 @@ excerpt: "Web and Mobile Development: WeatherUSA Client"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/En0_7Wun
   points: 100
   goals:
     - To invoke a RESTful web service using node.js

@@ -7,7 +7,7 @@ excerpt: "Web and Mobile Development - Final Project"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/g/mP1CDFqH
   points: 100
   goals:
     - To demonstrate the fundamental concepts of programming in a unified project

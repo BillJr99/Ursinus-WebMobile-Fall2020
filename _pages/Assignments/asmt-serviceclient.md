@@ -7,7 +7,7 @@ excerpt: "CS471: Web and Mobile Development - Service Clients"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/Zg7pvINg
   points: 100
   goals:
     - To implement a web service client in node.js

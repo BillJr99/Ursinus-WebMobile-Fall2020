@@ -7,7 +7,7 @@ excerpt: "Web and Mobile Development: Swagger"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/OgaLKaBL
   points: 100
   goals:
     - To document web services in node.js using Swagger

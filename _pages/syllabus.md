@@ -459,6 +459,10 @@ schedule:
 - week: "12"
   date: "0"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
+  deliverables:
+    - dtitle: "Programming Assignment: PWA Handed Out"
+      dlink: "./Assignments/PWA"
+      points: 100
 - week: "12"
   date: "1"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
@@ -495,6 +499,10 @@ schedule:
 - week: "13"
   date: "2"
   title: "Final Project Workshopping"
+  deliverables:
+    - dtitle: "Programming Assignment: PWA Due"
+      dlink: "./Assignments/PWA"
+      points: 100  
 - week: "13"
   date: "3"
   title: "Workshopping"

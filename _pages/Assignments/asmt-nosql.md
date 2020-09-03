@@ -7,7 +7,7 @@ excerpt: "CS471: Web and Mobile Development - NoSQL"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/I_WAcaGC
   points: 100
   goals:
     - To implement a NoSQL database in node.js using MongoDB

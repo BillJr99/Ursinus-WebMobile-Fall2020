@@ -7,7 +7,7 @@ excerpt: "CS471: Web and Mobile Development - Food Bank Map RESTful Service"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/2v9HyXs8
   points: 100
   goals:
     - To implement a web service in node.js using express and mongoose

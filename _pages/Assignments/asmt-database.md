@@ -7,7 +7,7 @@ excerpt: "CS471: Web and Mobile Development - Databases"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: https://classroom.github.com/a/aGs6TRqf
   points: 100
   goals:
     - To implement a relational database in node.js
