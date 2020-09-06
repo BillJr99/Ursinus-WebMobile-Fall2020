@@ -51,7 +51,7 @@ You can access the Ursinus network remotely by using a Virtual Private Network (
 
 ## Syllabus (5pts)
 
-Please take a moment to familiarize yourself with [the course syllabus]({{ site.baseurl }}). Then, **please send me a third and final message on [{{ page.info.chatname }}]({{ page.info.chatlink }}) with the answers to the following questions**
+Please take a moment to familiarize yourself with [the course syllabus]({{ site.baseurl }}). Then, **please send me a second message on [{{ page.info.chatname }}]({{ page.info.chatlink }}) with the answers to the following questions**
 
 1.  True/False: If you choose to work with a buddy, you are allowed to look at your buddy's code and show them your code during labs
 2.  True/False: If you choose to work with a buddy, you are allowed to look at your buddy's code and show them your code for regular assignments.
