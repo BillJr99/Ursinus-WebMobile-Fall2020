@@ -18,7 +18,7 @@ info:
   course_start_date: "2020/09/07"
   course_end_date: "2020/12/15"
   course_description: "This course explores web service architectures through the lens of ubiquitous computing sensors and mobile devices.  Authentication models such as SAML and OAUTH will be used to integrate well-known web service interfaces.  Students will be able to expose services as well-defined GraphQL or RESTful service endpoints, and be able to utilize the endpoints of existing services.  Students will collaboratively propose, develop, and present projects with defined broader impacts."
-  welcome_message: "Welcome to CS471!  In this course, we will explore the ubiquitous nature of web services for communications and data exchange, and techniques to harnass this ubiquitous data source to improve the world around us."
+  welcome_message: "Welcome to CS471!  In this course, we will explore the ubiquitous nature of web services for communications and data exchange, and techniques to harness this ubiquitous data source to improve the world around us."
   banner: |
     <div style="width: 100%; display: table; border-collapse:separate; border-spacing:5px;">
     <div style="width: 100%; display: table-row;">
