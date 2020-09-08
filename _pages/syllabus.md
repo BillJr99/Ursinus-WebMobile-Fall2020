@@ -199,21 +199,21 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: Warmup Handed Out"
     dlink: "Assignments/Warmup"
-    points: 15
+    points: 15  
 - week: "0"
   date: "1"
+  title: "Anatomy of an HTTP Request with Wireshark"
+  link: "/Ursinus-WebMobile-HTTP"
+- week: "0"
+  date: "2"
   title: "Course Tools and Version Control"
   readings:
   - rtitle: "Getting Started with Git and Github"
-    rlink: "Modules/Github/Module"   
-- week: "0"
-  date: "2"
-  title: "Anatomy of an HTTP Request with Wireshark"
-  link: "/Ursinus-WebMobile-HTTP"
+    rlink: "Modules/Github/Module" 
   deliverables:
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "Assignments/Warmup"
-    points: 15   
+    points: 15  	
 - week: "1"
   date: "0"
   title: "Anatomy of a RESTful Call: JSON and CRUD"  
