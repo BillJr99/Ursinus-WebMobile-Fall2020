@@ -206,10 +206,7 @@ schedule:
   link: "/Ursinus-WebMobile-HTTP"
 - week: "0"
   date: "2"
-  title: "Course Tools and Version Control"
-  readings:
-  - rtitle: "Getting Started with Git and Github"
-    rlink: "Modules/Github/Module" 
+  title: "Anatomy of an HTTP Request with Wireshark"
   deliverables:
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "Assignments/Warmup"
@@ -218,6 +215,9 @@ schedule:
   date: "0"
   title: "Anatomy of a RESTful Call: JSON and CRUD"  
   link: "./Activities/RESTfulCalls"
+  readings:
+  - rtitle: "Getting Started with Git and Github"
+    rlink: "Modules/Github/Module"   
   deliverables:
     - dtitle: "Lab: WeatherUSA Service Client Handed Out"
       dlink: "./Labs/WeatherUSA"
