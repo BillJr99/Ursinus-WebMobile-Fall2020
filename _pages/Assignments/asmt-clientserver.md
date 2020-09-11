@@ -7,7 +7,7 @@ excerpt: "CS471: Web and Mobile Development - Clients and Servers"
 info:
   coursenum: CS471
   githubclassroom:
-    clonelink: false
+    clonelink: "https://classroom.github.com/a/9dtX1zXH"
   points: 100
   goals:
     - To observe and implement an underlying communications protocol using HTTP
