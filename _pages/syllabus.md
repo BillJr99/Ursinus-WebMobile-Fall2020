@@ -219,7 +219,7 @@ schedule:
   - rtitle: "Getting Started with Git and Github"
     rlink: "Modules/Github/Module"   
   deliverables:
-    - dtitle: "Assignment: HTTP Client and Server Handed Out"
+    - dtitle: "Programming Assignment: HTTP Client and Server Handed Out"
       dlink: "./Assignments/ClientServer"
       points: 100
 - week: "1"
@@ -269,7 +269,7 @@ schedule:
   title: "The Peruvian Coin Flip"
   link: "./Activities/CoinFlip"
   deliverables:
-    - dtitle: "Assignment: HTTP Client and Server Due"
+    - dtitle: "Programming Assignment: HTTP Client and Server Due"
       dlink: "./Assignments/ClientServer"
       points: 100  
     - dtitle: "Programming Assignment: Service Clients Handed Out"
