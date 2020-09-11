@@ -219,13 +219,17 @@ schedule:
   - rtitle: "Getting Started with Git and Github"
     rlink: "Modules/Github/Module"   
   deliverables:
-    - dtitle: "Lab: WeatherUSA Service Client Handed Out"
-      dlink: "./Labs/WeatherUSA"
+    - dtitle: "Assignment: HTTP Client and Server Handed Out"
+      dlink: "./Assignments/ClientServer"
       points: 100
 - week: "1"
   date: "1"
   title: "Web Services"
   link: "./Activities/RESTfulService"
+  deliverables:
+    - dtitle: "Lab: WeatherUSA Service Client Handed Out"
+      dlink: "./Labs/WeatherUSA"
+      points: 100  
   readings:
     - rtitle: "RESTful Web Services Chapter 1"
     - rtitle: "Setting up MongoDB"
@@ -244,10 +248,6 @@ schedule:
 - week: "2"
   date: "0"
   title: "RESTful Web Services, Body Parameters, and Headers" 
-  deliverables:
-    - dtitle: "Lab: WeatherUSA Service Client Due"
-      dlink: "./Labs/WeatherUSA"
-      points: 100  
 - week: "2"
   date: "1"
   title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises" 
@@ -258,6 +258,9 @@ schedule:
     - rtitle: "node.js Tutorial"
       rlink: "https://www.w3schools.com/nodejs/"
   deliverables:
+    - dtitle: "Lab: WeatherUSA Service Client Due"
+      dlink: "./Labs/WeatherUSA"
+      points: 100        
     - dtitle: "Lab: COVID plot.ly Generator Handed Out"
       dlink: "./Labs/COVIDPlotlyBrowser"
       points: 100
@@ -266,6 +269,9 @@ schedule:
   title: "The Peruvian Coin Flip"
   link: "./Activities/CoinFlip"
   deliverables:
+    - dtitle: "Assignment: HTTP Client and Server Due"
+      dlink: "./Assignments/ClientServer"
+      points: 100  
     - dtitle: "Programming Assignment: Service Clients Handed Out"
       dlink: "./Assignments/ServiceClient"
       points: 100
