@@ -5,7 +5,7 @@ title: "CS471: Web and Mobile Development - Cloning an Assignment with Github Cl
 excerpt: "CS471: Web and Mobile Development - Cloning an Assignment with Github Classroom"
 
 info:
-  prev: "../Github/Module"
+  prev: "../Github/Module2"
   video: "https://www.youtube.com/embed/nQyvc5EW6WE"
   
 ---
