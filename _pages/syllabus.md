@@ -210,20 +210,23 @@ schedule:
   deliverables:
   - dtitle: "Programming Assignment: Warmup Due"
     dlink: "Assignments/Warmup"
-    points: 15  	
+    points: 15  
 - week: "1"
   date: "0"
-  title: "Anatomy of a RESTful Call: JSON and CRUD"  
-  link: "./Activities/RESTfulCalls"
+  title: "TCP Socket Programming in Python"  
   readings:
   - rtitle: "Getting Started with Git and Github"
     rlink: "Modules/Github/Module"   
   deliverables:
     - dtitle: "Programming Assignment: HTTP Client and Server Handed Out"
       dlink: "./Assignments/ClientServer"
-      points: 100
+      points: 100  
 - week: "1"
   date: "1"
+  title: "Anatomy of a RESTful Call: JSON and CRUD"  
+  link: "./Activities/RESTfulCalls"
+- week: "1"
+  date: "2"
   title: "Web Services"
   link: "./Activities/RESTfulService"
   deliverables:
@@ -233,10 +236,9 @@ schedule:
   readings:
     - rtitle: "RESTful Web Services Chapter 1"
     - rtitle: "Setting up MongoDB"
-      rlink: "https://dev.to/lennythedev/rest-api-with-mongodb-atlas-cloud-node-and-express-in-10-minutes-2ii1"
-- week: "1"
-  date: "2"
-  title: "RESTful Web Services, Body Parameters, and Headers" 
+      rlink: "https://dev.to/lennythedev/rest-api-with-mongodb-atlas-cloud-node-and-express-in-10-minutes-2ii1" 
+- week: "2"
+  date: "0"
   link: "../Ursinus-WebMobile-REST"  
   readings:
     - rtitle: "A Service-Based Software Engineering Portal Website"
@@ -244,10 +246,7 @@ schedule:
     - rtitle: "REportal"
       rlink: "https://www.cs.drexel.edu/~spiros/teaching/CS675/slides/reportalTechReport.pdf"
     - rtitle: "A Biomedical Monitoring Web Service for the Internet-of-Things"
-      rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002"  
-- week: "2"
-  date: "0"
-  title: "RESTful Web Services, Body Parameters, and Headers" 
+      rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002" 
 - week: "2"
   date: "1"
   title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises" 
