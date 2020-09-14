@@ -55,8 +55,11 @@ import socket
 def connect(host, port, url):
     conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # SOCK_STREAM is a TCP connection over AF_INET, which is IP: TCP/IP
     conn.connect((host, port))
-    conn.send("GET " + url + " HTTP/1.1\r\n")
-    conn.send("Host: " + host)
+    connstr = "GET " + url + " HTTP/1.1\r\n"
+    conn.send(connstr.encode())
+    hoststr = "Host: " + host + "\r\n"
+    conn.send(hoststr.encode())
+    conn.send("\r\n".encode()) # blank line
 ```
 
 Then, read the entire result and display it on the screen.  To do this, you can read the result from the `conn` object as follows:
@@ -68,9 +71,9 @@ def read_response(conn):
         chunk = conn.recv(1024)
         if not chunk: 
             break
-        data += chunk
+        data += chunk.decode("utf-8")
         
-    return data.decode("utf-8")
+    return data
 ```
 
 Test your client by connecting to a known webserver and verify that you receive a response.  Print out each header and value via `data.split()`, which returns an array of lines of text in the response.  If `len(line.strip()) == 0`, you know you've reached a blank line.  Until then, you can split the line on the `:` character to separate the key from the value of each line of the header.  Print those separately, and then print the entire body when you have run out of header lines (in other words, after reaching the first blank line!).
@@ -94,7 +97,7 @@ def server(port):
             chunk = conn.recv(1024)
             if not chunk:
                 break
-            data += chunk
+            data += chunk.decode("utf-8")
             
         # Process the request here
 ```
