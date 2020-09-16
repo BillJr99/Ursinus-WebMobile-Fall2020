@@ -13,6 +13,7 @@ info:
     - model: |
         <iframe src="https://api.weatherusa.net/v1/forecast?q=40.1915,-75.4559&daily=0&units=e&maxtime=7d" width="100%"></iframe>
         <br>
+        <div align="left">
         <pre>
         <code>
         jsonobj.forEach(function(obj) {
@@ -20,6 +21,7 @@ info:
         });
         </code>
         </pre>
+        </div>
       title: JSON Objects
       questions:
         - "This JSON result was returned from a web request to <a href=\"https://api.weatherusa.net/v1/forecast?q=40.1915,-75.4559&daily=0&units=e&maxtime=7d\">https://api.weatherusa.net/v1/forecast?q=40.1915,-75.4559&daily=0&units=e&maxtime=7d</a>, which obtains the 7-day forecast at Ursinus College given the College's latitude and longitude GPS coordinates.  Use a <a href=\"https://jsonformatter.org/json-pretty-print\">JSON Pretty Printer</a> to better format the JSON for reading."
