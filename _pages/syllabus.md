@@ -239,6 +239,7 @@ schedule:
       rlink: "https://dev.to/lennythedev/rest-api-with-mongodb-atlas-cloud-node-and-express-in-10-minutes-2ii1" 
 - week: "2"
   date: "0"
+  title: "Introduction to REST"
   link: "../Ursinus-WebMobile-REST"  
   readings:
     - rtitle: "A Service-Based Software Engineering Portal Website"
