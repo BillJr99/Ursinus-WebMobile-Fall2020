@@ -239,6 +239,9 @@ schedule:
       rlink: "https://dev.to/lennythedev/rest-api-with-mongodb-atlas-cloud-node-and-express-in-10-minutes-2ii1" 
 - week: "2"
   date: "0"
+  title: "Web Services"
+- week: "2"
+  date: "1"
   title: "RESTful Web Services, Body Parameters, and Headers"
   link: "../Ursinus-WebMobile-REST"  
   readings:
@@ -249,7 +252,7 @@ schedule:
     - rtitle: "A Biomedical Monitoring Web Service for the Internet-of-Things"
       rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002" 
 - week: "2"
-  date: "1"
+  date: "2"
   title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises" 
   link: "./Activities/NodePromises"
   readings:
@@ -264,8 +267,8 @@ schedule:
     - dtitle: "Lab: COVID plot.ly Generator Handed Out"
       dlink: "./Labs/COVIDPlotlyBrowser"
       points: 100
-- week: "2"
-  date: "2"
+- week: "3"
+  date: "0"
   title: "The Peruvian Coin Flip"
   link: "./Activities/CoinFlip"
   deliverables:
@@ -276,23 +279,20 @@ schedule:
       dlink: "./Assignments/ServiceClient"
       points: 100
 - week: "3"
-  date: "0"
+  date: "1"
   title: "SAML and OAuth"
   link: "../Ursinus-WebMobile-OAuth"  
   readings:
   - rtitle: "OAuth 2.0 Simplified"
     rlink: "https://aaronparecki.com/oauth-2-simplified/#roles" 
 - week: "3"
-  date: "1"
-  title: "OAuth"        
-- week: "3"
   date: "2"
-  title: "Interacting with Existing Services through Web Service Clients with node.js"
-  readings:
-    - rtitle: "RESTful Web Services Chapter 2"   
+  title: "OAuth"        
 - week: "4"
   date: "0"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
+  readings:
+    - rtitle: "RESTful Web Services Chapter 2"   
   deliverables:
     - dtitle: "Lab: COVID plot.ly Generator Due"
       dlink: "./Labs/COVIDPlotlyBrowser"
