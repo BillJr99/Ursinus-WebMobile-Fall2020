@@ -287,19 +287,19 @@ schedule:
     rlink: "https://aaronparecki.com/oauth-2-simplified/#roles" 
 - week: "3"
   date: "2"
-  title: "OAuth"        
-- week: "4"
-  date: "0"
-  title: "Interacting with Existing Services through Web Service Clients with node.js"
-  readings:
-    - rtitle: "RESTful Web Services Chapter 2"   
+  title: "OAuth"   
   deliverables:
     - dtitle: "Lab: COVID plot.ly Generator Due"
       dlink: "./Labs/COVIDPlotlyBrowser"
       points: 100 
     - dtitle: "Lab: OAuth Handed Out"
       dlink: "./Labs/OAuth"  
-      points: 100      
+      points: 100     
+- week: "4"
+  date: "0"
+  title: "Interacting with Existing Services through Web Service Clients with node.js"
+  readings:
+    - rtitle: "RESTful Web Services Chapter 2"      
 - week: "4"
   date: "1"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
