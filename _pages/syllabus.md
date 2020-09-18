@@ -251,6 +251,13 @@ schedule:
       rlink: "https://www.cs.drexel.edu/~spiros/teaching/CS675/slides/reportalTechReport.pdf"
     - rtitle: "A Biomedical Monitoring Web Service for the Internet-of-Things"
       rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002" 
+  deliverables:
+    - dtitle: "Lab: WeatherUSA Service Client Due"
+      dlink: "./Labs/WeatherUSA"
+      points: 100        
+    - dtitle: "Lab: COVID plot.ly Generator Handed Out"
+      dlink: "./Labs/COVIDPlotlyBrowser"
+      points: 100
 - week: "2"
   date: "2"
   title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises" 
@@ -260,13 +267,6 @@ schedule:
       rlink: "https://books.goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf"
     - rtitle: "node.js Tutorial"
       rlink: "https://www.w3schools.com/nodejs/"
-  deliverables:
-    - dtitle: "Lab: WeatherUSA Service Client Due"
-      dlink: "./Labs/WeatherUSA"
-      points: 100        
-    - dtitle: "Lab: COVID plot.ly Generator Handed Out"
-      dlink: "./Labs/COVIDPlotlyBrowser"
-      points: 100
 - week: "3"
   date: "0"
   title: "The Peruvian Coin Flip"
@@ -287,19 +287,19 @@ schedule:
     rlink: "https://aaronparecki.com/oauth-2-simplified/#roles" 
 - week: "3"
   date: "2"
-  title: "OAuth"   
+  title: "OAuth"        
+- week: "4"
+  date: "0"
+  title: "Interacting with Existing Services through Web Service Clients with node.js"
+  readings:
+    - rtitle: "RESTful Web Services Chapter 2"   
   deliverables:
     - dtitle: "Lab: COVID plot.ly Generator Due"
       dlink: "./Labs/COVIDPlotlyBrowser"
       points: 100 
     - dtitle: "Lab: OAuth Handed Out"
       dlink: "./Labs/OAuth"  
-      points: 100     
-- week: "4"
-  date: "0"
-  title: "Interacting with Existing Services through Web Service Clients with node.js"
-  readings:
-    - rtitle: "RESTful Web Services Chapter 2"      
+      points: 100      
 - week: "4"
   date: "1"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
