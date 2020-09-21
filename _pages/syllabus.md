@@ -237,6 +237,8 @@ schedule:
     - rtitle: "RESTful Web Services Chapter 1"
     - rtitle: "Setting up MongoDB"
       rlink: "https://dev.to/lennythedev/rest-api-with-mongodb-atlas-cloud-node-and-express-in-10-minutes-2ii1" 
+    - rtitle: "RESTful Services using MongoDB"
+      rlink: "./Modules/MongoDBService/Module"
 - week: "2"
   date: "0"
   title: "Web Services"
