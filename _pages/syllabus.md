@@ -242,6 +242,9 @@ schedule:
   title: "Web Services"
 - week: "2"
   date: "1"
+  title: "Web Services"
+- week: "2"
+  date: "2"
   title: "RESTful Web Services, Body Parameters, and Headers"
   link: "../Ursinus-WebMobile-REST"  
   readings:
@@ -258,8 +261,8 @@ schedule:
     - dtitle: "Lab: COVID plot.ly Generator Handed Out"
       dlink: "./Labs/COVIDPlotlyBrowser"
       points: 100
-- week: "2"
-  date: "2"
+- week: "3"
+  date: "0"
   title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises" 
   link: "./Activities/NodePromises"
   readings:
@@ -268,7 +271,7 @@ schedule:
     - rtitle: "node.js Tutorial"
       rlink: "https://www.w3schools.com/nodejs/"
 - week: "3"
-  date: "0"
+  date: "1"
   title: "The Peruvian Coin Flip"
   link: "./Activities/CoinFlip"
   deliverables:
@@ -279,15 +282,12 @@ schedule:
       dlink: "./Assignments/ServiceClient"
       points: 100
 - week: "3"
-  date: "1"
+  date: "2"
   title: "SAML and OAuth"
   link: "../Ursinus-WebMobile-OAuth"  
   readings:
   - rtitle: "OAuth 2.0 Simplified"
-    rlink: "https://aaronparecki.com/oauth-2-simplified/#roles" 
-- week: "3"
-  date: "2"
-  title: "OAuth"        
+    rlink: "https://aaronparecki.com/oauth-2-simplified/#roles"         
 - week: "4"
   date: "0"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
