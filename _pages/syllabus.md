@@ -13,6 +13,7 @@ info:
   course_homepage: "https://www.billmongan.com/Ursinus-WebMobile-Fall2020/"
   chatlink: https://groupme.com/join_group/60668962/X8z3mzM7
   class_notebook: https://ursinuscollege365-my.sharepoint.com/personal/wmongan_ursinus_edu/Documents/Class%20Notebooks/CS471%20Web%20and%20Mobile%20Fall%202020
+  teamshelproom: https://teams.microsoft.com/l/channel/19%3a6ddddb88493946fa956387e9543a3b06%40thread.tacv2/Mongan%2520Drop-In%2520Office%2520Hours?groupId=b16dcd6b-3522-4564-8306-9051a92c68ba&tenantId=921f1c03-8689-4e60-a722-f5ea581e00fe  
   ical: files/CS471.ics
   course_prerequisites: "CS174 Object Oriented Programming"
   course_start_date: "2020/09/07"
