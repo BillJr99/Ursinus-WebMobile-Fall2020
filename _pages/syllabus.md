@@ -256,17 +256,17 @@ schedule:
       rlink: "https://www.cs.drexel.edu/~spiros/teaching/CS675/slides/reportalTechReport.pdf"
     - rtitle: "A Biomedical Monitoring Web Service for the Internet-of-Things"
       rlink: "https://dl.acm.org/doi/pdf/10.1145/3054977.3055002" 
+- week: "3"
+  date: "0"
+  title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises" 
+  link: "./Activities/NodePromises"
   deliverables:
     - dtitle: "Lab: WeatherUSA Service Client Due"
       dlink: "./Labs/WeatherUSA"
       points: 100        
     - dtitle: "Lab: COVID plot.ly Generator Handed Out"
       dlink: "./Labs/COVIDPlotlyBrowser"
-      points: 100
-- week: "3"
-  date: "0"
-  title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises" 
-  link: "./Activities/NodePromises"
+      points: 100  
   readings:
     - rtitle: "node.js Reference Guide"
       rlink: "https://books.goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf"
@@ -294,19 +294,19 @@ schedule:
   date: "0"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
   readings:
-    - rtitle: "RESTful Web Services Chapter 2"   
+    - rtitle: "RESTful Web Services Chapter 2"      
+- week: "4"
+  date: "1"
+  title: "Interacting with Existing Services through Web Service Clients with node.js"
+  readings:
+    - rtitle: "RESTful Web Services Chapter 3-4"  
   deliverables:
     - dtitle: "Lab: COVID plot.ly Generator Due"
       dlink: "./Labs/COVIDPlotlyBrowser"
       points: 100 
     - dtitle: "Lab: OAuth Handed Out"
       dlink: "./Labs/OAuth"  
-      points: 100      
-- week: "4"
-  date: "1"
-  title: "Interacting with Existing Services through Web Service Clients with node.js"
-  readings:
-    - rtitle: "RESTful Web Services Chapter 3-4"     
+      points: 100       
 - week: "4"
   date: "2"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
