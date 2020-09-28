@@ -265,9 +265,6 @@ schedule:
     - dtitle: "Lab: WeatherUSA Service Client Due"
       dlink: "./Labs/WeatherUSA"
       points: 100        
-    - dtitle: "Lab: COVID plot.ly Generator Handed Out"
-      dlink: "./Labs/COVIDPlotlyBrowser"
-      points: 100  
   readings:
     - rtitle: "node.js Reference Guide"
       rlink: "https://books.goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf"
@@ -275,9 +272,11 @@ schedule:
       rlink: "https://www.w3schools.com/nodejs/"
 - week: "3"
   date: "1"
-  title: "The Peruvian Coin Flip"
-  link: "./Activities/CoinFlip"
+  title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises"
   deliverables:
+    - dtitle: "Lab: COVID plot.ly Generator Handed Out"
+      dlink: "./Labs/COVIDPlotlyBrowser"
+      points: 100    
     - dtitle: "Programming Assignment: HTTP Client and Server Due"
       dlink: "./Assignments/ClientServer"
       points: 100  
@@ -286,28 +285,20 @@ schedule:
       points: 100
 - week: "3"
   date: "2"
+  title: "The Peruvian Coin Flip"
+  link: "./Activities/CoinFlip"  
+- week: "4"
+  date: "0"
   title: "SAML and OAuth"
   link: "../Ursinus-WebMobile-OAuth"  
   readings:
   - rtitle: "OAuth 2.0 Simplified"
     rlink: "https://aaronparecki.com/oauth-2-simplified/#roles"         
 - week: "4"
-  date: "0"
-  title: "Interacting with Existing Services through Web Service Clients with node.js"
-  readings:
-    - rtitle: "RESTful Web Services Chapter 2"      
-- week: "4"
   date: "1"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
   readings:
-    - rtitle: "RESTful Web Services Chapter 3-4"  
-  deliverables:
-    - dtitle: "Lab: COVID plot.ly Generator Due"
-      dlink: "./Labs/COVIDPlotlyBrowser"
-      points: 100 
-    - dtitle: "Lab: OAuth Handed Out"
-      dlink: "./Labs/OAuth"  
-      points: 100       
+    - rtitle: "RESTful Web Services Chapter 2-4"       
 - week: "4"
   date: "2"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
@@ -316,6 +307,12 @@ schedule:
     - dtitle: "Programming Assignment: Service Clients Due"
       dlink: "./Assignments/ServiceClient"
       points: 100    
+    - dtitle: "Lab: COVID plot.ly Generator Due"
+      dlink: "./Labs/COVIDPlotlyBrowser"
+      points: 100 
+    - dtitle: "Lab: OAuth Handed Out"
+      dlink: "./Labs/OAuth"  
+      points: 100        
 - week: "5"
   date: "0"
   title: "Interface Contracts and GraphQL"
@@ -328,20 +325,20 @@ schedule:
   date: "1"
   title: "Creating Your Own Web Services with node.js"
   readings:
-    - rtitle: "RESTful Web Services Chapters 5 and 6"  
-  deliverables:
-    - dtitle: "Lab: OAuth Due"
-      dlink: "./Labs/OAuth"  
-      points: 100  
-    - dtitle: "Lab: Food Bank Map Handed Out"
-      dlink: "./Labs/FoodBankMap"
-      points: 100     
+    - rtitle: "RESTful Web Services Chapters 5 and 6"      
 - week: "5"
   date: "2"
   title: "Creating Your Own Web Services with node.js"
   readings:
     - rtitle: "Swagger for Service Documentation"
       rlink: "https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563"
+  deliverables:
+    - dtitle: "Lab: OAuth Due"
+      dlink: "./Labs/OAuth"  
+      points: 100  
+    - dtitle: "Lab: Food Bank Map Handed Out"
+      dlink: "./Labs/FoodBankMap"
+      points: 100       
 - week: "6"
   date: "0"
   title: "Creating Your Own Web Services with node.js"   
