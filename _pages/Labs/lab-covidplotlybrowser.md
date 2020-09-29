@@ -139,7 +139,7 @@ Finally, create a [Choropleth Graph](https://plotly.com/javascript/choropleth-ma
 
 In the previous step, you may have noticed that the example code can load a CSV file directly.  Modify that initial example to load [this CSV](https://api.covidtracking.com/v1/states/current.csv) to plot total cases by state.
 
-## Extra Credit (10%): Modify Step 3 for All States
+## Extra Credit (10 Points): Modify Step 3 for All States
 Create a dictionary of `xarr` and `yarr` arrays, with the state as the key.  Notice that the `data` variable in Step 3 is actually an array of `trace`s.  Append all count data to that appropriate state key array, and then create an array of `trace` dictionaries, which you will `push` to the `data` array.  You can comment out the `data = [trace];` line in Step 3, since you'll be creating it yourself.  Now, you'll have every state plotted together.  An example is provided below, along with a reference regarding using arrays and dictionary structures in JavaScript.
 
 ![Example COVID Plot with plot.ly](../images/lab-covidplotlybrowser/covid-plotly.png)
