@@ -301,11 +301,10 @@ schedule:
   readings:
     - rtitle: "RESTful Web Services Chapter 2-4" 
     - rtitle: "GitHub OAuh Login with Node.js"
-      rlink: "http://thecodebarbarian.com/github-oauth-login-with-node-js.html"    
+      rlink: "http://thecodebarbarian.com/github-oauth-login-with-node-js.html" 
 - week: "4"
   date: "2"
-  title: "Progressive Web Apps (PWA) for Cross Platform Development"  
-  link: "./Activities/PWA"
+  title: "Interacting with Existing Services through Web Service Clients with node.js"      
   deliverables:
     - dtitle: "Programming Assignment: Service Clients Due"
       dlink: "./Assignments/ServiceClient"
@@ -315,9 +314,13 @@ schedule:
       points: 100 
     - dtitle: "Lab: OAuth Handed Out"
       dlink: "./Labs/OAuth"  
-      points: 100        
+      points: 100   
 - week: "5"
   date: "0"
+  title: "Progressive Web Apps (PWA) for Cross Platform Development"  
+  link: "./Activities/PWA"       
+- week: "5"
+  date: "1"
   title: "Interface Contracts and GraphQL"
   link: "./Activities/GraphQL"
   deliverables:
@@ -325,14 +328,10 @@ schedule:
       dlink: "./Assignments/Service"
       points: 100
 - week: "5"
-  date: "1"
-  title: "Creating Your Own Web Services with node.js"
-  readings:
-    - rtitle: "RESTful Web Services Chapters 5 and 6"      
-- week: "5"
   date: "2"
   title: "Creating Your Own Web Services with node.js"
   readings:
+    - rtitle: "RESTful Web Services Chapters 5 and 6"      
     - rtitle: "Swagger for Service Documentation"
       rlink: "https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563"
   deliverables:
