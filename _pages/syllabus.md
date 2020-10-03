@@ -297,8 +297,11 @@ schedule:
 - week: "4"
   date: "1"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
+  link: "./Activities/ServiceClient"
   readings:
-    - rtitle: "RESTful Web Services Chapter 2-4"       
+    - rtitle: "RESTful Web Services Chapter 2-4" 
+    - rtitle: "GitHub OAuh Login with Node.js"
+      rlink: "http://thecodebarbarian.com/github-oauth-login-with-node-js.html"    
 - week: "4"
   date: "2"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
