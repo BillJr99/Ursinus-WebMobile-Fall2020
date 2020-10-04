@@ -117,7 +117,7 @@ for line in f:
 To send an HTTP response header `HTTP/1.1 200 OK` followed by a `Content-Length` header indicating the number of bytes in the file we read, followed by the file data itself, over a TCP connection, you can do this:
 
 ```python
-headers = "HTTP/1.1 200 OK\r\nContent-Length: " + len(response_data) + "\r\n\r\n"
+headers = "HTTP/1.1 200 OK\r\nContent-Length: " + str(len(response_data)) + "\r\n\r\n"
 conn.sendall(headers)
 conn.sendall(response_data)
 conn.sendall("\r\n")
