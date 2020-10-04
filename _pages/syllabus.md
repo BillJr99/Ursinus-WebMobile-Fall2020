@@ -289,22 +289,26 @@ schedule:
   link: "./Activities/CoinFlip"  
 - week: "4"
   date: "0"
+  title: "HTTP Client and Server Workshop"
+- week: "4"
+  date: "1"
   title: "SAML and OAuth"
   link: "../Ursinus-WebMobile-OAuth"  
   readings:
   - rtitle: "OAuth 2.0 Simplified"
     rlink: "https://aaronparecki.com/oauth-2-simplified/#roles"         
 - week: "4"
-  date: "1"
+  date: "2"
   title: "Interacting with Existing Services through Web Service Clients with node.js"
   link: "./Activities/ServiceClient"
   readings:
     - rtitle: "RESTful Web Services Chapter 2-4" 
     - rtitle: "GitHub OAuh Login with Node.js"
       rlink: "http://thecodebarbarian.com/github-oauth-login-with-node-js.html" 
-- week: "4"
-  date: "2"
-  title: "Interacting with Existing Services through Web Service Clients with node.js"      
+- week: "5"
+  date: "0"
+  title: "Progressive Web Apps (PWA) for Cross Platform Development"  
+  link: "./Activities/PWA" 
   deliverables:
     - dtitle: "Programming Assignment: Service Clients Due"
       dlink: "./Assignments/ServiceClient"
@@ -314,11 +318,7 @@ schedule:
       points: 100 
     - dtitle: "Lab: OAuth Handed Out"
       dlink: "./Labs/OAuth"  
-      points: 100   
-- week: "5"
-  date: "0"
-  title: "Progressive Web Apps (PWA) for Cross Platform Development"  
-  link: "./Activities/PWA"       
+      points: 100    
 - week: "5"
   date: "1"
   title: "Interface Contracts and GraphQL"
@@ -332,8 +332,6 @@ schedule:
   title: "Creating Your Own Web Services with node.js"
   readings:
     - rtitle: "RESTful Web Services Chapters 5 and 6"      
-    - rtitle: "Swagger for Service Documentation"
-      rlink: "https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563"
   deliverables:
     - dtitle: "Lab: OAuth Due"
       dlink: "./Labs/OAuth"  
@@ -373,7 +371,10 @@ schedule:
   title: "Databases"
 - week: "7"
   date: "2"
-  title: "Databases"  
+  title: "Databases" 
+  readings:
+    - rtitle: "Swagger for Service Documentation"
+      rlink: "https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563"  
   deliverables:
     - dtitle: "Programming Assignment: RESTful Services Due"
       dlink: "./Assignments/Service"
