@@ -323,10 +323,6 @@ schedule:
   date: "1"
   title: "Interface Contracts and GraphQL"
   link: "./Activities/GraphQL"
-  deliverables:
-    - dtitle: "Programming Assignment: RESTful Services Handed Out"
-      dlink: "./Assignments/Service"
-      points: 100
 - week: "5"
   date: "2"
   title: "Creating Your Own Web Services with node.js"
@@ -339,6 +335,9 @@ schedule:
     - dtitle: "Lab: Food Bank Map Handed Out"
       dlink: "./Labs/FoodBankMap"
       points: 100       
+    - dtitle: "Programming Assignment: RESTful Services Handed Out"
+      dlink: "./Assignments/Service"
+      points: 100      
 - week: "6"
   date: "0"
   title: "Creating Your Own Web Services with node.js"   
