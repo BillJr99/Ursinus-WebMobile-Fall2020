@@ -60,6 +60,8 @@ def connect(host, port, url):
     hoststr = "Host: " + host + "\r\n"
     conn.send(hoststr.encode())
     conn.send("\r\n".encode()) # blank line
+    
+    return conn # so we can read the response later
 ```
 
 Then, read the entire result and display it on the screen.  To do this, you can read the result from the `conn` object as follows:
@@ -112,7 +114,7 @@ for line in f:
   print(line)
 ```  
 
-To send a string (or any data) over a TCP connection, you can do this:
+To send an HTTP response header `HTTP/1.1 200 OK` followed by a `Content-Length` header indicating the number of bytes in the file we read, followed by the file data itself, over a TCP connection, you can do this:
 
 ```python
 headers = "HTTP/1.1 200 OK\r\nContent-Length: " + len(response_data) + "\r\n\r\n"
