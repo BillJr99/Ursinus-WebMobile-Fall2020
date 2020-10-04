@@ -5,6 +5,9 @@ title: "Web and Mobile Development - RESTful Service Client"
 excerpt: "Web and Mobile Development - RESTful Service Client"
 
 info:
+  additional_reading:
+    - title: "GitHub OAuth Login with Node.js"
+      link: "http://thecodebarbarian.com/github-oauth-login-with-node-js.html"
   goals: 
     - To explore Representational State Transfer (REST) as applied to HTTP web calls
     - To use OAuth to enable user authentication when interacting with a RESTful web service
