@@ -102,7 +102,7 @@ def server(port):
         # Process the request here
 ```
 
-When you get a request, again read the headers.  You can split the first line of the request by space, and you know that the second token will be the URL (see our HTTP request format above!).  That's going to be a file path on your computer.  You can open that file, read it, and send back the response.
+When you get a request, again read the headers.  You can split the first line of the request by space, and you know that the second token will be the URL (see our HTTP request format above!).  That's going to be a file path on your computer.  You can open that file, read it, and send back the response as a properly formatted HTTP response message.
 
 To read a file in python, you can do the following:
 
@@ -115,7 +115,10 @@ for line in f:
 To send a string (or any data) over a TCP connection, you can do this:
 
 ```python
+headers = "HTTP/1.1 200 OK\r\nContent-Length: " + len(response_data) + "\r\n\r\n"
+conn.sendall(headers)
 conn.sendall(response_data)
+conn.sendall("\r\n")
 ```
 
 Test your server by running a web browser and accessing `http://localhost:<your port number>`.  In addition, test your client against your server (run the server first, then run the client!).
