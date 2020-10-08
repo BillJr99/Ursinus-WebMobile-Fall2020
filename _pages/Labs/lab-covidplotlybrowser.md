@@ -77,7 +77,7 @@ trace = {
 
 layout = {
   title: 'COVID Daily Positives', 
-  width: 1000, 
+  width: 1024, 
   xaxis: {
     type: 'date', 
     title: 'Date', 
@@ -94,18 +94,12 @@ layout = {
     gridcolor: 'rgb(208, 208, 208)', 
     ticksuffix: '  '
   }, 
-  height: 350, 
+  height: 768, 
   legend: {
     x: -0.24796901053454015, 
     y: 0.9713068181818182, 
     bgcolor: 'rgba(242, 242, 242, 0)', 
     traceorder: 'reversed'
-  }, 
-  margin: {
-    b: 20, 
-    l: 175, 
-    r: 80, 
-    t: 20
   }, 
   autosize: false, 
   annotations: [
