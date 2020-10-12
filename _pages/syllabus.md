@@ -329,12 +329,6 @@ schedule:
   readings:
     - rtitle: "RESTful Web Services Chapters 5 and 6"      
   deliverables:
-    - dtitle: "Lab: OAuth Due"
-      dlink: "./Labs/OAuth"  
-      points: 100  
-    - dtitle: "Lab: Food Bank Map Handed Out"
-      dlink: "./Labs/FoodBankMap"
-      points: 100       
     - dtitle: "Programming Assignment: RESTful Services Handed Out"
       dlink: "./Assignments/Service"
       points: 100      
@@ -344,20 +338,17 @@ schedule:
 - week: "6"
   date: "1"
   title: "Creating Your Own Web Services with node.js"   
+  deliverables:
+    - dtitle: "Lab: OAuth Due"
+      dlink: "./Labs/OAuth"  
+      points: 100  
+    - dtitle: "Lab: Food Bank Map Handed Out"
+      dlink: "./Labs/FoodBankMap"
+      points: 100    
 - week: "6"
   date: "2"
   title: "CORS"  
-  link: "./Activities/CORS"
-  deliverables:
-    - dtitle: "Participation: First Notebook Check"
-      points: 10  
-  deliverables:
-    - dtitle: "Lab: Food Bank Map Due"
-      dlink: "./Labs/FoodBankMap"
-      points: 100  
-    - dtitle: "Lab: GraphQL Handed Out"
-      dlink: "./Labs/GraphQL"
-      points: 100      
+  link: "./Activities/CORS"   
 - week: "7"
   date: "0"
   title: "Databases"
@@ -375,6 +366,27 @@ schedule:
     - rtitle: "Swagger for Service Documentation"
       rlink: "https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563"  
   deliverables:
+    - dtitle: "Participation: First Notebook Check"
+      points: 10  
+    - dtitle: "Lab: Food Bank Map Due"
+      dlink: "./Labs/FoodBankMap"
+      points: 100  
+    - dtitle: "Lab: GraphQL Handed Out"
+      dlink: "./Labs/GraphQL"
+      points: 100         
+- week: "8"
+  date: "0"
+  title: "NoSQL"  
+  link: "./Activities/NoSQL"
+- week: "8"
+  date: "1"
+  title: "NoSQL"   
+- week: "8"
+  date: "2"
+  title: "Web Services with Data Stores"    
+  readings:
+    - rtitle: "RESTful Web Services Chapter 7"
+  deliverables:
     - dtitle: "Programming Assignment: RESTful Services Due"
       dlink: "./Assignments/Service"
       points: 100    
@@ -383,27 +395,10 @@ schedule:
       points: 100   
     - dtitle: "Lab: Swagger Handed Out"
       dlink: "./Labs/Swagger"
-      points: 100
-- week: "8"
-  date: "0"
-  title: "NoSQL"  
-  link: "./Activities/NoSQL"
-  deliverables:
+      points: 100  
     - dtitle: "Programming Assignment: Databases Handed Out"
       dlink: "./Assignments/Databases"
       points: 100
-- week: "8"
-  date: "1"
-  title: "NoSQL"   
-- week: "8"
-  date: "2"
-  title: "Web Services with Data Stores"    
-  readings:
-    - rtitle: "RESTful Web Services Chapter 7"  
-  deliverables:
-    - dtitle: "Lab: Swagger Due"
-      dlink: "./Labs/Swagger"
-      points: 100  
 - week: "9"
   date: "0"
   title: "Server-Side Authentication Models"  
@@ -415,14 +410,7 @@ schedule:
 - week: "9"
   date: "2"
   title: "Secure Sockets Layer (SSL)"    
-  link: "./Activities/SSL"
-  deliverables:
-    - dtitle: "Programming Assignment: Databases Due"
-      dlink: "./Assignments/Databases"
-      points: 100  
-    - dtitle: "Programming Assignment: NoSQL Handed Out"
-      dlink: "./Assignments/NoSQL"
-      points: 100        
+  link: "./Activities/SSL"     
 - week: "10"
   date: "0"
   title: "HTML5 and Front End and Mobile Development"  
@@ -432,9 +420,18 @@ schedule:
     - rtitle: "HTML5 Tutorial"
       rlink: "https://www.w3schools.com/html/default.asp"
   deliverables:
-  - dtitle: "Final Project: Interface Design Handed Out"
-    dlink: "./Projects/Final"
-    points: 25       
+    - dtitle: "Lab: Swagger Due"
+      dlink: "./Labs/Swagger"
+      points: 100    
+    - dtitle: "Programming Assignment: Databases Due"
+      dlink: "./Assignments/Databases"
+      points: 100  
+    - dtitle: "Programming Assignment: NoSQL Handed Out"
+      dlink: "./Assignments/NoSQL"
+      points: 100     
+    - dtitle: "Final Project: Interface Design Handed Out"
+      dlink: "./Projects/Final"
+      points: 25       
 - week: "10"
   date: "1"
   title: "CSS"  
@@ -454,9 +451,6 @@ schedule:
     - rtitle: "WAVE Accessibility Plugin"
       rlink: "https://wave.webaim.org/extension/" 
   deliverables:
-    - dtitle: "Programming Assignment: NoSQL Due"
-      dlink: "./Assignments/NoSQL"
-      points: 100 
     - dtitle: "Lab: Accessibility Handed Out"
       dlink: "./Labs/Accessibility"
       points: 100
@@ -468,6 +462,9 @@ schedule:
   date: "0"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
   deliverables:
+    - dtitle: "Programming Assignment: NoSQL Due"
+      dlink: "./Assignments/NoSQL"
+      points: 100   
     - dtitle: "Programming Assignment: PWA Handed Out"
       dlink: "./Assignments/PWA"
       points: 100
