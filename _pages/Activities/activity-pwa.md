@@ -10,7 +10,7 @@ info:
   models:
     - model: |
         Review the example below as a class.
-      title: A Static Progressive Web Abb for Mobile Clients
+      title: A Static Progressive Web App for Mobile Clients
       questions:
         - How do we name elements in HTML5 for dynamic updating?  What is the name of the main body element that we're updating?
         - What JavaScript command is used to set the content of a web page element?
