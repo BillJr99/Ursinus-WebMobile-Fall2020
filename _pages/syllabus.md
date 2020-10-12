@@ -308,7 +308,11 @@ schedule:
 - week: "5"
   date: "0"
   title: "Progressive Web Apps (PWA) for Cross Platform Development"  
-  link: "./Activities/PWA" 
+  link: "./Activities/PWA"    
+- week: "5"
+  date: "1"
+  title: "Interface Contracts and GraphQL"
+  link: "./Activities/GraphQL"
   deliverables:
     - dtitle: "Programming Assignment: Service Clients Due"
       dlink: "./Assignments/ServiceClient"
@@ -318,11 +322,7 @@ schedule:
       points: 100 
     - dtitle: "Lab: OAuth Handed Out"
       dlink: "./Labs/OAuth"  
-      points: 100    
-- week: "5"
-  date: "1"
-  title: "Interface Contracts and GraphQL"
-  link: "./Activities/GraphQL"
+      points: 100   
 - week: "5"
   date: "2"
   title: "Creating Your Own Web Services with node.js"
