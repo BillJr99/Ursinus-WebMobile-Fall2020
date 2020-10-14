@@ -314,27 +314,28 @@ schedule:
   title: "Interface Contracts and GraphQL"
   link: "./Activities/GraphQL"
   deliverables:
-    - dtitle: "Programming Assignment: Service Clients Due"
-      dlink: "./Assignments/ServiceClient"
-      points: 100    
-    - dtitle: "Lab: COVID plot.ly Generator Due"
-      dlink: "./Labs/COVIDPlotlyBrowser"
-      points: 100 
     - dtitle: "Lab: OAuth Handed Out"
       dlink: "./Labs/OAuth"  
       points: 100   
 - week: "5"
   date: "2"
+  title: "Web Service Client and Frontend Workshop"    
+  deliverables:
+    - dtitle: "Programming Assignment: Service Clients Due"
+      dlink: "./Assignments/ServiceClient"
+      points: 100    
+    - dtitle: "Lab: COVID plot.ly Generator Due"
+      dlink: "./Labs/COVIDPlotlyBrowser"
+      points: 100       
+- week: "6"
+  date: "0"
   title: "Creating Your Own Web Services with node.js"
   readings:
-    - rtitle: "RESTful Web Services Chapters 5 and 6"      
+    - rtitle: "RESTful Web Services Chapters 5 and 6"  
   deliverables:
     - dtitle: "Programming Assignment: RESTful Services Handed Out"
       dlink: "./Assignments/Service"
       points: 100      
-- week: "6"
-  date: "0"
-  title: "Creating Your Own Web Services with node.js"   
 - week: "6"
   date: "1"
   title: "Creating Your Own Web Services with node.js"   
