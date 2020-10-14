@@ -10,6 +10,19 @@ info:
   models:
     - model: |
         <img src="../images/activity-graphql/graphql.png" alt="GraphQL Query Window">
+        <br>
+        <div align="left">
+        <pre>
+        <code>
+        {
+            users {
+                age,
+                name
+            }
+        }
+        </code>
+        </pre>
+        </div>
       title: GraphQL
       questions:
         - Run the repl.it and navigate to the page given, entering the query shown in the figure
