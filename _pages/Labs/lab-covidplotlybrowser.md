@@ -55,7 +55,12 @@ You can try out this API from the console using curl as follows (this example fi
 
 Create two arrays for your plot: the `date` and the `positive` field (for the count of positive cases on that date).  For simplicity, only add those records whose `state` is a particular state, like PA.  You can obtain a JSON object (an array that you can iterate) as follows: `var responseObj = JSON.parse(xhttp.responseText);`.
 
-Note that plot.ly expects dates to be in the form `yyyy-mm-dd`, while this data reports the date in `yyyymmdd` format.  Using the `str.substring` method, convert your date to the proper format.
+Note that plot.ly expects dates to be in the form `yyyy-mm-dd`, while this data reports the date in `yyyymmdd` format.  Using the `str.substring` method, convert your date to the proper format.  You can read the date and convert it to a string like this: 
+
+```java
+var dt = row['date'].toString(10);
+dt = dt.substring(0, 4) + "-" + dt.substring(4, 6) + "-" + dt.substring(6, 8);
+```
 
 ## Step 3: Plotting COVID Data
 Name your two arrays `xarr` and `yarr` for your dates and positive test counts, respectively.  You can use the following layout to plot your values in plot.ly.  Feel free to create your own layout; however, I have provided this one here so that you do not have to manually configure all the settings.
