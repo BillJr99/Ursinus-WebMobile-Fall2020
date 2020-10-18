@@ -270,6 +270,8 @@ schedule:
       rlink: "https://books.goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf"
     - rtitle: "node.js Tutorial"
       rlink: "https://www.w3schools.com/nodejs/"
+    - rtitle: "node.js Tutorial YouTube Video"
+      rlink: "https://www.youtube.com/watch?v=RLtyhwFtXQA"
 - week: "3"
   date: "1"
   title: "Introduction to node.js and JavaScript: Asynchronous Programming and Promises"
@@ -283,6 +285,9 @@ schedule:
     - dtitle: "Programming Assignment: Service Clients Handed Out"
       dlink: "./Assignments/ServiceClient"
       points: 100
+  readings:
+    - rtitle: "Building a RESTful API Using node.js YouTube Video"
+      rlink: "https://www.youtube.com/watch?v=vjf774RKrLc"
 - week: "3"
   date: "2"
   title: "The Peruvian Coin Flip"
