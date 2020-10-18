@@ -63,7 +63,7 @@ dt = dt.substring(0, 4) + "-" + dt.substring(4, 6) + "-" + dt.substring(6, 8);
 ```
 
 ## Step 3: Plotting COVID Data
-Name your two arrays `xarr` and `yarr` for your dates and positive test counts, respectively.  You can use the following layout to plot your values in plot.ly.  Feel free to create your own layout; however, I have provided this one here so that you do not have to manually configure all the settings.
+Name your two arrays `xarr` and `yarr` for your dates and positive test counts, respectively.  You can use the following layout to plot your values in plot.ly.  Feel free to create your own layout; however, I have provided this one here so that you do not have to manually configure all the settings.  Visit [this page](https://currentmillis.com/) to get the current time in milliseconds since the epoch, which you can use to populate your x-axis `range` variable to plot to the current date.
 
 ```javascript
 trace = {
@@ -86,7 +86,7 @@ layout = {
   xaxis: {
     type: 'date', 
     title: 'Date', 
-    range: [1583020800000, 1598918400000], // 3/1/2020 to 9/1/2020 in epoch milliseconds (https://www.epochconverter.com/)
+    range: [1583020800000, 1598918400000], // 3/1/2020 to 9/1/2020 in epoch milliseconds (https://www.epochconverter.com/); change these to your desired date - for example, you can change the second parameter to the current time in milliseconds from the epoch by visiting here (https://currentmillis.com/)
     showgrid: false, 
     autorange: false, 
     tickformat: ''
