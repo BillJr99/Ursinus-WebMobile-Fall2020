@@ -20,7 +20,7 @@ TZNAME:EDT
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:f2d810e0-188f-44b1-839b-ffdac84410db
+UID:f125a06c-730d-4cd9-96b7-b10b1fcaee56
 DTSTAMP:20200907T133000
 DTSTART;TZID=US-Eastern:20200907T133000
 DTEND;TZID=US-Eastern:20200907T142000
@@ -34,7 +34,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:680ad474-d726-4844-851b-6604206a3d55
+UID:459fcc3a-e3ad-424f-8f0a-c1b0d8738780
 DTSTAMP:20200907T133000
 DTSTART;TZID=US-Eastern:20200907T133000
 DTEND;TZID=US-Eastern:20200907T142000
@@ -48,7 +48,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:90216d14-ac8a-4baa-b19d-851b156ae7e9
+UID:63f5c10b-08d1-4a53-a7cd-184e070e585f
 DTSTAMP:20200907T133000
 DTSTART;TZID=US-Eastern:20200907T133000
 DTEND;TZID=US-Eastern:20200907T142000
@@ -62,7 +62,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:d9dce923-5bbe-41c3-87d2-c6ac6d291459
+UID:c9c482c1-f497-4af1-85d4-21c5d02c6825
 DTSTAMP:20200907T000000Z
 DTSTART;VALUE=DATE:20200907
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: Warmup Handed Out
@@ -71,7 +71,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:2dc96587-2c67-4ac3-b623-4f8d0a2e4758
+UID:87d163bd-b54d-4364-a2ca-0e897479078c
 DTSTAMP:20200907T000000Z
 DTSTART;VALUE=DATE:20200907
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -80,7 +80,7 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020//Ursinus-WebMo
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:76daed6c-2544-4d88-8dae-2c65326e5fac
+UID:b022772d-e10a-4822-82a5-852f01a82c49
 DTSTAMP:20200909T000000Z
 DTSTART;VALUE=DATE:20200909
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -89,7 +89,7 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020//Ursinus-WebMo
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:5b32b5db-d59b-4c32-8f04-2bc36e6fd5a4
+UID:4616832f-c8c7-447f-88f5-e832f40196cb
 DTSTAMP:20200911T000000Z
 DTSTART;VALUE=DATE:20200911
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: Warmup Due
@@ -98,7 +98,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:336de7eb-fb82-48eb-ad94-bcdfd916404b
+UID:de9f42e2-1bce-4f04-82d5-c9be272a0e9e
 DTSTAMP:20200911T000000Z
 DTSTART;VALUE=DATE:20200911
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -107,7 +107,7 @@ DESCRIPTION:\nDeliverable: Programming Assignment: Warmup Due https://www.billmo
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:57af8beb-35ca-4394-b759-0cfdf002ef4a
+UID:b89626eb-2378-4662-bfbd-49d5f43b31f8
 DTSTAMP:20200914T000000Z
 DTSTART;VALUE=DATE:20200914
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: HTTP Client and Server Handed Out
@@ -116,7 +116,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:8ef969b8-d93f-45a9-9c6b-7ad5680bc330
+UID:34bbc648-fd4d-433a-a458-2966b519c962
 DTSTAMP:20200914T000000Z
 DTSTART;VALUE=DATE:20200914
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -125,7 +125,7 @@ DESCRIPTION:\nReading: Getting Started with Git and Github https://www.billmonga
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:f07a7350-1689-41f3-a673-3c231e210abb
+UID:bab43ebc-030b-4311-a8bb-e58ad523c76e
 DTSTAMP:20200916T000000Z
 DTSTART;VALUE=DATE:20200916
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -134,7 +134,7 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/R
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:6ed8048c-f50b-4d69-a04b-1af5ed2b3161
+UID:018f2593-8f9d-4441-9dac-5deefabb585a
 DTSTAMP:20200918T000000Z
 DTSTART;VALUE=DATE:20200918
 SUMMARY:CS471 Web and Mobile Development: Lab: WeatherUSA Service Client Handed Out
@@ -143,16 +143,16 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:24e8b5f7-4276-45ab-9f62-5a945c67db73
+UID:c8aa208b-72c5-4dc1-9089-7af934551986
 DTSTAMP:20200918T000000Z
 DTSTART;VALUE=DATE:20200918
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/RESTfulService\nReading: RESTful Web Services Chapter 1\nReading: Setting up MongoDB https://dev.to/lennythedev/rest-api-with-mongodb-atlas-cloud-node-and-express-in-10-minutes-2ii1\nDeliverable: Lab: WeatherUSA Service Client Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/WeatherUSA
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/RESTfulService\nReading: RESTful Web Services Chapter 1\nReading: Setting up MongoDB https://dev.to/lennythedev/rest-api-with-mongodb-atlas-cloud-node-and-express-in-10-minutes-2ii1\nReading: RESTful Services using MongoDB https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Modules/MongoDBService/Module\nDeliverable: Lab: WeatherUSA Service Client Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/WeatherUSA
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:80cbfdd2-df16-4437-a5bb-cea043749e39
+UID:1344cf7b-32b7-4709-a1f9-8a5f2f6eaa07
 DTSTAMP:20200921T000000Z
 DTSTART;VALUE=DATE:20200921
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -161,241 +161,223 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:642ec3f7-ba4a-450e-99c6-2500adb1a771
+UID:0c5aa00c-db1a-4d6d-9043-0f4c6f816b4c
 DTSTAMP:20200923T000000Z
 DTSTART;VALUE=DATE:20200923
+SUMMARY:CS471 Web and Mobile Development: Class Meeting
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:c48de0f9-ec43-4062-80a7-369ce3d33415
+DTSTAMP:20200925T000000Z
+DTSTART;VALUE=DATE:20200925
+SUMMARY:CS471 Web and Mobile Development: Class Meeting
+LOCATION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/../Ursinus-WebMobile-REST\nReading: A Service-Based Software Engineering Portal Website https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf\nReading: REportal https://www.cs.drexel.edu/~spiros/teaching/CS675/slides/reportalTechReport.pdf\nReading: A Biomedical Monitoring Web Service for the Internet-of-Things https://dl.acm.org/doi/pdf/10.1145/3054977.3055002
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:88795a55-28a6-4978-af5f-76d78b57b246
+DTSTAMP:20200928T000000Z
+DTSTART;VALUE=DATE:20200928
 SUMMARY:CS471 Web and Mobile Development: Lab: WeatherUSA Service Client Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:f07f6beb-0de1-4a80-8db6-e65e20ea16c2
-DTSTAMP:20200923T000000Z
-DTSTART;VALUE=DATE:20200923
+UID:5595f29f-4f9e-4c7c-be53-bc3a6ead02b5
+DTSTAMP:20200928T000000Z
+DTSTART;VALUE=DATE:20200928
+SUMMARY:CS471 Web and Mobile Development: Class Meeting
+LOCATION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/NodePromises\nReading: node.js Reference Guide https://books.goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf\nReading: node.js Tutorial https://www.w3schools.com/nodejs/\nReading: node.js Tutorial YouTube Video https://www.youtube.com/watch?v=RLtyhwFtXQA\nDeliverable: Lab: WeatherUSA Service Client Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/WeatherUSA
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:b5d0fbf4-6f6d-4a77-b639-25398cb23193
+DTSTAMP:20200930T000000Z
+DTSTART;VALUE=DATE:20200930
 SUMMARY:CS471 Web and Mobile Development: Lab: COVID plot.ly Generator Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:5bbe3e21-72c2-4ded-8c8f-6c42af8c6f60
-DTSTAMP:20200923T000000Z
-DTSTART;VALUE=DATE:20200923
-SUMMARY:CS471 Web and Mobile Development: Class Meeting
-LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/../Ursinus-WebMobile-REST\nReading: A Service-Based Software Engineering Portal Website https://www.cs.drexel.edu/~spiros/papers/ICPC08.pdf\nReading: REportal https://www.cs.drexel.edu/~spiros/teaching/CS675/slides/reportalTechReport.pdf\nReading: A Biomedical Monitoring Web Service for the Internet-of-Things https://dl.acm.org/doi/pdf/10.1145/3054977.3055002\nDeliverable: Lab: WeatherUSA Service Client Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/WeatherUSA\nDeliverable: Lab: COVID plot.ly Generator Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/COVIDPlotlyBrowser
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:57b73ccc-993f-4e2d-9ad1-1fc987496754
-DTSTAMP:20200925T000000Z
-DTSTART;VALUE=DATE:20200925
-SUMMARY:CS471 Web and Mobile Development: Class Meeting
-LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/NodePromises\nReading: node.js Reference Guide https://books.goalkicker.com/NodeJSBook/NodeJSNotesForProfessionals.pdf\nReading: node.js Tutorial https://www.w3schools.com/nodejs/
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:c915cfe3-e69b-4158-a5be-0cfd7fe3d082
-DTSTAMP:20200928T000000Z
-DTSTART;VALUE=DATE:20200928
+UID:cf6d63de-1ba0-438d-adf4-7a86ec0e2114
+DTSTAMP:20200930T000000Z
+DTSTART;VALUE=DATE:20200930
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: HTTP Client and Server Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:9402d423-853f-44a5-abfe-3fac4a416330
-DTSTAMP:20200928T000000Z
-DTSTART;VALUE=DATE:20200928
+UID:cd54fbfd-2b30-49b7-ae14-32461f668112
+DTSTAMP:20200930T000000Z
+DTSTART;VALUE=DATE:20200930
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: Service Clients Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:92ae9945-865e-4d7e-927d-fab96e84b450
-DTSTAMP:20200928T000000Z
-DTSTART;VALUE=DATE:20200928
+UID:9ccd8cca-e164-42b7-ab07-b4fa65bfdfd9
+DTSTAMP:20200930T000000Z
+DTSTART;VALUE=DATE:20200930
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/CoinFlip\nDeliverable: Programming Assignment: HTTP Client and Server Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/ClientServer\nDeliverable: Programming Assignment: Service Clients Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/ServiceClient
+DESCRIPTION:\nReading: Building a RESTful API Using node.js YouTube Video https://www.youtube.com/watch?v=vjf774RKrLc\nDeliverable: Lab: COVID plot.ly Generator Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/COVIDPlotlyBrowser\nDeliverable: Programming Assignment: HTTP Client and Server Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/ClientServer\nDeliverable: Programming Assignment: Service Clients Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/ServiceClient
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:76df94de-9228-4ade-8674-1fa86f2b9728
-DTSTAMP:20200930T000000Z
-DTSTART;VALUE=DATE:20200930
+UID:cfe2807b-2728-4819-9900-b47afa83d5b4
+DTSTAMP:20201002T000000Z
+DTSTART;VALUE=DATE:20201002
+SUMMARY:CS471 Web and Mobile Development: Class Meeting
+LOCATION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/CoinFlip
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:22ca0b8e-8c75-495d-accf-f38669e42f97
+DTSTAMP:20201005T000000Z
+DTSTART;VALUE=DATE:20201005
+SUMMARY:CS471 Web and Mobile Development: Class Meeting
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:4836cf96-d3b6-4b45-a368-5a5d0968508b
+DTSTAMP:20201007T000000Z
+DTSTART;VALUE=DATE:20201007
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
 DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/../Ursinus-WebMobile-OAuth\nReading: OAuth 2.0 Simplified https://aaronparecki.com/oauth-2-simplified/#roles
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:d9a6838e-ac60-4776-a489-566b4ee022af
-DTSTAMP:20201002T000000Z
-DTSTART;VALUE=DATE:20201002
+UID:1d3700c3-bd2e-4328-aeff-ba5084b25402
+DTSTAMP:20201009T000000Z
+DTSTART;VALUE=DATE:20201009
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/ServiceClient\nReading: RESTful Web Services Chapter 2-4\nReading: GitHub OAuh Login with Node.js http://thecodebarbarian.com/github-oauth-login-with-node-js.html
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:959196d2-606c-4b3d-9636-99f9d0d597fa
-DTSTAMP:20201005T000000Z
-DTSTART;VALUE=DATE:20201005
-SUMMARY:CS471 Web and Mobile Development: Lab: COVID plot.ly Generator Due
+UID:1017bc3e-bf16-47c8-8ebb-24215c691466
+DTSTAMP:20201012T000000Z
+DTSTART;VALUE=DATE:20201012
+SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/PWA
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:16964670-7a00-4cc1-b2bf-dec05b186ec9
-DTSTAMP:20201005T000000Z
-DTSTART;VALUE=DATE:20201005
+UID:8ff7992f-1fae-4221-84e8-14ca9fd0e1d8
+DTSTAMP:20201014T000000Z
+DTSTART;VALUE=DATE:20201014
 SUMMARY:CS471 Web and Mobile Development: Lab: OAuth Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:4f92d0ad-56e2-44c3-881e-93536ec915bc
-DTSTAMP:20201005T000000Z
-DTSTART;VALUE=DATE:20201005
+UID:4619d67e-e073-4551-bf04-65a7c6b3ae52
+DTSTAMP:20201014T000000Z
+DTSTART;VALUE=DATE:20201014
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: RESTful Web Services Chapter 2\nDeliverable: Lab: COVID plot.ly Generator Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/COVIDPlotlyBrowser\nDeliverable: Lab: OAuth Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/OAuth
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/GraphQL\nDeliverable: Lab: OAuth Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/OAuth
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:a0642ba8-ce9a-4aa8-9622-54f68d4a80d8
-DTSTAMP:20201007T000000Z
-DTSTART;VALUE=DATE:20201007
-SUMMARY:CS471 Web and Mobile Development: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: RESTful Web Services Chapter 3-4
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:9b583836-6f43-44a1-8c01-e9ff91572414
-DTSTAMP:20201009T000000Z
-DTSTART;VALUE=DATE:20201009
+UID:a2b469fc-218a-4a1d-b3d2-5b7ac7ed8026
+DTSTAMP:20201016T000000Z
+DTSTART;VALUE=DATE:20201016
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: Service Clients Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:bca3fb79-28be-4da5-999a-8330f1bd38f1
-DTSTAMP:20201009T000000Z
-DTSTART;VALUE=DATE:20201009
-SUMMARY:CS471 Web and Mobile Development: Class Meeting
+UID:020bc804-d3b6-4f75-8688-0ceaa664c7c1
+DTSTAMP:20201016T000000Z
+DTSTART;VALUE=DATE:20201016
+SUMMARY:CS471 Web and Mobile Development: Lab: COVID plot.ly Generator Due
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/PWA\nDeliverable: Programming Assignment: Service Clients Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/ServiceClient
+DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:093c2964-98f6-47b6-9d2d-492299c0c6fa
-DTSTAMP:20201012T000000Z
-DTSTART;VALUE=DATE:20201012
+UID:29dcd5ce-df47-401c-aa71-0c0f30ba69b4
+DTSTAMP:20201016T000000Z
+DTSTART;VALUE=DATE:20201016
+SUMMARY:CS471 Web and Mobile Development: Class Meeting
+LOCATION:
+DESCRIPTION:\nDeliverable: Programming Assignment: Service Clients Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/ServiceClient\nDeliverable: Lab: COVID plot.ly Generator Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/COVIDPlotlyBrowser
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:65a07669-8c27-4eec-8010-48db4bf1db93
+DTSTAMP:20201019T000000Z
+DTSTART;VALUE=DATE:20201019
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: RESTful Services Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:f2b4d4be-f673-42a6-98e5-f96e8038f2a0
-DTSTAMP:20201012T000000Z
-DTSTART;VALUE=DATE:20201012
+UID:38ba6c61-02d0-4b9a-a396-efd51e72b972
+DTSTAMP:20201019T000000Z
+DTSTART;VALUE=DATE:20201019
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/GraphQL\nDeliverable: Programming Assignment: RESTful Services Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/Service
+DESCRIPTION:\nReading: RESTful Web Services Chapters 5 and 6\nDeliverable: Programming Assignment: RESTful Services Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/Service
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:bb64c30b-15da-4bca-8e41-c36ca028db0c
-DTSTAMP:20201014T000000Z
-DTSTART;VALUE=DATE:20201014
+UID:6f6ae319-41a2-451a-a942-7923969ee840
+DTSTAMP:20201021T000000Z
+DTSTART;VALUE=DATE:20201021
 SUMMARY:CS471 Web and Mobile Development: Lab: OAuth Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:1b5a0945-93dd-4b9e-ad33-d71d9756716d
-DTSTAMP:20201014T000000Z
-DTSTART;VALUE=DATE:20201014
+UID:eab04431-7fe6-4336-8f22-5a2c03ce3177
+DTSTAMP:20201021T000000Z
+DTSTART;VALUE=DATE:20201021
 SUMMARY:CS471 Web and Mobile Development: Lab: Food Bank Map Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:12d3b1ae-1d6f-419b-9967-e5eff5377094
-DTSTAMP:20201014T000000Z
-DTSTART;VALUE=DATE:20201014
-SUMMARY:CS471 Web and Mobile Development: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: RESTful Web Services Chapters 5 and 6\nDeliverable: Lab: OAuth Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/OAuth\nDeliverable: Lab: Food Bank Map Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/FoodBankMap
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:50cb74da-c93b-438c-ade3-718b31304fa3
-DTSTAMP:20201016T000000Z
-DTSTART;VALUE=DATE:20201016
-SUMMARY:CS471 Web and Mobile Development: Class Meeting
-LOCATION:
-DESCRIPTION:\nReading: Swagger for Service Documentation https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:91d4dc48-2767-42db-b44b-638fce3b23a2
-DTSTAMP:20201019T000000Z
-DTSTART;VALUE=DATE:20201019
-SUMMARY:CS471 Web and Mobile Development: Class Meeting
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:d3487700-bb7e-4a71-860b-ff7d82361c7d
+UID:da28a483-b372-4149-99d5-044c0d6df693
 DTSTAMP:20201021T000000Z
 DTSTART;VALUE=DATE:20201021
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:
+DESCRIPTION:\nDeliverable: Lab: OAuth Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/OAuth\nDeliverable: Lab: Food Bank Map Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/FoodBankMap
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:85b21e13-889c-4df1-95e1-071f7f00e726
-DTSTAMP:20201023T000000Z
-DTSTART;VALUE=DATE:20201023
-SUMMARY:CS471 Web and Mobile Development: Lab: Food Bank Map Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:b142ee32-6612-406b-beb7-4288698e468a
-DTSTAMP:20201023T000000Z
-DTSTART;VALUE=DATE:20201023
-SUMMARY:CS471 Web and Mobile Development: Lab: GraphQL Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:ae997050-7c35-4e1b-a3f2-67d33e28630c
+UID:87c1afee-c43a-4e48-b130-73c63659c00e
 DTSTAMP:20201023T000000Z
 DTSTART;VALUE=DATE:20201023
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/CORS\nDeliverable: Lab: Food Bank Map Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/FoodBankMap\nDeliverable: Lab: GraphQL Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/GraphQL
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/CORS
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:7c7f659a-20d4-419e-8052-ad68694e959f
+UID:b77b84bf-d9ff-4362-9b51-7491f0aba9c3
 DTSTAMP:20201026T000000Z
 DTSTART;VALUE=DATE:20201026
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -404,7 +386,7 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/D
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:87c1a92a-0979-453e-bed4-0609e4ef5065
+UID:28eeb665-b117-4d81-9fcc-e415db6cf6f5
 DTSTAMP:20201028T000000Z
 DTSTART;VALUE=DATE:20201028
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -413,61 +395,52 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:89396224-15a6-4c10-a637-54f2615e9b99
+UID:24e60ae1-0bc6-4f29-a664-3b381ef8ba50
 DTSTAMP:20201030T000000Z
 DTSTART;VALUE=DATE:20201030
-SUMMARY:CS471 Web and Mobile Development: Programming Assignment: RESTful Services Due
+SUMMARY:CS471 Web and Mobile Development: Participation: First Notebook Check
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:cc44ea55-98c1-459b-b09f-0c97bcf9f607
+UID:06765c7d-e6bd-438f-89fd-896d9ee9d3d8
 DTSTAMP:20201030T000000Z
 DTSTART;VALUE=DATE:20201030
-SUMMARY:CS471 Web and Mobile Development: Lab: GraphQL Due
+SUMMARY:CS471 Web and Mobile Development: Lab: Food Bank Map Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:997596ef-4f7b-4f62-97fb-d7a64413d4bd
+UID:d9778cd3-a0d6-4705-b11c-b31f1beb7ff1
 DTSTAMP:20201030T000000Z
 DTSTART;VALUE=DATE:20201030
-SUMMARY:CS471 Web and Mobile Development: Lab: Swagger Handed Out
+SUMMARY:CS471 Web and Mobile Development: Lab: GraphQL Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:a40ac543-af33-4789-b468-89adcb5c3e91
+UID:0c0da72f-5d9a-436d-82ac-264c92753313
 DTSTAMP:20201030T000000Z
 DTSTART;VALUE=DATE:20201030
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: RESTful Services Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/Service\nDeliverable: Lab: GraphQL Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/GraphQL\nDeliverable: Lab: Swagger Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/Swagger
+DESCRIPTION:\nReading: Swagger for Service Documentation https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563\nDeliverable: Participation: First Notebook Check\nDeliverable: Lab: Food Bank Map Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/FoodBankMap\nDeliverable: Lab: GraphQL Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/GraphQL
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:da1c29aa-ce1c-4121-8bf2-ba81084d6c0f
-DTSTAMP:20201102T000000Z
-DTSTART;VALUE=DATE:20201102
-SUMMARY:CS471 Web and Mobile Development: Programming Assignment: Databases Handed Out
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:4147bbf6-946f-4fc6-8606-c58723d199f3
+UID:d29c8f44-f029-4085-a34c-c9a7665a7a37
 DTSTAMP:20201102T000000Z
 DTSTART;VALUE=DATE:20201102
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/NoSQL\nDeliverable: Programming Assignment: Databases Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/Databases
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/NoSQL
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:039efaeb-69b2-4e60-9940-a0c3fffaa81a
+UID:b5714ace-bc41-4fb2-ba29-e07ac2318151
 DTSTAMP:20201104T000000Z
 DTSTART;VALUE=DATE:20201104
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -476,25 +449,52 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:7821dda3-186a-480f-a607-2edd277e8c8b
+UID:72e43bea-f1ff-4387-9423-af489bdd8bbd
 DTSTAMP:20201106T000000Z
 DTSTART;VALUE=DATE:20201106
-SUMMARY:CS471 Web and Mobile Development: Lab: Swagger Due
+SUMMARY:CS471 Web and Mobile Development: Programming Assignment: RESTful Services Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:8327a566-71d2-4878-a9b7-79c0408c3d11
+UID:1ee9d338-5923-4316-9781-f2e73b75fb3e
+DTSTAMP:20201106T000000Z
+DTSTART;VALUE=DATE:20201106
+SUMMARY:CS471 Web and Mobile Development: Lab: GraphQL Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:6d02f378-ead2-4816-831c-f6b1dec2ac51
+DTSTAMP:20201106T000000Z
+DTSTART;VALUE=DATE:20201106
+SUMMARY:CS471 Web and Mobile Development: Lab: Swagger Handed Out
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea474b0a-ba25-4781-b7c4-6d42bb688a09
+DTSTAMP:20201106T000000Z
+DTSTART;VALUE=DATE:20201106
+SUMMARY:CS471 Web and Mobile Development: Programming Assignment: Databases Handed Out
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:9f0f1955-eecd-46e4-bbc9-fe4223cad06a
 DTSTAMP:20201106T000000Z
 DTSTART;VALUE=DATE:20201106
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: RESTful Web Services Chapter 7\nDeliverable: Lab: Swagger Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/Swagger
+DESCRIPTION:\nReading: RESTful Web Services Chapter 7\nDeliverable: Programming Assignment: RESTful Services Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/Service\nDeliverable: Lab: GraphQL Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/GraphQL\nDeliverable: Lab: Swagger Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/Swagger\nDeliverable: Programming Assignment: Databases Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/Databases
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:4cfd4d3c-2f88-4faf-bb99-15d7ca55fba6
+UID:bd571db3-0ae6-4d7c-9f96-efaabdf8f83e
 DTSTAMP:20201109T000000Z
 DTSTART;VALUE=DATE:20201109
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -503,7 +503,7 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/../Ursinus-Web
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:78dbf642-4ae9-48b6-8d2e-04910fe18656
+UID:ec9d9f31-befd-49d8-b2c9-6c143c073c23
 DTSTAMP:20201111T000000Z
 DTSTART;VALUE=DATE:20201111
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -512,34 +512,43 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/D
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:c69cd383-4f4b-45f0-bf32-bd188353040c
+UID:3043be22-cfcd-48f4-88ca-6a7b0876d890
 DTSTAMP:20201113T000000Z
 DTSTART;VALUE=DATE:20201113
+SUMMARY:CS471 Web and Mobile Development: Class Meeting
+LOCATION:
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/SSL
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:dd376462-cba7-47c6-8b30-9f081964c7af
+DTSTAMP:20201116T000000Z
+DTSTART;VALUE=DATE:20201116
+SUMMARY:CS471 Web and Mobile Development: Lab: Swagger Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:bfd1e748-a639-4bda-b039-53c3702dc2a1
+DTSTAMP:20201116T000000Z
+DTSTART;VALUE=DATE:20201116
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: Databases Due
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:6d22e46a-4a6b-4242-8053-81194eef8028
-DTSTAMP:20201113T000000Z
-DTSTART;VALUE=DATE:20201113
+UID:8a3a9ef5-1eb3-47bf-b0ff-940d967b661d
+DTSTAMP:20201116T000000Z
+DTSTART;VALUE=DATE:20201116
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: NoSQL Handed Out
 LOCATION:
 DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:db3282a0-4a82-439b-87a5-34d8cd306a1b
-DTSTAMP:20201113T000000Z
-DTSTART;VALUE=DATE:20201113
-SUMMARY:CS471 Web and Mobile Development: Class Meeting
-LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/SSL\nDeliverable: Programming Assignment: Databases Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/Databases\nDeliverable: Programming Assignment: NoSQL Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/NoSQL
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:aae13a75-bd80-4d5c-9f90-52ca423e0447
+UID:a901e6a0-c745-4157-9003-0d1b0529d3f1
 DTSTAMP:20201116T000000Z
 DTSTART;VALUE=DATE:20201116
 SUMMARY:CS471 Web and Mobile Development: Final Project: Interface Design Handed Out
@@ -548,16 +557,16 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:51eb49d6-65b2-4592-9824-ef4dd96dd364
+UID:089c52a5-2e2e-4e40-937e-58be51c29f96
 DTSTAMP:20201116T000000Z
 DTSTART;VALUE=DATE:20201116
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:\nReading: HTML5 Reference Guide https://books.goalkicker.com/HTML5Book/HTML5NotesForProfessionals.pdf\nReading: HTML5 Tutorial https://www.w3schools.com/html/default.asp\nDeliverable: Final Project: Interface Design Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Projects/Final
+DESCRIPTION:\nReading: HTML5 Reference Guide https://books.goalkicker.com/HTML5Book/HTML5NotesForProfessionals.pdf\nReading: HTML5 Tutorial https://www.w3schools.com/html/default.asp\nDeliverable: Lab: Swagger Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/Swagger\nDeliverable: Programming Assignment: Databases Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/Databases\nDeliverable: Programming Assignment: NoSQL Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/NoSQL\nDeliverable: Final Project: Interface Design Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Projects/Final
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:bad62d3d-183a-45f8-8a58-de1d7aada452
+UID:9a72802e-25df-49fb-b894-5bd5ef389e93
 DTSTAMP:20201118T000000Z
 DTSTART;VALUE=DATE:20201118
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -566,16 +575,7 @@ DESCRIPTION:\nReading: RESTful Web Services Chapter 11\nReading: CSS Tutorial ht
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:a61b8105-c925-44bb-bea1-5220bc833e8a
-DTSTAMP:20201120T000000Z
-DTSTART;VALUE=DATE:20201120
-SUMMARY:CS471 Web and Mobile Development: Programming Assignment: NoSQL Due
-LOCATION:
-DESCRIPTION:
-PRIORITY:3
-END:VEVENT
-BEGIN:VEVENT
-UID:0d1c89c2-e146-4dcb-9241-175736dd7b18
+UID:a7b21c32-9942-4f97-8668-772da3987dbc
 DTSTAMP:20201120T000000Z
 DTSTART;VALUE=DATE:20201120
 SUMMARY:CS471 Web and Mobile Development: Lab: Accessibility Handed Out
@@ -584,16 +584,16 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:c675f2f1-9db6-4d2c-8b81-36c52ba1aaa0
+UID:4c076cca-b950-4435-9c00-be10d6a5f71b
 DTSTAMP:20201120T000000Z
 DTSTART;VALUE=DATE:20201120
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/Accessibility\nReading: Web Accessibility Principles https://www.w3.org/WAI/fundamentals/accessibility-principles/\nReading: Web Accessibility Reference https://www.w3.org/WAI/WCAG21/quickref/\nReading: WAVE Accessibility Plugin https://wave.webaim.org/extension/\nDeliverable: Programming Assignment: NoSQL Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/NoSQL\nDeliverable: Lab: Accessibility Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/Accessibility
+DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/Accessibility\nReading: Web Accessibility Principles https://www.w3.org/WAI/fundamentals/accessibility-principles/\nReading: Web Accessibility Reference https://www.w3.org/WAI/WCAG21/quickref/\nReading: WAVE Accessibility Plugin https://wave.webaim.org/extension/\nDeliverable: Lab: Accessibility Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Labs/Accessibility
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:f70d64bf-8603-49d2-a752-944ed8d49b4f
+UID:fd69788b-b6fe-4fc2-8be7-e3ae7939b891
 DTSTAMP:20201123T000000Z
 DTSTART;VALUE=DATE:20201123
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -602,7 +602,16 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/M
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:09fa65e1-9ceb-4e59-9009-238cdc1f86a3
+UID:c8c65cac-d652-4c9e-ad71-0554374fae6c
+DTSTAMP:20201130T000000Z
+DTSTART;VALUE=DATE:20201130
+SUMMARY:CS471 Web and Mobile Development: Programming Assignment: NoSQL Due
+LOCATION:
+DESCRIPTION:
+PRIORITY:3
+END:VEVENT
+BEGIN:VEVENT
+UID:b00537dc-aaf0-4989-b66c-2eae5a5d02d5
 DTSTAMP:20201130T000000Z
 DTSTART;VALUE=DATE:20201130
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: PWA Handed Out
@@ -611,16 +620,16 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:e5e369d7-cefc-4664-952d-99127ee9309f
+UID:bf4aa0fb-bd87-4c16-b0ac-ad1ef3a7421e
 DTSTAMP:20201130T000000Z
 DTSTART;VALUE=DATE:20201130
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
 LOCATION:
-DESCRIPTION:\nDeliverable: Programming Assignment: PWA Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/PWA
+DESCRIPTION:\nDeliverable: Programming Assignment: NoSQL Due https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/NoSQL\nDeliverable: Programming Assignment: PWA Handed Out https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Assignments/PWA
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:dbb82615-5982-4599-a420-e55e9e704fc9
+UID:e3c811a9-285c-480d-b585-c235021b8ce8
 DTSTAMP:20201202T000000Z
 DTSTART;VALUE=DATE:20201202
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -629,7 +638,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:8a80a906-6343-4935-8016-a817d4c94ea9
+UID:c3b3010f-9845-44cd-bd26-319e0434eb32
 DTSTAMP:20201204T000000Z
 DTSTART;VALUE=DATE:20201204
 SUMMARY:CS471 Web and Mobile Development: Lab: Accessibility Due
@@ -638,7 +647,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:4b59968b-216d-4c61-9b6a-6d7ef8b470fb
+UID:f76109be-5660-49c3-b8ca-6faa3b7100a8
 DTSTAMP:20201204T000000Z
 DTSTART;VALUE=DATE:20201204
 SUMMARY:CS471 Web and Mobile Development: Final Project: Interface Design Due
@@ -647,7 +656,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:a77d5534-dc6c-4fcd-87ce-655b5dc2e7f6
+UID:b2bc254d-eac5-4907-af1b-9c29d1385ca3
 DTSTAMP:20201204T000000Z
 DTSTART;VALUE=DATE:20201204
 SUMMARY:CS471 Web and Mobile Development: Final Project: Project and Presentation Handed Out
@@ -656,7 +665,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:a5219f53-9004-4385-a5ca-177fbe82f36f
+UID:5ecec2ae-7ef1-4289-bc1d-8e3d2468797f
 DTSTAMP:20201204T000000Z
 DTSTART;VALUE=DATE:20201204
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -665,7 +674,7 @@ DESCRIPTION:https://www.billmongan.com/Ursinus-WebMobile-Fall2020/./Activities/C
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:3ac678c9-f4bf-4c14-b80a-924dfee107f0
+UID:92b4981b-2739-4f04-af55-c3cb65658309
 DTSTAMP:20201207T000000Z
 DTSTART;VALUE=DATE:20201207
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -674,7 +683,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:26a3fa85-cf80-474d-b794-7f7121fe1aba
+UID:2994af2c-77d5-48e4-bdcc-ae35426506f8
 DTSTAMP:20201209T000000Z
 DTSTART;VALUE=DATE:20201209
 SUMMARY:CS471 Web and Mobile Development: Participation: Second Notebook Check
@@ -683,7 +692,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:0bf8990e-b648-4f8b-b378-8df02c2307de
+UID:ceff0b09-81d0-479b-8147-a36cbdf80bc7
 DTSTAMP:20201209T000000Z
 DTSTART;VALUE=DATE:20201209
 SUMMARY:CS471 Web and Mobile Development: Lab: Pull Requests Handed Out
@@ -692,7 +701,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:29aefe22-b9c2-4ed2-9dee-af17cb7f690d
+UID:e14c2cba-44a0-4b7a-8d37-00a600724012
 DTSTAMP:20201209T000000Z
 DTSTART;VALUE=DATE:20201209
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -701,7 +710,7 @@ DESCRIPTION:https://cse.buffalo.edu/~kershner/CSE111WebSite/Spring%202009/Lectur
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:050af2b3-7135-49bf-a412-0d7ec8ac63d5
+UID:2e8aafc6-d55f-4a00-8700-bf6ded190461
 DTSTAMP:20201211T000000Z
 DTSTART;VALUE=DATE:20201211
 SUMMARY:CS471 Web and Mobile Development: Programming Assignment: PWA Due
@@ -710,7 +719,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:0a688f99-f278-40ac-8233-21cc485f1a97
+UID:fb015f29-a620-4151-b443-2ea38a1d88b4
 DTSTAMP:20201211T000000Z
 DTSTART;VALUE=DATE:20201211
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -719,7 +728,7 @@ DESCRIPTION:\nDeliverable: Programming Assignment: PWA Due https://www.billmonga
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:4bc85073-6640-4465-9d3d-7e7f615782c8
+UID:7d317946-f593-48cf-8f2c-bd8a4b50bdd2
 DTSTAMP:20201207T000000Z
 DTSTART;VALUE=DATE:20201207
 SUMMARY:CS471 Web and Mobile Development: Lab: Pull Requests Due
@@ -728,7 +737,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:4ddee1ad-392a-4a8c-abb9-4dcdab6269a6
+UID:d5ebd221-5c30-49b8-ab24-083e2085e846
 DTSTAMP:20201207T000000Z
 DTSTART;VALUE=DATE:20201207
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -737,7 +746,7 @@ DESCRIPTION:\nDeliverable: Lab: Pull Requests Due https://www.billmongan.com/Urs
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:ae78406f-83cb-4527-9d34-175a77043d46
+UID:0d877a07-f22f-46c1-add1-e0634e672d06
 DTSTAMP:20201214T000000Z
 DTSTART;VALUE=DATE:20201214
 SUMMARY:CS471 Web and Mobile Development: Final Project: Project and Presentation Due
@@ -746,7 +755,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:133dac56-cd68-4386-a406-d76010e1c4c9
+UID:65ef3f9d-0ee5-4a0f-9f94-52c9254283c9
 DTSTAMP:20201214T000000Z
 DTSTART;VALUE=DATE:20201214
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -755,7 +764,7 @@ DESCRIPTION:\nDeliverable: Final Project: Project and Presentation Due https://w
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:ee1e9d36-7d0a-4900-be7f-8b1a10421516
+UID:9e0ddf24-0b96-4eee-9056-3ac94e779c53
 DTSTAMP:20201216T000000Z
 DTSTART;VALUE=DATE:20201216
 SUMMARY:CS471 Web and Mobile Development: Class Meeting
@@ -764,7 +773,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:44b473b9-c7ee-4a7a-941e-9fd55ee09e17
+UID:5eebaa50-3792-44be-bfad-c8f05fd6daa9
 DTSTAMP:20200907T100000
 DTSTART;TZID=US-Eastern:20200907T100000
 DTEND;TZID=US-Eastern:20200907T105000
@@ -778,7 +787,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:3be04743-86e1-42e0-916e-b371e59e855a
+UID:27ef51ba-f5b6-4fab-92a8-79ec03c55713
 DTSTAMP:20200907T123000
 DTSTART;TZID=US-Eastern:20200907T123000
 DTEND;TZID=US-Eastern:20200907T132000
@@ -792,7 +801,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:bca8f8ec-db42-4cc5-9c0b-8f0bdcbbe4a1
+UID:bbea2395-447f-411d-a247-cdfc1ec47043
 DTSTAMP:20200907T190000
 DTSTART;TZID=US-Eastern:20200907T190000
 DTEND;TZID=US-Eastern:20200907T200000
@@ -806,7 +815,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:ba802024-d399-4e82-bc96-01929048aabb
+UID:0e742790-4eec-41c2-9092-0ba7467dce16
 DTSTAMP:20200907T100000
 DTSTART;TZID=US-Eastern:20200907T100000
 DTEND;TZID=US-Eastern:20200907T105000
@@ -820,7 +829,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:97a75fa9-94d2-49d8-a9bd-04af2057dfa9
+UID:d45161cb-a188-4e17-94e4-f8201e84ad2c
 DTSTAMP:20200907T100000
 DTSTART;TZID=US-Eastern:20200907T100000
 DTEND;TZID=US-Eastern:20200907T105000
@@ -834,7 +843,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:e39e22c3-0ea4-49eb-a711-8f62d9233f7b
+UID:98e3ae18-dd53-42cd-81dd-7885c36f6fba
 DTSTAMP:20200907T123000
 DTSTART;TZID=US-Eastern:20200907T123000
 DTEND;TZID=US-Eastern:20200907T132000
@@ -848,7 +857,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:b771078f-238f-4cea-b7f6-ce48a84cb955
+UID:67bc06d7-5fc0-4dcc-a1bd-e057f202cbcc
 DTSTAMP:20200907T190000
 DTSTART;TZID=US-Eastern:20200907T190000
 DTEND;TZID=US-Eastern:20200907T200000
@@ -862,7 +871,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:4ab1c0f5-95c3-47e9-986f-464eccf6b6f1
+UID:6662d974-5c30-42b0-aa83-4455421b8d0e
 DTSTAMP:20200907T100000
 DTSTART;TZID=US-Eastern:20200907T100000
 DTEND;TZID=US-Eastern:20200907T105000
@@ -876,7 +885,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:9afc465d-2b59-413e-9a37-7c94e88da36e
+UID:421ff77c-8db0-438e-a24a-99f4eaf8b832
 DTSTAMP:20200907T123000
 DTSTART;TZID=US-Eastern:20200907T123000
 DTEND;TZID=US-Eastern:20200907T132000
@@ -890,7 +899,7 @@ DESCRIPTION:
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:227ba156-1c7f-49d6-8117-1aeb20d4bc34
+UID:022702ba-833f-42b1-b702-14b34dc5b851
 DTSTAMP:20200918T000000Z
 DTSTART;VALUE=DATE:20200918
 SUMMARY:Add Deadline
@@ -899,7 +908,7 @@ DESCRIPTION:Add Deadline
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:eea18b53-6f60-4b9d-a9bd-e1aeab0c1d0d
+UID:75fca50a-3b82-474c-b700-692a483e94ae
 DTSTAMP:20201104T000000Z
 DTSTART;VALUE=DATE:20201104
 SUMMARY:Drop with a W Deadline
@@ -908,7 +917,7 @@ DESCRIPTION:Drop with a W Deadline
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:847f8504-627b-4009-a4a4-0baf800d8586
+UID:e9351dfb-ce65-4520-b6bb-ec15e69a92c6
 DTSTAMP:20201023T000000Z
 DTSTART;VALUE=DATE:20201023
 SUMMARY:Mid Semester Grades Posted
@@ -917,7 +926,7 @@ DESCRIPTION:Mid Semester Grades Posted
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:d195fbbf-ec5c-43a5-94d1-7030fafaadcc
+UID:60565f9a-f57a-4624-a24b-f49b04c1169f
 DTSTAMP:20201130T000000Z
 DTSTART;VALUE=DATE:20201130
 SUMMARY:2020 Transition to Remote Learning after Thanksgiving Break
@@ -926,7 +935,7 @@ DESCRIPTION:2020 Transition to Remote Learning after Thanksgiving Break
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:6cfa5228-6346-40e5-99d8-3e6f7f957ab1
+UID:75a16f38-ece1-47a6-a53c-35c4e96d638d
 DTSTAMP:20201216T000000Z
 DTSTART;VALUE=DATE:20201216
 SUMMARY:Finals Week Begins
@@ -935,7 +944,7 @@ DESCRIPTION:Finals Week Begins
 PRIORITY:3
 END:VEVENT
 BEGIN:VEVENT
-UID:873e8cad-ef95-4a02-8b5f-a7e58b347f07
+UID:ee56be55-08a7-4a12-a5c7-59e8bb18ee0f
 DTSTAMP:20201222T000000Z
 DTSTART;VALUE=DATE:20201222
 SUMMARY:Finals Week Ends
