@@ -158,6 +158,16 @@ info:
       questions:
         - What is the problem being demonstrated here?  How might you write a program that is vulnerable to this type of attack?
         - "What can we do to prevent this?  The solution is <a href=\"https://www.veracode.com/blog/secure-development/how-prevent-sql-injection-nodejs\">provided automatically by a node.js library</a>, which you should use when concatenating user input to executable code."
+  models:
+    - model: |
+        <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+      title: node.js Promises, Revisited
+      embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLPromiseExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe><br /><iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLAwaitExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+      questions:
+        - In the first example, why is the code hard to follow?
+        - "If you put a <code>process.exit()</code>statement at the bottom of the first example, what do you think would happen?"
+        - "In the second example, why is there a <code>return</code> statement in the middle of execution?  This statement does not return from the function: what do you think it does?"
+        - "What are the advantages and disadvantages of the <code>await</code> statements in the third example?"        
         
 tags:
   - databases
