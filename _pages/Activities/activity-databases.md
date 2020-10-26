@@ -158,7 +158,6 @@ info:
       questions:
         - What is the problem being demonstrated here?  How might you write a program that is vulnerable to this type of attack?
         - "What can we do to prevent this?  The solution is <a href=\"https://www.veracode.com/blog/secure-development/how-prevent-sql-injection-nodejs\">provided automatically by a node.js library</a>, which you should use when concatenating user input to executable code."
-  models:
     - model: |
         <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
       title: node.js Promises, Revisited
