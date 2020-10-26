@@ -44,7 +44,7 @@ info:
       title: Relational Databases
       embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>        
       questions:
-        - Draw a flow chart of the function calls in the program above.
+        - Draw a flow chart of the function calls in the program below.
     - model: |
           <div>
             <strong>People</strong><br />
