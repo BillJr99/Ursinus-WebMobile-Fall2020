@@ -372,8 +372,6 @@ schedule:
     - rtitle: "Swagger for Service Documentation"
       rlink: "https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563"  
   deliverables:
-    - dtitle: "Participation: First Notebook Check"
-      points: 10  
     - dtitle: "Lab: Food Bank Map Due"
       dlink: "./Labs/FoodBankMap"
       points: 100  
@@ -409,6 +407,9 @@ schedule:
   date: "0"
   title: "Server-Side Authentication Models"  
   link: "../Ursinus-WebMobile-ServerSideAuth"
+  deliverables:
+    - dtitle: "Participation: First Notebook Check"
+      points: 10    
 - week: "9"
   date: "1"
   title: "Digital Certificates through Public Key Cryptosystems" 
