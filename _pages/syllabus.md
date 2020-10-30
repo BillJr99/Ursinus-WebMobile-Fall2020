@@ -367,7 +367,7 @@ schedule:
   title: "Databases"
 - week: "7"
   date: "2"
-  title: "Databases" 
+  title: "Web Services Workshop" 
   readings:
     - rtitle: "Swagger for Service Documentation"
       rlink: "https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563"  
