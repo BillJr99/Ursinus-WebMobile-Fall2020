@@ -35,8 +35,8 @@ In this lab, you will document a web service using [Swagger](https://levelup.git
 You can add a Swagger router via:
 
 ```javascript
-const swaggerJsdoc = require(“swagger-jsdoc”);
-const swaggerUi = require(“swagger-ui-express”);
+const swaggerJsdoc = require("swagger-jsdoc");
+const swaggerUi = require("swagger-ui-express");
 router.get("/docs", swaggerUi.setup(specs, { explorer: true }));
 ```
 
