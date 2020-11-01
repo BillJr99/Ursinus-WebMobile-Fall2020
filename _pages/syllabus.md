@@ -514,14 +514,10 @@ schedule:
   deliverables:
     - dtitle: "Programming Assignment: PWA Due"
       dlink: "./Assignments/PWA"
-      points: 100  
-- week: "13"
-  date: "3"
-  title: "Workshopping"
-  deliverables:
+      points: 100 
     - dtitle: "Lab: Pull Requests Due"
       dlink: "./Labs/PullRequests"    
-      points: 100  
+      points: 100        
 - week: "14"
   date: "0"
   title: "Workshopping"
