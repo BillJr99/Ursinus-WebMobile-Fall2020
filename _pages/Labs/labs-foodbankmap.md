@@ -59,6 +59,8 @@ You should support:
 
 Test each of these using a client program, a web browser, or a cURL command, and show the results of your testing.
 
+To support a web-based frontend, we will need to enable [CORS](../Activities/CORS) on this server.
+
 ## Part 2: Google Map Frontend Configuration and Tutorial
 The example below shows a minimal working example of a Google Map that plots the location of Ursinus College, and plots a custom marker with a location given by the current location as obtained through the browser client.
 
