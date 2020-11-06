@@ -122,7 +122,7 @@ info:
         - "What if you wanted to support other verbs on these items, like <code>putOnSale</code>?  Are service endpoints typically nouns or verbs, and how might you re-work a sale verb like this one into an appropriate CRUD endpoint?"
         - What is the advantage of separating your code into a model and a controller implementation?
         - "How would you define a schema that supports an array of sub-objects?  See <a href=\"https://mongoosejs.com/docs/2.7.x/docs/embedded-documents.html\">this article</a> for an example."
-        - "How would you define a schema that supports an embedded sub-object?  See <a href=\"https://mongoosejs.com/docs/2.7.x/docs/embedded-documents.html\">this article</a> for an example."
+        - "How would you define a schema that supports an embedded sub-object?  See <a href=\"https://alexanderzeitler.com/articles/mongoose-referencing-schema-in-properties-and-arrays/\">this article</a> for an example."
         
 tags:
   - rest
