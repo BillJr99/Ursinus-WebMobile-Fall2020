@@ -14,7 +14,22 @@ info:
   models:
     - model: |
         <a title="Bluesmoon / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)" href="https://commons.wikimedia.org/wiki/File:Flowchart_showing_Simple_and_Preflight_XHR.svg"><img width="512" alt="Flowchart showing Simple and Preflight XHR" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flowchart_showing_Simple_and_Preflight_XHR.svg/512px-Flowchart_showing_Simple_and_Preflight_XHR.svg.png"></a>
-        <br>
+<br>
+                <div align="left">
+        <pre>
+        <code>
+        // From: https://enable-cors.org/server_expressjs.html
+        // A simple and insecure example to allow all CORS requests
+        // Add this to your express server's routes
+        app.use(function(req, res, next) {
+          res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
+          res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+          next(); // what does this do?
+        });
+        </code>
+        </pre>
+        </div>        
+        <br><br>
                 <div align="left">
         <pre>
         <code>
