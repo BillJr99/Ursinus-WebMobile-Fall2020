@@ -207,6 +207,8 @@ Iterate over the food bank latitude and longitude values obtained by issuing a G
 
 ## Part 4: Identifying the Closest Food Bank
 Using the [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula) to compute the distance between two points on a sphere, approximate the distance between your current location and each food bank.  You may use [this example](https://www.movable-type.co.uk/scripts/latlong.html) to compute the distance.  Choose a custom marker image for the nearest one and add it to the map.
+
+You will want to make your json object that you get from your food bank call a global variable, and then call `getPosition()` to get your current location.  The callback from `getPosition` (which is `showPosition`) is where you get the `position` variable that is your current location.  In that function, search your global json array for the closest food bank by computing the distance between each food bank's latitude and longitude, and your current position's latitude and longitude.  Set a custom marker for this position!
  
  Finally, add a `div` tag to the webpage, and set its `innerHTML` value to the name, address, and computed distance of that food bank, so that they appear on the browser page.
 
