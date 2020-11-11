@@ -131,7 +131,7 @@ Note that the `map` variable is declared without a `var` tag.  This places the v
     </body>
 ```
 
-At the end of the `initMap()` function, you can call `navigator.geolocation.getCurrentPosition(showPosition)`, which will callback another function that you'll write shortly, and that we'll call `showPosition`.  This gets the current latitude and longitude of the user, if they grant that permission to the browser.  For clarity, we'll place this geolocation call in another function called `getLocation` and call it from `initMap`.
+At the end of the `initMap()` function, you can call `navigator.geolocation.getCurrentPosition(showPosition)`, which will callback another function that you'll write shortly, and that we'll call `showPosition`.  This gets the current latitude and longitude of the user, if they grant that permission to the browser.  For clarity, we'll place this geolocation call in another function called `getLocation` and call it from `initMap`.  One note: repl.it doesn't grant location permissions, so this won't work there.  You can take the URL from repl.it's mini browser and open a new browser tab with that URL instead, and grant location permissions there.
 
 ```javascript
     function getLocation() {
