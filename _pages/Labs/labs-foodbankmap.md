@@ -149,7 +149,7 @@ At the end of the `initMap()` function, you can call `navigator.geolocation.getC
     }
 ```
 
-Finally, let's implement the `showPosition` function, which takes a single parameter representing the user's location.  We'll create a second marker and place it on the map representing the user's current location.  This function goes with the other scripts on the page.
+Finally, let's implement the `showPosition` function, which takes a single parameter representing the user's location.  We'll create a second marker and place it on the map representing the user's current location.  This function goes with the other scripts on the page.  
 
 ```javascript
     function showPosition(position) {
@@ -208,7 +208,7 @@ Iterate over the food bank latitude and longitude values obtained by issuing a G
 ## Part 4: Identifying the Closest Food Bank
 Using the [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula) to compute the distance between two points on a sphere, approximate the distance between your current location and each food bank.  You may use [this example](https://www.movable-type.co.uk/scripts/latlong.html) to compute the distance.  Choose a custom marker image for the nearest one and add it to the map.
 
-You will want to make your json object that you get from your food bank call a global variable, and then call `getPosition()` to get your current location.  The callback from `getPosition` (which is `showPosition`) is where you get the `position` variable that is your current location.  In that function, search your global json array for the closest food bank by computing the distance between each food bank's latitude and longitude, and your current position's latitude and longitude.  Set a custom marker for this position!
+You will want to make your json object that you get from your food bank call a global variable, and then call `getPosition()` to get your current location.  The callback from `getPosition` (which is `showPosition`) is where you get the `position` variable that is your current location.  In that function, search your global json array for the closest food bank by computing the distance between each food bank's latitude and longitude, and your current position's latitude and longitude.  Set a custom marker for this position!  For finding the closest location, you can compare each food bank's location to your current position (this was `position.coords.latitude` and `position.coords.longitude` in the `showPosition` function), keeping track of the closest one (with the minimum distance) to drop a custom marker as you go.  You should call `getPosition` during the callback of your food bank web request, so that you have your json with the food bank locations prior to getting your current position.  Put this minimum distance computation loop inside `showPosition`, where you'll learn your current latitutde and longitude for comparison.  You can make variables from your primary function global by removing the `var` tag from them.  For example `map = ...` is global, but `var map = ...` is not.
  
  Finally, add a `div` tag to the webpage, and set its `innerHTML` value to the name, address, and computed distance of that food bank, so that they appear on the browser page.
 
