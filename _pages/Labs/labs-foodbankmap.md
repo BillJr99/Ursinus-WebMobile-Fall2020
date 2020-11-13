@@ -62,7 +62,7 @@ Test each of these using a client program, a web browser, or a cURL command, and
 To support a web-based frontend, we will need to enable [CORS](../Activities/CORS) on this server.
 
 ## Part 2: Google Map Frontend Configuration and Tutorial
-The example below shows a minimal working example of a Google Map that plots the location of Ursinus College, and plots a custom marker with a location given by the current location as obtained through the browser client.
+The example below shows a minimal working example of a Google Map that plots the location of Ursinus College, and plots a custom marker with a location given by the current location as obtained through the browser client.  You can change this marker icon later by calling the `Marker.setIcon(image);` function.
 
 <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/GoogleMapExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 

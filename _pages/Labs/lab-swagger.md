@@ -37,6 +37,7 @@ You can add a Swagger router via:
 ```javascript
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
+const router = express.Router();
 router.get("/docs", swaggerUi.setup(specs, { explorer: true }));
 ```
 

@@ -20,7 +20,7 @@ info:
         <code>
         // From: https://enable-cors.org/server_expressjs.html
         // A simple and insecure example to allow all CORS requests
-        // Add this to your express server's routes
+        // Add this to your express server's index.js
         app.use(function(req, res, next) {
           res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
           res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
