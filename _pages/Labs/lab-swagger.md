@@ -30,68 +30,77 @@ tags:
   
 ---
 
-In this lab, you will document a web service using [Swagger](https://levelup.gitconnected.com/swagger-time-to-document-that-express-api-you-built-9b8faaeae563).
+In this lab, you will document a web service using [Swagger](https://swagger.io/docs/specification/2-0/basic-structure/).
 
 You can add a Swagger router via:
 
 ```javascript
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
-const router = express.Router();
-router.get("/docs", swaggerUi.setup(specs, { explorer: true }));
 ```
 
-with basic options as defined [here](https://gist.githubusercontent.com/AlexanderKaran/bb1025d02190a917795a6942dcab92ac/raw/6500cef951dced2da0c4fe12a60a459162dba4b0/Time%20to%20document%20that%20Express%20API%20you%C2%A0built:%20Swagger%20set%20up).
-
-You can then document your data schema using a Javadoc-like syntax:
+You can then document your data schema using a JSON structure:
 
 ```javascript
-/**
- * @swagger
- *   components:
- *    <your object type>:
- *      type: object
- *      required:
- *        - list
- *        - of
- *        - elements
- *        - name
- *      properties:
- *        name:
- *          type: string
- *          description: Description here
- *        ...
- *      example:
- *        name: Alex
- *        ...
- */
+const swaggerDocument = {
+  swagger: "2.0",
+  info: {
+    title: "Example Item API",
+    description: "Insert and retrieve items from a datastore",
+    version: 1.0
+  },
+  host: "localhost",
+  basePath: "/api/v1",
+  schemes: ['http'],
+  tags: ['Items'],
+  "components": {
+    "schemas": {
+      "ItemSchema": {
+        type: "object",
+        "name": {
+          type: "string"
+        },
+        "price": {
+          type: "number"
+        },
+        "status": {
+          type: "string"
+        }
+      }
+    }
+  },
+  paths: {
+    "/items": {
+      "get": {
+        "description": "Get all items from the datastore",
+        "responses": {
+          "200": {
+            "description": "A list of items",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ItemSchema"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 ```
-which you can access at your usual URL with `/docs` appended to the end.
 
-Similarly, you can document each of your routes (notice the references to the schema definitions above):
+You can instantiate a path to your Swagger document as follows, which you can access at your usual URL with `/api-docs` appended to the end:
 
 ```javascript
-/**
- * @swagger
- *   path:
- *    /<your path>/:
- *      post:
- *        summary: Create an element
- *        requestBody:
- *          required: true
- *          content:
- *            application/json:
- *          schema:
- *            $ref: '#/components/schemas/<YOUR OBJECT TYPE>'
- *        responses:
- *          "200":
- *            description: "A new item"
- *            content:
- *              application/json:
- *                schema:
- *                  $ref: '#/components/schemas/<YOUR OBJECT TYPE>'         
- */
+app.use('/api/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 ```
+
+You can even document your authentication paths, such as OAuth!  [See here for additional description of documentation structures supported by Swagger.](https://levelup.gitconnected.com/the-simplest-way-to-add-swagger-to-a-node-js-project-c2a4aa895a3c)
 
 ## Part 1: Adding Swagger Documentation
 
