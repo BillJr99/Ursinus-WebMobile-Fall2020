@@ -94,7 +94,7 @@ const swaggerDocument = {
 }
 ```
 
-You can instantiate a path to your Swagger document as follows, which you can access at your usual URL with `/api-docs` appended to the end:
+You can instantiate a path to your Swagger document as follows, which you can access at your usual URL with `/api/doc` appended to the end (as configured below):
 
 ```javascript
 app.use('/api/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
