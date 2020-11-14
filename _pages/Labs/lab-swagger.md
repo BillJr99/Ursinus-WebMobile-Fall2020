@@ -32,10 +32,9 @@ tags:
 
 In this lab, you will document a web service using [Swagger](https://swagger.io/docs/specification/2-0/basic-structure/).
 
-You can add a Swagger router via:
+You can add a Swagger renderer to your web service via:
 
 ```javascript
-const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 ```
 
@@ -97,11 +96,15 @@ const swaggerDocument = {
 You can instantiate a path to your Swagger document as follows, which you can access at your usual URL with `/api/doc` appended to the end (as configured below):
 
 ```javascript
-app.use('/api/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
+app.use('/api/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 ```
 
 You can even document your authentication paths, such as OAuth!  [See here for additional description of documentation structures supported by Swagger.](https://levelup.gitconnected.com/the-simplest-way-to-add-swagger-to-a-node-js-project-c2a4aa895a3c)
 
+Here is a minimal working example:
+
+<iframe height="800px" width="100%" src="https://repl.it/@BillJr99/SwaggerExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+
 ## Part 1: Adding Swagger Documentation
 
-Add Swagger documentation to one of your assignments or labs, and take a screenshot of the `/docs` page that is served when you run the project.
+Add Swagger documentation to one of your assignments or labs, and take a screenshot of the `/api/doc` page that is served when you run the project.
