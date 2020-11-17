@@ -56,14 +56,20 @@ const swaggerDocument = {
     "schemas": {
       "ItemSchema": {
         type: "object",
-        "name": {
-          type: "string"
-        },
-        "price": {
-          type: "number"
-        },
-        "status": {
-          type: "string"
+        required: ["name", "price"],
+        "properties": {
+            "name": {
+              type: "string",
+              example: "First Last"
+            },
+            "price": {
+              type: "number",
+              example: 1.99
+            },
+            "status": {
+              type: "string",
+              example: "taxable"
+            }
         }
       }
     }
@@ -86,6 +92,34 @@ const swaggerDocument = {
               }
             }
           }
+        }
+      }
+      "post": {
+        "summary": "Create an item",
+        "consumes": "application/json",
+        "parameters": [
+            {
+                "in": "body",
+                "name": "item",
+                "description": "item",
+                "schema": {
+                    "type": "object",
+                    "$ref": "#/components/schemas/ItemSchema"
+                }
+            }
+        ],
+        "responses": {
+            "200": {
+                "description": "Created Item",
+                "content": {
+                    "application/json": {
+                        "type": "object",
+                        "item": {
+                            "$ref": "#/components/schemas/ItemSchema"
+                        }
+                    }
+                }
+            }
         }
       }
     }
