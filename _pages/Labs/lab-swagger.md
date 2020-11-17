@@ -42,115 +42,94 @@ You can then document your data schema using a JSON structure:
 
 ```javascript
 const swaggerDocument = {
-  swagger: "2.0",
-  info: {
-    title: "Example Item API",
-    description: "Insert and retrieve items from a datastore",
-    version: 1.0
-  },
-  host: "localhost",
-  basePath: "/api/v1",
-  schemes: ['http'],
-  tags: ['Items'],
-  "components": {
-    "schemas": {
-      "ItemSchema": {
-        type: "object",
-        required: ["name", "price"],
-        "properties": {
-            "name": {
-              type: "string",
-              example: "First Last"
-            },
-            "price": {
-              type: "number",
-              example: 1.99
-            },
-            "status": {
-              type: "string",
-              example: "taxable"
+   "swagger":"2.0",
+   "info":{
+      "title":"Example Item API",
+      "description":"Insert and retrieve items from a datastore",
+      "version":1.0
+   },
+   "host":"localhost",
+   "basePath":"/api/v1",
+   "schemes":[
+      "http"
+   ],
+   "tags":[
+      "Items"
+   ],
+   "components":{
+      "schemas":{
+         "ItemSchema":{
+            "type":"object",
+            "required":[
+               "name",
+               "price"
+            ],
+            "properties":{
+               "name":{
+                  "type":"string",
+                  "example":"First Last"
+               },
+               "price":{
+                  "type":"number",
+                  "example":1.99
+               },
+               "status":{
+                  "type":"string",
+                  "example":"taxable"
+               }
             }
-        }
+         }
       }
-    }
-  },
-  paths: {
-    "/items/{id}": {
-        "get": {
-            "description": "Get item from the datastore by ID",
-            "parameters": {
-                "in": "path",
-                "name": "id",
-                "type": "integer",
-                "minimum": 1,
-                "description": "Item ID"
-            }
-            "responses": {
-              "200": {
-                "description": "The requested item",
-                "content": {
-                  "application/json": {
-                    "schema": {
-                      "type": "object",
-                      "items": {
-                        "$ref": "#/components/schemas/ItemSchema"
-                      }
-                    }
-                  }
-                }
-              }
-            }            
-        }
-    }
-    "/items": {
-      "get": {
-        "description": "Get all items from the datastore",
-        "responses": {
-          "200": {
-            "description": "A list of items",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/ItemSchema"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-      "post": {
-        "summary": "Create an item",
-        "consumes": "application/json",
-        "parameters": [
-            {
-                "in": "body",
-                "name": "item",
-                "description": "item",
-                "schema": {
-                    "type": "object",
-                    "$ref": "#/components/schemas/ItemSchema"
-                }
-            }
-        ],
-        "responses": {
-            "200": {
-                "description": "Created Item",
-                "content": {
-                    "application/json": {
-                        "type": "object",
-                        "item": {
-                            "$ref": "#/components/schemas/ItemSchema"
+   },
+   "paths":{
+      "/items":{
+         "get":{
+            "description":"Get all items from the datastore",
+            "responses":{
+               "200":{
+                  "description":"A list of items",
+                  "content":{
+                     "application/json":{
+                        "schema":{
+                           "type":"array",
+                           "items":{
+                              "$ref":"#/components/schemas/ItemSchema"
+                           }
                         }
-                    }
-                }
+                     }
+                  }
+               }
             }
-        }
+         }"post":{
+            "summary":"Create an item",
+            "consumes":"application/json",
+            "parameters":[
+               {
+                  "in":"body",
+                  "name":"item",
+                  "description":"item",
+                  "schema":{
+                     "type":"object",
+                     "$ref":"#/components/schemas/ItemSchema"
+                  }
+               }
+            ],
+            "responses":{
+               "200":{
+                  "description":"Created Item",
+                  "content":{
+                     "application/json":{
+                        "type":"object",
+                        "item":{
+                           "$ref":"#/components/schemas/ItemSchema"
+                        }
+                     }
+                  }
+               }
+            }
+         }
       }
-    }
-  }
+   }
 }
 ```
 
