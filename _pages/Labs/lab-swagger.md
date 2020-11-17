@@ -75,6 +75,33 @@ const swaggerDocument = {
     }
   },
   paths: {
+    "/items/{id}": {
+        "get": {
+            "description": "Get item from the datastore by ID",
+            "parameters": {
+                "in": "path",
+                "name": "id",
+                "type": "integer",
+                "minimum": 1,
+                "description": "Item ID"
+            }
+            "responses": {
+              "200": {
+                "description": "The requested item",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "items": {
+                        "$ref": "#/components/schemas/ItemSchema"
+                      }
+                    }
+                  }
+                }
+              }
+            }            
+        }
+    }
     "/items": {
       "get": {
         "description": "Get all items from the datastore",
