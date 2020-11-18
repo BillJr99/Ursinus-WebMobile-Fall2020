@@ -141,6 +141,8 @@ app.use('/api/doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 You can even document your authentication paths, such as OAuth!  [See here for additional description of documentation structures supported by Swagger.](https://levelup.gitconnected.com/the-simplest-way-to-add-swagger-to-a-node-js-project-c2a4aa895a3c)
 
+Note that you will need to enable CORS to try out the endpoints!
+
 Here is a minimal working example:
 
 <iframe height="800px" width="100%" src="https://repl.it/@BillJr99/SwaggerExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
