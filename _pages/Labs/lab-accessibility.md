@@ -24,6 +24,6 @@ tags:
   
 ---
 
-In this lab, you will identify one of your webpages from any lab or assignment, and evaluate it using the [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/).
+In this lab, you will identify one of your webpages from any lab or assignment, and evaluate it using the [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/) or [WAVE plugin extension](https://wave.webaim.org/extension/).
 
 Write up a report of the deficiencies that you identify, and fix them.  Submit your "before" and "after" versions.  In your report, discuss the types of deficiencies that were most commonly identified and how you can avoid these.  In what ways will your content be easier to consume by all audiences thanks to the improvements that you've made?

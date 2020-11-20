@@ -19,7 +19,7 @@ info:
         - "Were any of the items you identified fixed in the \"after page\"?"
     - model: |
         <div align="left">
-        Navigate to the <a href="https://www.w3.org/WAI/demos/bad/">WAVE Accessibility Evaluation Tool</a> and evaluate a before and after page from <a href="https://www.w3.org/WAI/demos/bad/">this list</a>.
+        Navigate to the <a href="https://wave.webaim.org/">WAVE Accessibility Evaluation Tool</a> and evaluate a before and after page from <a href="https://www.w3.org/WAI/demos/bad/">this list</a>.  You can use the [WAVE plugin](https://wave.webaim.org/extension/) to help you.
         </div>
       title: Accessibility
       questions:
