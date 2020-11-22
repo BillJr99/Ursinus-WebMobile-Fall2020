@@ -463,11 +463,11 @@ schedule:
       points: 100
 - week: "11"
   date: "0"
-  title: "Mobile Application Development"         
-  link: "./Activities/MobileDev"
+  title: "Final Project Brainstorm"
 - week: "12"
   date: "0"
-  title: "Progressive Web Apps (PWA) for Cross Platform Development"  
+  title: "Mobile Application Development"         
+  link: "./Activities/MobileDev"
   deliverables:
     - dtitle: "Programming Assignment: NoSQL Due"
       dlink: "./Assignments/NoSQL"
