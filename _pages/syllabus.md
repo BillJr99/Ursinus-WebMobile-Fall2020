@@ -407,6 +407,13 @@ schedule:
   date: "0"
   title: "Server-Side Authentication Models"  
   link: "../Ursinus-WebMobile-ServerSideAuth"
+  readings:
+    - rtitle: "Generating JWT Using express Web Services"
+      rlink: "https://www.digitalocean.com/community/tutorials/nodejs-jwt-expressjs"
+    - rtitle: "Authentication Tutorial Using JWT"
+      rlink: "https://jasonwatmore.com/post/2018/08/06/nodejs-jwt-authentication-tutorial-with-example-api"
+    - rtitle: "OAuth 2.0 Server Side Process Tutorial"
+      rlink: "http://thecodebarbarian.com/oauth-with-node-js-and-express.html"
   deliverables:
     - dtitle: "Participation: First Notebook Check"
       points: 10    
