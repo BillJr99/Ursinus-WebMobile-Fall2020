@@ -59,7 +59,7 @@ In this project, you will propose a topic of your choosing and a group of at lea
 
 You will use git or another version control system to coordinate between your team.  
 
-Finally, prepare as a team a project presentation using a screencast (such as [Screencast-O-Matic](https://screencast-o-matic.com/)) that you will share with the class for final presentations.  Alternatively, you may choose to present to a live class audience, as time permits.
+First, propse a project along with its RESTful interface definition.  Include your calls and data schemas (as if you were defining a Swagger document).  Your interface should include at least one authenticated user database or NoSQL lookup, authenticated with OAuth or a JWT token.  Then, implement your project server and client!  Finally, prepare as a team a project presentation using a screencast (such as [Screencast-O-Matic](https://screencast-o-matic.com/)) that you will share with the class for final presentations.  Alternatively, you may choose to present to a live class audience, as time permits.
 
 Some possible projects include:
 
