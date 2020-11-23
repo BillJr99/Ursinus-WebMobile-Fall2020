@@ -66,5 +66,5 @@ Some possible projects include:
 * Online debugging table for introductory students: a service-based mobile-friendly site that supports exception posting, commenting, resolution, and searching
 * [Canvas](https://canvas.instructure.com/doc/api/) Course Manager: An organizational utility for students using Canvas with a personal [iCal](https://en.wikipedia.org/wiki/ICalendar) generator for your personal calendar
 
-## Extra Credit (10%)
-If you deploy your project publicly and make your repository/repositories publicly open source (please note this in your README), I will award extra credit to your project.
+## Extra Credit (Up to 30%)
+If you deploy your project publicly and make your repository/repositories publicly open source (please note this in your README), I will award 10% extra credit to your project.  Additionally, if you propose to deploy your project to a stakeholder group, and successfully do so, I will award 20% extra credit to your project!  Please note that you must propose the stakeholder group to the instructor when the interface and/or project proposal are due, and the instructor and stakeholder group must agree up front to participate!
