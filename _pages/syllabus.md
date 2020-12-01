@@ -527,14 +527,11 @@ schedule:
       points: 100        
 - week: "14"
   date: "0"
-  title: "Workshopping"
+  title: "Final Project Presentations"
   deliverables:
   - dtitle: "Final Project: Project and Presentation Due"
     dlink: "./Projects/Final"
     points: 75    
-- week: "14"
-  date: "1"
-  title: "Final Project Presentations"
 
 university:
   semester: "Fall"
@@ -552,6 +549,12 @@ university:
   - kname: "2020 Transition to Remote Learning after Thanksgiving Break"
     kdate: "2020/11/30"
     kdisplay: true
+  - kname: "Designated Thursday Schedule"
+    kdate: "2020/12/14"
+    kdisplay: true
+  - kname: "Designated Friday Schedule"
+    kdate: "2020/12/15"    
+    kdisplay: true    
   - kname: "Finals Week Begins"
     kdate: "2020/12/16"
     kdisplay: false
