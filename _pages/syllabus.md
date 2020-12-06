@@ -512,18 +512,12 @@ schedule:
   deliverables:
     - dtitle: "Participation: Second Notebook Check"
       points: 10  
-    - dtitle: "Lab: Pull Requests Handed Out"
-      dlink: "./Labs/PullRequests"    
-      points: 100
 - week: "13"
   date: "2"
   title: "Final Project Workshopping"
   deliverables:
     - dtitle: "Programming Assignment: PWA Due"
       dlink: "./Assignments/PWA"
-      points: 100 
-    - dtitle: "Lab: Pull Requests Due"
-      dlink: "./Labs/PullRequests"    
       points: 100        
 - week: "14"
   date: "0"
