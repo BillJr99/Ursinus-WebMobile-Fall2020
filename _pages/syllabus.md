@@ -522,7 +522,7 @@ schedule:
       points: 100        
 - week: "14"
   date: "0"
-  title: "Final Project Presentations"
+  title: "Final Project Presentations (Tuesday 12/15)"
   deliverables:
   - dtitle: "Final Project: Project and Presentation Due"
     dlink: "./Projects/Final"
