@@ -505,8 +505,9 @@ schedule:
 - week: "13"
   date: "1"
   title: "Open-Source Software Development" 
-  link: "https://cse.buffalo.edu/~kershner/CSE111WebSite/Spring%202009/Lectures/OpenSource.09.ppt"  
   readings:
+    - rtitle: "Open Source Software Development"
+      rlink: "https://cse.buffalo.edu/~kershner/CSE111WebSite/Spring%202009/Lectures/OpenSource.09.ppt"  
     - rtitle: "HFOSS - Humanitarian Free Open Source Software"
       rlink: "http://www.hfoss.org/"
   deliverables:
