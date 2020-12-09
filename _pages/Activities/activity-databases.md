@@ -169,7 +169,7 @@ info:
         - "What are the advantages and disadvantages of the <code>await</code> statements in the third example?"     
     - model: See the Example Below
       title: RESTful Services with a Database Backend    
-      embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/MySQLPromiseExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe><br /><iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ExpressMySQLExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+      embed: <iframe height="400px" width="100%" src="https://repl.it/@BillJr99/ExpressMySQLExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
         
 tags:
   - databases
