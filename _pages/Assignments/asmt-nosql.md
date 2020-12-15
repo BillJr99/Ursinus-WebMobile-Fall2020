@@ -39,6 +39,8 @@ tags:
 
 In this assignment, you will create a collection data store using [MongoDB](http://mongodb.com), which you will manipulate from a RESTful web service.  Here is a [step-by-step guide](https://www.w3schools.com/nodejs/nodejs_mongodb.asp) to creating a database and to creating collections, followed by a [tutorial](https://www.guru99.com/node-js-mongodb.html) using MongoDB locally via a node.js library.
 
+Note that you will need to point to a mongo installation with your url - you can [install MongoDB](https://docs.mongodb.com/manual/installation/) if you would like, or use an existing cloud service and port as your URL and port number variable parameter.
+
 ## Part 1: Web Service Backend
 Using your data schema from the [Databases](./Databases) assignment, modify  your web service backend to use a MongoDB NoSQL collection instead of your relational database.  Use multiple queries with iteration, or a [lookup](https://docs.mongodb.com/manual/reference/operator/aggregation/lookup/) to implement your former relational JOIN.
 
